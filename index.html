@@ -11,6 +11,9 @@ Description     :   This is our landing page for our Github profile.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Braiden Gole | Systems-Oriented Engineer</title>
+
+        <!-- Favicon. -->
+        <link rel="icon" type="image/jpeg" href="images/braiden_gole_computer.jpg">
         
         <!-- Bulma CDN. -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
@@ -24,11 +27,11 @@ Description     :   This is our landing page for our Github profile.
     </head>
     <body>
         <nav class="navbar is-black py-3">
-            <div class="container">
+            <div class="container is-flex is-justify-content-space-between is-align-items-center px-3">
                 <div class="navbar-brand">
                     <span class="navbar-item mono has-text-primary fw-bold">BRAIDEN_GOLE.sys</span>
                 </div>
-                <div class="navbar-end">
+                <div class="is-justify-content-flex-end">
                     <div class="navbar-item">
                         <a href="https://github.com/bgolesoftwaredeveloper" class="button is-white is-outlined is-rounded">
                             <span class="icon"><i class="fab fa-github"></i></span>
@@ -39,17 +42,30 @@ Description     :   This is our landing page for our Github profile.
             </div>
         </nav>
 
+        <hr>
+
         <section class="hero is-black is-medium border-bottom">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column is-7">
-                            <p class="mono has-text-primary mb-2">// Systems-Oriented Software Engineer</p>
-                            <h1 class="title is-1 has-text-white">Braiden Gole</h1>
-                            <p class="subtitle is-4 has-text-grey-light mt-3">
+                            <div class="columns is-vcentered is-mobile mb-2">
+                                <div class="column is-narrow">
+                                    <figure class="image is-96x96">
+                                        <img class="is-rounded" src="images/braiden_gole_computer.jpg" alt="Braiden Gole" style="border: 2px solid #00d1b2;">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <p class="mono has-text-primary mb-1 is-size-5-desktop is-size-7-tablet is-size-7-mobile is-nowrap">// Systems-Oriented Software Engineer</p>
+                                    <h1 class="title is-1 has-text-white">Braiden Gole</h1>
+                                </div>
+                            </div>
+                            
+                            <p class="subtitle is-4 has-text-grey-light mt-4">
                                 Building <span class="has-text-white">correct and performant</span> applications grounded in computer science foundations and algorithmic rigor.
                             </p>
                         </div>
+
                         <div class="column is-4 is-offset-1">
                             <div class="box status-box">
                                 <h3 class="is-size-7 mono has-text-grey mb-3">CURRENT_EVOLUTION_2026</h3>
@@ -80,8 +96,23 @@ Description     :   This is our landing page for our Github profile.
                                 </article>
                                 <article class="tile is-child box tech-tile">
                                     <h4 class="title is-5 has-text-white"><i class="fas fa-shield-halved me-2"></i> Security Engineering</h4>
-                                    <p class="is-size-6 text-muted mb-2">Implementing modern and classical cryptographic systems with mathematical correctness.</p>
-                                    <p class="is-size-7 mono has-text-primary">AES-GCM • RSA • ECDSA • Schnorr • SHA-256</p>
+                                    <p class="is-size-6 text-muted mb-3">Implementing modern and classical cryptographic systems with mathematical correctness.</p>
+                                    
+                                    <div class="content">
+                                        <ul class="is-size-7 mono has-text-grey-light list-unstyled">
+                                            <li class="has-text-primary mb-1">// SYMMETRIC_CIPHERS</li>
+                                            <li class="mb-2 ms-2">> AES-GCM, Blowfish, DES, Twofish, RC4, ChaCha20</li>
+                                            
+                                            <li class="has-text-primary mb-1">// PUBLIC_KEY_CRYPTOGRAPHY</li>
+                                            <li class="mb-2 ms-2">> RSA, ECDSA, Schnorr Signatures</li>
+                                            
+                                            <li class="has-text-primary mb-1">// HASHING_KEY_DERIVATION</li>
+                                            <li class="mb-2 ms-2">> SHA-256, PBKDF2-HMAC-SHA256</li>
+
+                                            <li class="has-text-primary mb-1">// PRIMALITY_TESTING</li>
+                                            <li class="ms-2">> AKS, Miller–Rabin</li>
+                                        </ul>
+                                    </div>
                                 </article>
                             </div>
                             <div class="tile is-parent">
@@ -162,6 +193,5 @@ Description     :   This is our landing page for our Github profile.
                 </p>
             </div>
         </footer>
-
     </body>
 </html>
