@@ -92,13 +92,46 @@ Description     :   This is our landing page for our Github profile.
                     <div class="tile is-vertical is-8">
                         <div class="tile">
                             <div class="tile is-parent is-vertical">
-                                <article class="tile is-child box tech-tile">
+                                <article class="tile is-child box tech-tile accent-border-green">
                                     <h4 class="title is-5 has-text-white"><i class="fas fa-microchip me-2"></i> Systems & OS</h4>
-                                    <p class="is-size-6 text-muted mb-3">Strong foundations in concurrency, memory management, and networking fundamentals (TCP/IP, Sockets).</p>
-                                    <div class="tags">
-                                        <span class="tag is-dark">Linux (Bash/systemd)</span>
-                                        <span class="tag is-dark">Windows (WinAPI/PS)</span>
-                                        <span class="tag is-dark">macOS Automation</span>
+                                    <p class="is-size-6 text-muted mb-4">
+                                        Deep-level architecture handling, memory management, and cross-platform runtime environments.
+                                    </p>
+
+                                    <div class="content">
+                                        <ul class="is-size-7 mono has-text-grey-light list-unstyled">
+                                            <li class="has-text-success mb-1">// KERNEL_&_RUNTIME</li>
+                                            <li class="mb-3 ms-2">
+                                                <span class="has-text-white">></span> Process Lifecycle, Virtual Memory, IPC, Concurrency (Mutex/Channels), Systemd Services, Sockets (TCP/UDP)
+                                            </li>
+
+                                            <li class="has-text-success mb-1">// OS_ENVIRONMENTS</li>
+                                            <div class="columns is-mobile is-multiline ms-2 mt-1">
+                                                <div class="column is-4-desktop is-6-mobile py-1">
+                                                    <span class="has-text-info"># Linux</span><br>
+                                                    <span class="is-size-7">Bash, Profiling, <br>Package Arch.</span>
+                                                </div>
+                                                <div class="column is-4-desktop is-6-mobile py-1">
+                                                    <span class="has-text-info"># Windows</span><br>
+                                                    <span class="is-size-7">WinAPI, PowerShell, <br>Registry Logic</span>
+                                                </div>
+                                                <div class="column is-4-desktop is-12-mobile py-1">
+                                                    <span class="has-text-info"># macOS</span><br>
+                                                    <span class="is-size-7">Zsh, Automation, <br>Darwin Hooks</span>
+                                                </div>
+                                            </div>
+
+                                            <li class="has-text-success mb-1 mt-3">// DIAGNOSTICS_&_TOOLING</li>
+                                            <li class="ms-2">
+                                                <span class="has-text-white">></span> Performance Profiling, GDB/LLDB, Strace, Wireshark, Sysinternals
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="tags mt-4">
+                                        <span class="tag is-dark border-green">Hardware Abstraction</span>
+                                        <span class="tag is-dark border-green">Network Stack</span>
+                                        <span class="tag is-dark border-green">Cross-Platform Runtime</span>
                                     </div>
                                 </article>
                                 <article class="tile is-child box tech-tile">
@@ -133,8 +166,8 @@ Description     :   This is our landing page for our Github profile.
                                     <div class="content">
                                         <ul class="is-size-7 mono has-text-grey-light list-unstyled">
                                             <li class="has-text-primary mb-1">// SUPERVISED_LEARNING</li>
-                                            <li class="mb-2 ms-2">> XGBoost, Random Forest, AdaBoost, Gradient Boosting, SVM, Ridge/Lasso, OLSR, Polynomial Regression, Naive Bayes</li>
-                                            
+                                            <li class="mb-2 ms-2">> XGBoost, Random Forest, AdaBoost, Gradient Boosting, SVM, Ridge/Lasso, OLS Regression, Polynomial Regression, Naive Bayes</li>
+
                                             <li class="has-text-primary mb-1">// UNSUPERVISED_CLUSTERING</li>
                                             <li class="mb-2 ms-2">> K-Means, DBSCAN, BIRCH, OPTICS, GMM, Fuzzy C-Means, LOF, Affinity Propagation</li>
                                             
@@ -216,19 +249,61 @@ Description     :   This is our landing page for our Github profile.
 
                     <div class="tile is-parent">
                         <article class="tile is-child box sidebar-box">
-                            <h4 class="title is-5 has-text-white border-bottom-small pb-2 mb-4">Core Stack</h4>
+                            <h4 class="title is-5 has-text-white border-bottom-small pb-2 mb-4">
+                                <span class="icon is-small mr-2"><i class="fas fa-layer-group"></i></span>Core Stack
+                            </h4>
                             
-                            <p class="is-size-7 mono has-text-primary mb-2">LANGUAGES</p>
-                            <p class="is-size-6 mb-4">C, C++, C#, Go, Python, Java, Node.js, JavaScript, XAML</p>
+                            <div class="mb-5">
+                                <p class="is-size-7 mono has-text-primary mb-2">LANGUAGES</p>
+                                <div class="tags are-small">
+                                    <span class="tag is-link is-light">C/C++</span>
+                                    <span class="tag is-primary is-light">Go</span>
+                                    <span class="tag is-info is-light">C#</span>
+                                    <span class="tag is-warning is-light">Python</span>
+                                    <span class="tag is-danger is-light">Java</span>
+                                    <span class="tag is-success is-light">Node.js</span>
+                                    <span class="tag is-white is-outlined">XAML</span>
+                                </div>
+                            </div>
 
-                            <p class="is-size-7 mono has-text-primary mb-2">FRAMEWORKS</p>
-                            <p class="is-size-6 mb-4">ASP.NET Core, Django, Wails, Gin, WPF, Express, Android Studio</p>
+                           <div class="mb-5">
+                                <p class="is-size-7 mono has-text-primary mb-2">// FRAMEWORK_ARCHITECTURE</p>
+                                <ul class="is-size-7 mono has-text-grey-light list-unstyled">
+                                    <li class="mb-1"><span class="has-text-info">>></span> ASP.NET Core (MVC & Web API)</li>
+                                    <li class="mb-1"><span class="has-text-info">>></span> Django & Django REST Framework</li>
+                                    <li class="mb-1"><span class="has-text-info">>></span> Node.js (Express) / Gin (Go)</li>
+                                    <li class="mb-3"><span class="has-text-info">>></span> RESTful API Architecture</li>
 
-                            <p class="is-size-7 mono has-text-primary mb-2">DATABASES</p>
-                            <p class="is-size-6 mb-4">PostgreSQL, SQL Server, MongoDB, MySQL, SQLite</p>
+                                    <li class="mb-1"><span class="has-text-info">>></span> WPF (Windows Presentation Foundation)</li>
+                                    <li class="mb-3"><span class="has-text-info">>></span> Wails (Go-Desktop Ecosystem)</li>
 
-                            <p class="is-size-7 mono has-text-primary mb-2">TESTING</p>
-                            <p class="is-size-6">PyTest, NUnit, Selenium, Postman, JMeter, Go Testing</p>
+                                    <li class="mb-0"><span class="has-text-info">>></span> Android Studio (Native Development)</li>
+                                </ul>
+                            </div>
+
+                            <div class="mb-5">
+                                <p class="is-size-7 mono has-text-primary mb-2">// DATABASES</p>
+                                <div class="is-flex is-flex-wrap-wrap">
+                                    <span class="tag is-black border-blue mr-1 mb-1">PostgreSQL</span>
+                                    <span class="tag is-black border-blue mr-1 mb-1">SQL Server</span>
+                                    <span class="tag is-black border-blue mr-1 mb-1">MongoDB</span>
+                                    <span class="tag is-black border-blue mr-1 mb-1">SQLite</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="is-size-7 mono has-text-primary mb-2">// V_&_V_TESTING_MANIFEST</p>
+                                <div class="mono is-size-7 p-3" style="background: rgba(0,0,0,0.3); border-radius: 4px; border: 1px solid var(--border-color); line-height: 1.6;">
+                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> PyTest.unit // Python</div>
+                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> NUnit.suite // C#_WPF</div>
+                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> JUnit.core // Java_Android</div>
+                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> Go_Test.bench // Systems</div>
+                                    <div class="mb-1"><span class="has-text-info">[WAIT]</span> Unity.test // Game_Engine</div>
+                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Selenium.e2e // Web_Automation</div>
+                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Postman.api // REST_Verify</div>
+                                    <div class="mb-0"><span class="has-text-danger">[LOAD]</span> JMeter.stress // Performance</div>
+                                </div>
+                            </div>
                         </article>
                     </div>
                 </div>
