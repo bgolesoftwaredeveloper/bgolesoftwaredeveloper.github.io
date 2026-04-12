@@ -2,7 +2,7 @@
 File            :   index.html
 Project         :   BRAIDEN_GOLE.sys
 Programmer      :   Braiden Gole
-First version   :   2026-03-14
+First version   :   2026-04-12
 Description     :   This is our landing page for our Github profile.
 -->
 <!DOCTYPE html>
@@ -10,15 +10,15 @@ Description     :   This is our landing page for our Github profile.
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Braiden Gole | Systems-Oriented Engineer</title>
+        <title>Braiden Gole | Systems-Oriented Software Engineer</title>
 
         <!-- Favicon. -->
-        <link rel="icon" type="image/jpeg" href="images/braiden_gole_computer.jpg">
+        <link rel="icon" type="image/jpeg" href="images/braiden_gole_swirl.png">
         
-        <!-- Bulma CDN. -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+        <!-- Bulma CSS. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 
-        <!-- Fonts. -->
+        <!-- Google Fonts. -->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -28,13 +28,13 @@ Description     :   This is our landing page for our Github profile.
     <body>
         <nav class="navbar is-black py-3">
             <div class="container is-flex is-justify-content-space-between is-align-items-center px-3 is-mobile">
-                <div class="navbar-brand" style="flex-shrink: 1; min-width: 0;">
-                    <span class="navbar-item mono has-text-primary fw-bold is-size-7-mobile" style="white-space: nowrap; overflow: hidden;">
+                <div class="navbar-brand brand-container">
+                    <span class="navbar-item mono has-text-primary fw-bold is-size-7-mobile brand-text">
                         BRAIDEN_GOLE.sys
                     </span>
                 </div>
 
-                <div class="is-flex is-flex-wrap-nowrap is-justify-content-flex-end" style="flex-shrink: 0;">
+                <div class="is-flex is-flex-wrap-nowrap is-justify-content-flex-end nav-buttons-wrapper">
                     <div class="navbar-item buttons is-flex-wrap-nowrap mb-0"> 
                         <a href="https://braiden-gole.hashnode.dev/" class="button is-primary is-outlined is-rounded is-small">
                             <span class="icon"><i class="fa-brands fa-hashnode"></i></span>
@@ -49,30 +49,28 @@ Description     :   This is our landing page for our Github profile.
             </div>
         </nav>
 
-        <hr>
-
-        <section class="hero is-black is-medium border-bottom">
-            <div class="hero-body">
+        <section class="hero is-black border-bottom hero-parent">
+            <div class="hero-cover-photo"></div>
+            <div class="hero-body relative-z">
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column is-7">
                             <div class="columns is-vcentered is-mobile mb-2">
                                 <div class="column is-narrow">
-                                    <figure class="image is-96x96">
-                                        <img class="is-rounded" src="images/braiden_gole_computer.jpg" alt="Braiden Gole" style="border: 2px solid #00d1b2;">
+                                    <figure class="image is-96x96 is-square profile-wrapper">
+                                        <img class="is-rounded profile-fix profile-img-zoom" src="images/braiden_gole_swirl.png" alt="Braiden Gole">
+                                        <div class="status-indicator"></div>
                                     </figure>
                                 </div>
                                 <div class="column">
-                                    <p class="mono has-text-primary mb-1 is-size-5-desktop is-size-7-tablet is-size-7-mobile is-nowrap">// Systems-Oriented Software Engineer</p>
+                                    <p class="mono has-text-primary mb-1 is-size-5-desktop is-size-12-tablet is-size-7-mobile is-nowrap">// Software Engineer</p>
                                     <h1 class="title is-1 has-text-white">Braiden Gole</h1>
                                 </div>
                             </div>
-                            
                             <p class="subtitle is-4 has-text-grey-light mt-4">
                                 Building <span class="has-text-white">correct and performant</span> applications grounded in computer science foundations and algorithmic rigor.
                             </p>
                         </div>
-
                         <div class="column is-4 is-offset-1">
                             <div class="box status-box">
                                 <h3 class="is-size-7 mono has-text-grey mb-3">CURRENT_EVOLUTION_2026</h3>
@@ -134,9 +132,13 @@ Description     :   This is our landing page for our Github profile.
                                         <span class="tag is-dark border-green">Cross-Platform Runtime</span>
                                     </div>
                                 </article>
+                                
                                 <article class="tile is-child box tech-tile">
-                                    <h4 class="title is-5 has-text-white"><i class="fas fa-shield-halved me-2"></i> Security Engineering</h4>
-                                    <p class="is-size-6 text-muted mb-3">Implementing modern and classical cryptographic systems with mathematical correctness.</p>
+                                    <h4 class="title is-5 has-text-white">
+                                        <span class="icon has-text-primary mr-2"><i class="fas fa-shield-halved"></i></span>
+                                        Security Engineering
+                                    </h4>
+                                    <p class="is-size-6 text-muted mb-3">Implementing modern and classical cryptographic systems with mathematical correctness and protocol rigor.</p>
                                     
                                     <div class="content">
                                         <ul class="is-size-7 mono has-text-grey-light list-unstyled">
@@ -144,17 +146,32 @@ Description     :   This is our landing page for our Github profile.
                                             <li class="mb-2 ms-2">> AES-GCM, Blowfish, DES, Twofish, RC4, ChaCha20</li>
                                             
                                             <li class="has-text-primary mb-1">// PUBLIC_KEY_CRYPTOGRAPHY</li>
-                                            <li class="mb-2 ms-2">> RSA, ECDSA, Schnorr Signatures</li>
+                                            <li class="mb-2 ms-2">> RSA, ECDSA, Schnorr Signatures, Ed25519</li>
                                             
-                                            <li class="has-text-primary mb-1">// HASHING_KEY_DERIVATION</li>
-                                            <li class="mb-2 ms-2">> SHA-256, PBKDF2-HMAC-SHA256</li>
+                                            <li class="has-text-primary mb-1">// HASHING_&_KEY_DERIVATION</li>
+                                            <li class="mb-2 ms-2">> SHA-256, SHA-3 (Keccak), PBKDF2, Argon2id, bcrypt</li>
 
-                                            <li class="has-text-primary mb-1">// PRIMALITY_TESTING</li>
-                                            <li class="ms-2">> AKS, Miller–Rabin</li>
+                                            <li class="has-text-primary mb-1">// SECURE_PROTOCOLS</li>
+                                            <li class="mb-2 ms-2">> TLS 1.3 Handshake, SSH Key Exchange, OAuth2/OIDC, JWT (JWS/JWE)</li>
+
+                                            <li class="has-text-primary mb-1">// SYSTEM_DEFENSE_&_AUDITING</li>
+                                            <li class="mb-2 ms-2">> Zero Trust Arch, SQL Injection Mitigation, XSS Prevention, Rate Limiting (Token Bucket)</li>
+
+                                            <li class="has-text-primary mb-1">// MATHEMATICAL_FOUNDATIONS</li>
+                                            <li class="ms-2">> AKS & Miller–Rabin Primality, Elliptic Curve Pairings, Finite Field Arithmetic</li>
                                         </ul>
+                                    </div>
+                                    
+                                    <div class="tags mt-3">
+                                        <span class="tag is-dark border-blue">End-to-End Encryption</span>
+                                        <span class="tag is-dark border-blue">Identity Management</span>
+                                        <span class="tag is-dark border-blue">Zero Trust Architecture</span>
                                     </div>
                                 </article>
                             </div>
+
+                            <br>
+
                             <div class="tile is-parent">
                                 <article class="tile is-child box tech-tile accent-border">
                                     <h4 class="title is-5 has-text-white"><i class="fas fa-brain me-2"></i> Zero-Library ML</h4>
@@ -189,18 +206,20 @@ Description     :   This is our landing page for our Github profile.
                                     </div>
                                 </article>
                             </div>
+                    
+                        <br>
 
                         <div class="tile is-parent">
                             <article class="tile is-child box tech-tile tt-section">
                                 <div class="tt-scanline"></div>
                                 
-                                <div class="columns is-vcentered" style="position: relative; z-index: 2;">
+                                <div class="columns is-vcentered tt-content-layer">
                                     <div class="column is-narrow">
-                                        <div class="tt-logo-wrapper" style="width: 120px; height: 120px;">
+                                        <div class="tt-logo-wrapper">
                                             <div class="tt-hexa-border"></div>
                                             
-                                            <figure class="image tt-logo-container" style="width: 90px; height: 90px;">
-                                                <img src="images/ghost_byte_protocol.jpeg" 
+                                            <figure class="image tt-logo-container">
+                                                <img src="images/ghost_byte_protocol_2026.jpeg" 
                                                     alt="Ghost Byte Protocol Logo" 
                                                     class="is-rounded tt-logo-image">
                                             </figure>
@@ -208,44 +227,77 @@ Description     :   This is our landing page for our Github profile.
                                     </div>
 
                                     <div class="column">
-                                        <h4 class="title is-5 mb-1 tt-title-animate">
+                                        <h4 class="title is-4 mb-1 tt-title-animate">
                                             <span class="icon mr-2 tt-icon-glitch"><i class="fa-brands fa-tiktok"></i></span> 
-                                            Animations
+                                            Ghost Byte Protocol
                                         </h4>
-                                        <p class="is-size-6 text-muted">
-                                            Visualizing complex systems through <strong>algorithmic storytelling</strong> and creative data motion.
+
+                                        <br>
+                                        
+                                        <p class="is-size-6 text-muted mb-3">
+                                            Where <strong>logic meets aesthetics</strong>. I translate abstract system architectures into fluid motion, using algorithmic precision to tell visual stories that are as technically sound as they are creatively striking.
                                         </p>
                                     </div>
 
                                     <div class="column is-narrow">
                                         <a href="https://www.tiktok.com/@ghostbyteprotocol" target="_blank" class="button is-medium mono tt-btn-official">
-                                            <span class="icon" style="position: relative; z-index: 3;">
+                                            <span class="icon tt-btn-z-index">
                                                 <i class="fa-brands fa-tiktok fa-lg"></i>
                                             </span>
-                                            <span class="tt-btn-text" style="position: relative; z-index: 3;">@ghostbyteprotocol</span>
+                                            <span class="tt-btn-text tt-btn-z-index">@ghostbyteprotocol</span>
                                         </a>
                                     </div>
                                 </div>
                             </article>
                         </div>
 
+                        <br>
+
                         <div class="tile is-parent">
-                            <article class="tile is-child box tech-tile">
-                                <h4 class="title is-5 has-text-white">Engineering Philosophy</h4>
-                                <div class="columns small text-muted">
-                                    <div class="column">
-                                        <p><strong>Vectorized Computation:</strong> Efficient execution without high-level wrappers.</p>
+                            <article class="tile is-child box tech-tile accent-border-green">
+                                <h4 class="title is-5 has-text-white mb-4">
+                                    <span class="icon has-text-primary mr-2"><i class="fas fa-code has-text-white"></i></span>
+                                    <span class="mono">Engineering Principles</span>
+                                </h4>
+                                
+                                <div class="content mono is-size-7">
+                                    <div class="mb-4">
+                                        <span class="has-text-success">DEF: </span>
+                                        <span class="has-text-white">MECHANICAL_SYMPATHY</span>
+                                        <p class="text-muted ml-4 mt-1">
+                                            Optimizing for CPU cache-locality and branch prediction. Prioritizing memory-deterministic patterns over high-level abstractions to eliminate runtime overhead.
+                                        </p>
                                     </div>
-                                    <div class="column">
-                                        <p><strong>Mathematical Rigor:</strong> Manual cost function derivation and gradient optimization.</p>
+
+                                    <div class="mb-4">
+                                        <span class="has-text-info">DEF: </span>
+                                        <span class="has-text-white">ALGORITHMIC_PARSIMONY</span>
+                                        <p class="text-muted ml-4 mt-1">
+                                            Solving complex problems with the most efficient data structures. Implementing custom spatial indexing (KD-Trees) and vectorized math to replace generic library bloat.
+                                        </p>
                                     </div>
-                                    <div class="column">
-                                        <p><strong>Reliability:</strong> Detail-oriented, analytical, and self-motivated work style.</p>
+
+                                    <div class="mb-4">
+                                        <span class="has-text-warning">DEF: </span>
+                                        <span class="has-text-white">ROBUST_CONCURRENCY</span>
+                                        <p class="text-muted ml-4 mt-1">
+                                            Designing thread-safe, non-blocking systems. Leveraging Go's CSP model (channels/goroutines) and atomic primitives to build highly scalable backends.
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <span class="has-text-danger">DEF: </span>
+                                        <span class="has-text-white">PREDICTIVE_RELIABILITY</span>
+                                        <p class="text-muted ml-4 mt-1">
+                                            Rigorous system validation through performance benchmarking and automated stress testing. Building systems that fail gracefully and recover deterministically.
+                                        </p>
                                     </div>
                                 </div>
                             </article>
                         </div>
                     </div>
+                    
+                    <br>
 
                     <div class="tile is-parent">
                         <article class="tile is-child box sidebar-box">
@@ -271,7 +323,8 @@ Description     :   This is our landing page for our Github profile.
                                 <ul class="is-size-7 mono has-text-grey-light list-unstyled">
                                     <li class="mb-1"><span class="has-text-info">>></span> ASP.NET Core (MVC & Web API)</li>
                                     <li class="mb-1"><span class="has-text-info">>></span> Django & Django REST Framework</li>
-                                    <li class="mb-1"><span class="has-text-info">>></span> Node.js (Express) / Gin (Go)</li>
+                                    <li class="mb-1"><span class="has-text-info">>></span> Node.js (Express)</li>
+                                    <li class="mb-1"><span class="has-text-info">>></span> Gin (Go Web Framework)</li>
                                     <li class="mb-3"><span class="has-text-info">>></span> RESTful API Architecture</li>
 
                                     <li class="mb-1"><span class="has-text-info">>></span> WPF (Windows Presentation Foundation)</li>
@@ -293,7 +346,7 @@ Description     :   This is our landing page for our Github profile.
 
                             <div>
                                 <p class="is-size-7 mono has-text-primary mb-2">// V_&_V_TESTING_MANIFEST</p>
-                                <div class="mono is-size-7 p-3" style="background: rgba(0,0,0,0.3); border-radius: 4px; border: 1px solid var(--border-color); line-height: 1.6;">
+                                <div class="mono is-size-7 p-3 manifest-log">
                                     <div class="mb-1"><span class="has-text-success">[PASS]</span> PyTest.unit // Python</div>
                                     <div class="mb-1"><span class="has-text-success">[PASS]</span> NUnit.suite // C#_WPF</div>
                                     <div class="mb-1"><span class="has-text-success">[PASS]</span> JUnit.core // Java_Android</div>
@@ -310,10 +363,80 @@ Description     :   This is our landing page for our Github profile.
             </div>
         </section>
 
-        <footer class="footer bg-black border-top">
+        <section class="section bg-deep border-top pb-6">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-8 has-text-centered mb-5">
+                        <h2 class="title is-2 mb-3">
+                            Let’s build something <span class="has-text-primary">resilient</span>.
+                        </h2>
+                        <p class="subtitle is-6 mono has-text-grey">
+                            I'm currently looking for new opportunities to solve complex back-end problems 
+                            and implement secure architectures.
+                        </p>
+                        <p class="subtitle is-5 has-text-white mb-4">
+                            Ready to scale your next big idea?
+                        </p>
+                        <hr>
+                        <p class="subtitle is-6 mono has-text-grey mb-5">
+                            Whether you need a <strong>production-ready backend</strong>, a <strong>secure architecture</strong>, or 
+                            <strong>custom automation</strong>, I am available to engineer your future application 
+                            from the ground up.
+                        </p>
+                        <span class="has-text-info">Reach out to initiate a handshake.</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="columns is-centered is-vcentered is-tablet">
+                    <div class="column is-narrow has-text-centered px-5">
+                        <a href="mailto:braidengolesoftwaredeveloper@gmail.com" class="has-text-white">
+                            <span class="icon is-large has-text-info mb-2">
+                                <i class="fas fa-2x fa-envelope"></i>
+                            </span>
+                            <p class="mono is-size-7 has-text-grey mb-1">EMAIL</p>
+                            <p class="is-size-7" style="word-break: break-all; max-width: 220px; margin: 0 auto; line-height: 1.2;">
+                                braidengolesoftwaredeveloper@gmail.com
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="column is-narrow has-text-centered px-5">
+                        <a href="tel:+15197416963" class="has-text-white">
+                            <span class="icon is-large has-text-info mb-2">
+                                <i class="fas fa-2x fa-mobile-screen-button"></i>
+                            </span>
+                            <p class="mono is-size-7 has-text-grey mb-1">PHONE</p>
+                            <p class="is-size-7">+1 (519)-741-6963</p>
+                        </a>
+                    </div>
+
+                    <div class="column is-narrow has-text-centered px-5">
+                        <a href="https://www.google.com/maps/search/?api=1&query=New+Hamburg,+ON" target="_blank" class="has-text-white">
+                            <span class="icon is-large has-text-success mb-2">
+                                <i class="fas fa-2x fa-location-dot"></i>
+                            </span>
+                            <p class="mono is-size-7 has-text-grey mb-1">LOCATION</p>
+                            <p class="is-size-7">New Hamburg, ON | CA</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer bg-black border-top py-5">
             <div class="content has-text-centered">
-                <p class="is-size-7 mono has-text-grey">
-                    &copy; 2026 BRAIDEN GOLE // SYSTEMS-ORIENTED ENGINEER // NEW HAMBURG, ON
+                <p class="is-size-7 mono has-text-grey-light">
+                    <span class="has-text-white">&copy; 2026 Braiden Gole</span> // 
+                    All Rights Reserved.
+                </p>
+                
+                <p class="is-size-7 mono has-text-grey mt-2">
+                    <span class="has-text-info">v2.1.0-stable</span> // 
+                    Built with <span class="has-text-primary">Bulma</span> & 
+                    <span class="has-text-primary">FontAwesome</span> // 
+                    Deployed via <span class="has-text-white">GitHub Pages</span>
                 </p>
             </div>
         </footer>
