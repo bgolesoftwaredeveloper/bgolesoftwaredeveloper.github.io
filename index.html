@@ -1,9 +1,9 @@
 <!-- 
 File            :   index.html
-Project         :   BRAIDEN_GOLE.sys
+Project         :   Systems-Oriented Software Engineer
 Programmer      :   Braiden Gole
-First version   :   2026-04-12
-Description     :   This is our landing page for our Github profile.
+First version   :   2025-05-22
+Description     :   This is my personal website.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -18,11 +18,13 @@ Description     :   This is our landing page for our Github profile.
         <!-- Bulma CSS. -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 
-        <!-- Google Fonts. -->
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Share+Tech+Mono&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome. -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-        <!-- Custom stylesheet. -->
+        <!-- Custom CSS. -->
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
@@ -30,7 +32,8 @@ Description     :   This is our landing page for our Github profile.
             <div class="container is-flex is-justify-content-space-between is-align-items-center px-3 is-mobile">
                 <div class="navbar-brand brand-container">
                     <span class="navbar-item mono has-text-primary fw-bold is-size-7-mobile brand-text">
-                        BRAIDEN_GOLE.sys
+                        <span class="is-hidden-mobile">Systems-Oriented Software Engineer</span>
+                        <span class="is-hidden-tablet">Software Engineer</span>
                     </span>
                 </div>
 
@@ -63,7 +66,6 @@ Description     :   This is our landing page for our Github profile.
                                     </figure>
                                 </div>
                                 <div class="column">
-                                    <p class="mono has-text-primary mb-1 is-size-5-desktop is-size-12-tablet is-size-7-mobile is-nowrap">// Software Engineer</p>
                                     <h1 class="title is-1 has-text-white">Braiden Gole</h1>
                                 </div>
                             </div>
@@ -73,10 +75,14 @@ Description     :   This is our landing page for our Github profile.
                         </div>
                         <div class="column is-4 is-offset-1">
                             <div class="box status-box">
-                                <h3 class="is-size-7 mono has-text-grey mb-3">CURRENT_EVOLUTION_2026</h3>
-                                <div class="mb-2 small"><span class="has-text-primary">●</span> Go (Primary Systems Focus)</div>
-                                <div class="mb-2 small"><span class="has-text-info">●</span> Kotlin (Modern Backend)</div>
-                                <div class="mb-0 small"><span class="has-text-success">●</span> Wails (Desktop Ecosystem)</div>
+                                <h1 class="subtitle has-text-white">
+                                    <span class="icon has-text-primary mr-2"><i class="fas fa-terminal"></i></span>
+                                    <span>May 22, 2026</span>
+                                </h1>
+                                <h3 class="is-size-7 mono has-text-primary mb-3">// NEW_TECHNOLOGIES</h3>
+                                <div class="mb-2 small"><span class="has-text-success">●</span> <span class="has-text-light">Go (Primary Systems Focus)</span></div>
+                                <div class="mb-2 small"><span class="has-text-info">●</span> <span class="has-text-light">Kotlin (Modern Backend)</span></div>
+                                <div class="mb-0 small"><span class="has-text-primary">●</span> <span class="has-text-light">Avalonia (Cross-Platform UI)</span></div>
                             </div>
                         </div>
                     </div>
@@ -90,28 +96,28 @@ Description     :   This is our landing page for our Github profile.
                     <div class="tile is-vertical is-8">
                         <div class="tile">
                             <div class="tile is-parent is-vertical">
-                                <article class="tile is-child box tech-tile accent-border-green">
+                                <article class="tile is-child box tech-tile accent-border-orange">
                                     <h4 class="title is-5 has-text-white"><i class="fas fa-microchip me-2"></i> Systems & OS</h4>
-                                    <p class="is-size-6 text-muted mb-4">
+                                    <p class="is-size-6 has-text-light mb-4">
                                         Deep-level architecture handling, memory management, and cross-platform runtime environments.
                                     </p>
 
                                     <div class="content">
-                                        <ul class="is-size-7 mono has-text-grey-light list-unstyled">
-                                            <li class="has-text-success mb-1">// KERNEL_&_RUNTIME</li>
+                                        <ul class="is-size-7 mono has-text-grey-light">
+                                            <li class="has-text-primary mb-1">// KERNEL_&_RUNTIME</li>
                                             <li class="mb-3 ms-2">
-                                                <span class="has-text-white">></span> Process Lifecycle, Virtual Memory, IPC, Concurrency (Mutex/Channels), Systemd Services, Sockets (TCP/UDP)
+                                                Process Lifecycle, Virtual Memory, IPC, Concurrency (Mutex/Channels), Systemd Services, Sockets (TCP/UDP)
                                             </li>
 
-                                            <li class="has-text-success mb-1">// OS_ENVIRONMENTS</li>
+                                            <li class="has-text-primary mb-1">// OS_ENVIRONMENTS</li>
                                             <div class="columns is-mobile is-multiline ms-2 mt-1">
-                                                <div class="column is-4-desktop is-6-mobile py-1">
-                                                    <span class="has-text-info"># Linux</span><br>
-                                                    <span class="is-size-7">Bash, Profiling, <br>Package Arch</span>
-                                                </div>
                                                 <div class="column is-4-desktop is-6-mobile py-1">
                                                     <span class="has-text-info"># Windows</span><br>
                                                     <span class="is-size-7">WinAPI, PowerShell, <br>Registry Logic</span>
+                                                </div>
+                                                <div class="column is-4-desktop is-6-mobile py-1">
+                                                    <span class="has-text-info"># Linux</span><br>
+                                                    <span class="is-size-7">Bash, Profiling, <br>Package Arch</span>
                                                 </div>
                                                 <div class="column is-4-desktop is-12-mobile py-1">
                                                     <span class="has-text-info"># macOS</span><br>
@@ -119,17 +125,17 @@ Description     :   This is our landing page for our Github profile.
                                                 </div>
                                             </div>
 
-                                            <li class="has-text-success mb-1 mt-3">// DIAGNOSTICS_&_TOOLING</li>
+                                            <li class="has-text-primary mb-1 mt-3">// DIAGNOSTICS_&_TOOLING</li>
                                             <li class="ms-2">
-                                                <span class="has-text-white">></span> Performance Profiling, GDB/LLDB, Strace, Wireshark, Sysinternals
+                                                Performance Profiling, GDB/LLDB, Strace, Wireshark, Sysinternals
                                             </li>
                                         </ul>
                                     </div>
 
                                     <div class="tags mt-4">
-                                        <span class="tag is-dark border-green">Hardware Abstraction</span>
-                                        <span class="tag is-dark border-green">Network Stack</span>
-                                        <span class="tag is-dark border-green">Cross-Platform Runtime</span>
+                                        <span class="tag is-dark border-orange">Hardware Abstraction</span>
+                                        <span class="tag is-dark border-orange">Network Stack</span>
+                                        <span class="tag is-dark border-orange">Cross-Platform Runtime</span>
                                     </div>
                                 </article>
                                 
@@ -138,34 +144,34 @@ Description     :   This is our landing page for our Github profile.
                                         <span class="icon has-text-primary mr-2"><i class="fas fa-shield-halved"></i></span>
                                         Security Engineering
                                     </h4>
-                                    <p class="is-size-6 text-muted mb-3">Implementing modern and classical cryptographic systems with mathematical correctness and protocol rigor.</p>
+                                    <p class="is-size-6 has-text-light mb-3">Implementing modern and classical cryptographic systems with mathematical correctness and protocol rigor.</p>
                                     
                                     <div class="content">
                                         <ul class="is-size-7 mono has-text-grey-light list-unstyled">
                                             <li class="has-text-primary mb-1">// SYMMETRIC_CIPHERS</li>
-                                            <li class="mb-2 ms-2">> AES-GCM, Blowfish, DES, Twofish, RC4, ChaCha20</li>
+                                            <li class="mb-2 ms-2">AES-GCM, Blowfish, DES, Twofish, RC4, ChaCha20</li>
                                             
                                             <li class="has-text-primary mb-1">// PUBLIC_KEY_CRYPTOGRAPHY</li>
-                                            <li class="mb-2 ms-2">> RSA, ECDSA, Schnorr Signatures, Ed25519</li>
+                                            <li class="mb-2 ms-2">RSA, ECDSA, Schnorr Signatures, Ed25519</li>
                                             
                                             <li class="has-text-primary mb-1">// HASHING_&_KEY_DERIVATION</li>
-                                            <li class="mb-2 ms-2">> SHA-256, SHA-3 (Keccak), PBKDF2, Argon2id, bcrypt</li>
+                                            <li class="mb-2 ms-2">SHA-256, SHA-3 (Keccak), PBKDF2, Argon2id, bcrypt</li>
 
                                             <li class="has-text-primary mb-1">// SECURE_PROTOCOLS</li>
-                                            <li class="mb-2 ms-2">> TLS 1.3 Handshake, SSH Key Exchange, OAuth2/OIDC, JWT (JWS/JWE)</li>
+                                            <li class="mb-2 ms-2">TLS 1.3 Handshake, SSH Key Exchange, OAuth2/OIDC, JWT (JWS/JWE)</li>
 
                                             <li class="has-text-primary mb-1">// SYSTEM_DEFENSE_&_AUDITING</li>
-                                            <li class="mb-2 ms-2">> Zero Trust Arch, SQL Injection Mitigation, XSS Prevention, Rate Limiting (Token Bucket)</li>
+                                            <li class="mb-2 ms-2">Zero Trust Arch, SQL Injection Mitigation, XSS Prevention, Rate Limiting (Token Bucket)</li>
 
                                             <li class="has-text-primary mb-1">// MATHEMATICAL_FOUNDATIONS</li>
-                                            <li class="ms-2">> AKS & Miller–Rabin Primality, Elliptic Curve Pairings, Finite Field Arithmetic</li>
+                                            <li class="ms-2">AKS & Miller–Rabin Primality, Elliptic Curve Pairings, Finite Field Arithmetic</li>
                                         </ul>
                                     </div>
                                     
                                     <div class="tags mt-3">
-                                        <span class="tag is-dark border-blue">End-to-End Encryption</span>
-                                        <span class="tag is-dark border-blue">Identity Management</span>
-                                        <span class="tag is-dark border-blue">Zero Trust Architecture</span>
+                                        <span class="tag is-dark border-orange">End-to-End Encryption</span>
+                                        <span class="tag is-dark border-orange">Identity Management</span>
+                                        <span class="tag is-dark border-orange">Zero Trust Architecture</span>
                                     </div>
                                 </article>
                             </div>
@@ -175,31 +181,31 @@ Description     :   This is our landing page for our Github profile.
                             <div class="tile is-parent">
                                 <article class="tile is-child box tech-tile accent-border">
                                     <h4 class="title is-5 has-text-white"><i class="fas fa-brain me-2"></i> Zero-Library ML</h4>
-                                    <p class="is-size-6 text-muted mb-3">
-                                        Building algorithms from scratch using <strong>vectorized computation</strong> and manual derivation of gradients and cost functions.
+                                    <p class="is-size-6 has-text-light mb-3">
+                                        Building algorithms from scratch using <strong class="has-text-light">vectorized computation</strong> and manual derivation of gradients and cost functions.
                                     </p>
                                     <hr class="bg-border my-3">
                                     
                                     <div class="content">
                                         <ul class="is-size-7 mono has-text-grey-light list-unstyled">
                                             <li class="has-text-primary mb-1">// SUPERVISED_LEARNING</li>
-                                            <li class="mb-2 ms-2">> XGBoost, Random Forest, AdaBoost, Gradient Boosting, SVM, Ridge/Lasso, OLS Regression, Polynomial Regression, Naive Bayes</li>
+                                            <li class="mb-2 ms-2">XGBoost, Random Forest, AdaBoost, Gradient Boosting, SVM, Ridge/Lasso, OLS Regression, Polynomial Regression, Naive Bayes</li>
 
                                             <li class="has-text-primary mb-1">// UNSUPERVISED_CLUSTERING</li>
-                                            <li class="mb-2 ms-2">> K-Means, DBSCAN, BIRCH, OPTICS, GMM, Fuzzy C-Means, LOF, Affinity Propagation</li>
+                                            <li class="mb-2 ms-2">K-Means, DBSCAN, BIRCH, OPTICS, GMM, Fuzzy C-Means, LOF, Affinity Propagation</li>
                                             
                                             <li class="has-text-primary mb-1">// NEURAL_EVOLUTIONARY</li>
-                                            <li class="mb-2 ms-2">> GNN, Autoencoder, Hypergraph, Self-Organizing Maps, Neural Network Evolution, Backpropagation, GRASP</li>
+                                            <li class="mb-2 ms-2">GNN, Autoencoder, Hypergraph, Self-Organizing Maps, Neural Network Evolution, Backpropagation, GRASP</li>
                                             
                                             <li class="has-text-primary mb-1">// OPTIMIZATION_DIM_REDUCTION</li>
-                                            <li class="ms-2">> Gradient Descent, t-SNE, Isomap, KDTree Spatial Indexing</li>
+                                            <li class="ms-2">Gradient Descent, t-SNE, Isomap, KDTree Spatial Indexing</li>
                                         </ul>
                                     </div>
 
                                     <div class="tags mt-4">
                                         <span class="tag is-primary is-light">Multivariable Calculus</span>
                                         <span class="tag is-info is-light">Linear Algebra</span>
-                                        <span class="tag is-success is-light">Stochastic Optimization</span>
+                                        <span class="tag is-primary is-light">Stochastic Optimization</span>
                                         <span class="tag is-warning is-light">Information Theory</span>
                                         <span class="tag is-danger is-light">Bayesian Probability</span>
                                         <span class="tag is-link is-light">Partial Derivatives</span>
@@ -207,98 +213,95 @@ Description     :   This is our landing page for our Github profile.
                                 </article>
                             </div>
                     
-                        <br>
+                            <br>
 
-                        <div class="tile is-parent">
-                            <article class="tile is-child box tech-tile tt-section">
-                                <div class="tt-scanline"></div>
-                                
-                                <div class="columns is-vcentered tt-content-layer">
-                                    <div class="column is-narrow">
-                                        <div class="tt-logo-wrapper">
-                                            <div class="tt-hexa-border"></div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child box tech-tile tt-section">                                    
+                                    <div class="columns is-vcentered tt-content-layer">
+                                        <div class="column is-narrow">
+                                            <div class="tt-logo-wrapper">
+                                                <div class="tt-hexa-border"></div>
+                                                
+                                                <figure class="image tt-logo-container">
+                                                    <img src="images/ghost_byte_protocol.jpeg" 
+                                                        alt="Ghost Byte Protocol Logo" 
+                                                        class="is-rounded tt-logo-image">
+                                                </figure>
+                                            </div>
+                                        </div>
+
+                                        <div class="column">
+                                            <h4 class="title is-4 mb-1 tt-title-animate">
+                                                <span class="icon mr-2 tt-icon-glitch"><i class="fa-brands fa-tiktok"></i></span> 
+                                                Ghost Byte Protocol
+                                            </h4>
+
+                                            <br>
                                             
-                                            <figure class="image tt-logo-container">
-                                                <img src="images/ghost_byte_protocol.jpeg" 
-                                                    alt="Ghost Byte Protocol Logo" 
-                                                    class="is-rounded tt-logo-image">
-                                            </figure>
+                                            <p class="is-size-6 text-muted mb-3">
+                                                Where <strong>logic meets aesthetics</strong>. I translate abstract system architectures into fluid motion, using algorithmic precision to tell visual stories that are as technically sound as they are creatively striking.
+                                            </p>
+                                        </div>
+
+                                        <div class="column is-narrow">
+                                            <a href="https://www.tiktok.com/@ghostbyteprotocol" target="_blank" class="button is-medium mono tt-btn-official">
+                                                <span class="icon tt-btn-z-index">
+                                                    <i class="fa-brands fa-tiktok fa-lg"></i>
+                                                </span>
+                                                <span class="tt-btn-text tt-btn-z-index">@ghostbyteprotocol</span>
+                                            </a>
                                         </div>
                                     </div>
+                                </article>
+                            </div>
 
-                                    <div class="column">
-                                        <h4 class="title is-4 mb-1 tt-title-animate">
-                                            <span class="icon mr-2 tt-icon-glitch"><i class="fa-brands fa-tiktok"></i></span> 
-                                            Ghost Byte Protocol
-                                        </h4>
+                            <br>
 
-                                        <br>
-                                        
-                                        <p class="is-size-6 text-muted mb-3">
-                                            Where <strong>logic meets aesthetics</strong>. I translate abstract system architectures into fluid motion, using algorithmic precision to tell visual stories that are as technically sound as they are creatively striking.
-                                        </p>
+                            <div class="tile is-parent">
+                                <article class="tile is-child box tech-tile accent-border-orange">
+                                    <h4 class="title is-5 has-text-white mb-4">
+                                        <span class="icon has-text-primary mr-2"><i class="fas fa-code has-text-white"></i></span>
+                                        <span>Engineering Principles</span>
+                                    </h4>
+                                    
+                                    <div class="content mono is-size-7">
+                                        <div class="mb-4">
+                                            <span class="has-text-primary">DEF: </span>
+                                            <span class="has-text-white">MECHANICAL_SYMPATHY</span>
+                                            <p class="has-text-grey ml-4 mt-1">
+                                                Optimizing for CPU cache-locality and branch prediction. Prioritizing memory-deterministic patterns over high-level abstractions to eliminate runtime overhead.
+                                            </p>
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <span class="has-text-info">DEF: </span>
+                                            <span class="has-text-white">ALGORITHMIC_PARSIMONY</span>
+                                            <p class="has-text-grey ml-4 mt-1">
+                                                Solving complex problems with the most efficient data structures. Implementing custom spatial indexing (KD-Trees) and vectorized math to replace generic library bloat.
+                                            </p>
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <span class="has-text-warning">DEF: </span>
+                                            <span class="has-text-white">ROBUST_CONCURRENCY</span>
+                                            <p class="has-text-grey ml-4 mt-1">
+                                                Designing thread-safe, non-blocking systems. Leveraging Go's CSP model (channels/goroutines) and atomic primitives to build highly scalable backends.
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <span class="has-text-danger">DEF: </span>
+                                            <span class="has-text-white">PREDICTIVE_RELIABILITY</span>
+                                            <p class="has-text-grey ml-4 mt-1">
+                                                Rigorous system validation through performance benchmarking and automated stress testing. Building systems that fail gracefully and recover deterministically.
+                                            </p>
+                                        </div>
                                     </div>
-
-                                    <div class="column is-narrow">
-                                        <a href="https://www.tiktok.com/@ghostbyteprotocol" target="_blank" class="button is-medium mono tt-btn-official">
-                                            <span class="icon tt-btn-z-index">
-                                                <i class="fa-brands fa-tiktok fa-lg"></i>
-                                            </span>
-                                            <span class="tt-btn-text tt-btn-z-index">@ghostbyteprotocol</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <br>
-
-                        <div class="tile is-parent">
-                            <article class="tile is-child box tech-tile accent-border-green">
-                                <h4 class="title is-5 has-text-white mb-4">
-                                    <span class="icon has-text-primary mr-2"><i class="fas fa-code has-text-white"></i></span>
-                                    <span class="mono">Engineering Principles</span>
-                                </h4>
-                                
-                                <div class="content mono is-size-7">
-                                    <div class="mb-4">
-                                        <span class="has-text-success">DEF: </span>
-                                        <span class="has-text-white">MECHANICAL_SYMPATHY</span>
-                                        <p class="text-muted ml-4 mt-1">
-                                            Optimizing for CPU cache-locality and branch prediction. Prioritizing memory-deterministic patterns over high-level abstractions to eliminate runtime overhead.
-                                        </p>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <span class="has-text-info">DEF: </span>
-                                        <span class="has-text-white">ALGORITHMIC_PARSIMONY</span>
-                                        <p class="text-muted ml-4 mt-1">
-                                            Solving complex problems with the most efficient data structures. Implementing custom spatial indexing (KD-Trees) and vectorized math to replace generic library bloat.
-                                        </p>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <span class="has-text-warning">DEF: </span>
-                                        <span class="has-text-white">ROBUST_CONCURRENCY</span>
-                                        <p class="text-muted ml-4 mt-1">
-                                            Designing thread-safe, non-blocking systems. Leveraging Go's CSP model (channels/goroutines) and atomic primitives to build highly scalable backends.
-                                        </p>
-                                    </div>
-
-                                    <div>
-                                        <span class="has-text-danger">DEF: </span>
-                                        <span class="has-text-white">PREDICTIVE_RELIABILITY</span>
-                                        <p class="text-muted ml-4 mt-1">
-                                            Rigorous system validation through performance benchmarking and automated stress testing. Building systems that fail gracefully and recover deterministically.
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         </div>
                     </div>
                     
-                    <br>
-
                     <div class="tile is-parent">
                         <article class="tile is-child box sidebar-box">
                             <h4 class="title is-5 has-text-white border-bottom-small pb-2 mb-4">
@@ -313,7 +316,7 @@ Description     :   This is our landing page for our Github profile.
                                     <span class="tag is-info is-light">C#</span>
                                     <span class="tag is-warning is-light">Python</span>
                                     <span class="tag is-danger is-light">Java</span>
-                                    <span class="tag is-success is-light">Node.js</span>
+                                    <span class="tag is-primary is-light">Node.js</span>
                                     <span class="tag is-white is-outlined">XAML</span>
                                 </div>
                             </div>
@@ -328,6 +331,7 @@ Description     :   This is our landing page for our Github profile.
                                     <li class="mb-3"><span class="has-text-info">>></span> RESTful API Architecture</li>
 
                                     <li class="mb-1"><span class="has-text-info">>></span> WPF (Windows Presentation Foundation)</li>
+                                    <li class="mb-1"><span class="has-text-info">>></span> Avalonia (Cross-Platform UI)</li>
                                     <li class="mb-3"><span class="has-text-info">>></span> Wails (Go-Desktop Ecosystem)</li>
 
                                     <li class="mb-0"><span class="has-text-info">>></span> Android Studio (Native Development)</li>
@@ -337,23 +341,23 @@ Description     :   This is our landing page for our Github profile.
                             <div class="mb-5">
                                 <p class="is-size-7 mono has-text-primary mb-2">// DATABASES</p>
                                 <div class="is-flex is-flex-wrap-wrap">
-                                    <span class="tag is-black border-blue mr-1 mb-1">PostgreSQL</span>
-                                    <span class="tag is-black border-blue mr-1 mb-1">SQL Server</span>
-                                    <span class="tag is-black border-blue mr-1 mb-1">MongoDB</span>
-                                    <span class="tag is-black border-blue mr-1 mb-1">SQLite</span>
+                                    <span class="tag is-link is-light border-blue mr-1 mb-1">PostgreSQL</span>
+                                    <span class="tag is-primary is-light border-blue mr-1 mb-1">SQL Server</span>
+                                    <span class="tag is-info is-light border-blue mr-1 mb-1">MongoDB</span>
+                                    <span class="tag is-warning is-light border-blue mr-1 mb-1">SQLite</span>
                                 </div>
                             </div>
 
                             <div>
-                                <p class="is-size-7 mono has-text-primary mb-2">// V_&_V_TESTING_MANIFEST</p>
-                                <div class="mono is-size-7 p-3 manifest-log">
-                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> PyTest.unit // Python</div>
-                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> NUnit.suite // C#_WPF</div>
-                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> JUnit.core // Java_Android</div>
-                                    <div class="mb-1"><span class="has-text-success">[PASS]</span> Go_Test.bench // Systems</div>
-                                    <div class="mb-1"><span class="has-text-info">[WAIT]</span> Unity.test // Game_Engine</div>
-                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Selenium.e2e // Web_Automation</div>
-                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Postman.api // REST_Verify</div>
+                                <p class="is-size-7 mono has-text-primary mb-2">// TESTING</p>
+                                <div class="mono is-size-7 p-3 manifest-log has-text-light">
+                                    <div class="mb-1"><span class="has-text-primary">[PASS]</span> PyTest.unit // Python</div>
+                                    <div class="mb-1"><span class="has-text-primary">[PASS]</span> NUnit.suite // C#</div>
+                                    <div class="mb-1"><span class="has-text-primary">[PASS]</span> JUnit.core // Java</div>
+                                    <div class="mb-1"><span class="has-text-primary">[PASS]</span> Go_Test.bench // Go Testing</div>
+                                    <div class="mb-1"><span class="has-text-info">[WAIT]</span> Unity.test // C/C++</div>
+                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Selenium.e2e // Web Automation</div>
+                                    <div class="mb-1"><span class="has-text-warning">[RUN]</span> Postman.api // API Inspector</div>
                                     <div class="mb-0"><span class="has-text-danger">[LOAD]</span> JMeter.stress // Performance</div>
                                 </div>
                             </div>
@@ -367,20 +371,20 @@ Description     :   This is our landing page for our Github profile.
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-8 has-text-centered mb-5">
-                        <h2 class="title is-2 mb-3">
+                        <h2 class="title is-2 mb-3 has-text-primary">
                             Let’s build something <span class="has-text-primary">resilient</span>.
                         </h2>
-                        <p class="subtitle is-6 mono has-text-grey">
+                        <p class="subtitle is-6 mono has-text-light">
                             I'm currently looking for new opportunities to solve complex back-end problems 
                             and implement secure architectures.
                         </p>
-                        <p class="subtitle is-5 has-text-white mb-4">
+                        <p class="subtitle is-5 has-text-primary mb-4">
                             Ready to scale your next big idea?
                         </p>
                         <hr>
-                        <p class="subtitle is-6 mono has-text-grey mb-5">
-                            Whether you need a <strong>production-ready backend</strong>, a <strong>secure architecture</strong>, or 
-                            <strong>custom automation</strong>, I am available to engineer your future application 
+                        <p class="subtitle is-6 mono has-text-light mb-5">
+                            Whether you need a <strong class="has-text-light">production-ready backend</strong>, a <strong class="has-text-light">secure architecture</strong>, or 
+                            <strong class="has-text-light">custom automation</strong>, I am available to engineer your future application 
                             from the ground up.
                         </p>
                         <span class="has-text-info">Reach out to initiate a handshake.</span>
@@ -414,7 +418,7 @@ Description     :   This is our landing page for our Github profile.
 
                     <div class="column is-narrow has-text-centered px-5">
                         <a href="https://www.google.com/maps/search/?api=1&query=New+Hamburg,+ON" target="_blank" class="has-text-white">
-                            <span class="icon is-large has-text-success mb-2">
+                            <span class="icon is-large has-text-primary mb-2">
                                 <i class="fas fa-2x fa-location-dot"></i>
                             </span>
                             <p class="mono is-size-7 has-text-grey mb-1">LOCATION</p>
@@ -428,7 +432,7 @@ Description     :   This is our landing page for our Github profile.
         <footer class="footer bg-black border-top py-5">
             <div class="content has-text-centered">
                 <p class="is-size-7 mono has-text-grey-light">
-                    <span class="has-text-white">&copy; 2026 Braiden Gole</span> // 
+                    <span class="has-text-white">© 2026 Braiden Gole</span> // 
                     All Rights Reserved.
                 </p>
                 
