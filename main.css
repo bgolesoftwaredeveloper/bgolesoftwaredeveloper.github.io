@@ -22,6 +22,14 @@
     --tt-section-bg: linear-gradient(90deg, rgba(18, 22, 32, 1) 0%, rgba(22, 27, 38, 0.4) 100%);
     --tt-section-text: #f5f5f5;
     --tt-btn-hover-bg: #090d16;
+    --gallery-bg: #0b0f19;
+    --gallery-card: rgba(255, 255, 255, 0.02);
+    --gallery-border: rgba(255, 255, 255, 0.06);
+    --gallery-text-main: #ffffff;
+    --gallery-text-muted: #7c8ba1;
+    --gallery-accent-cyan: #25f4ee;
+    --gallery-accent-magenta: #fe2c55;
+    --gallery-tag-bg: rgba(255, 255, 255, 0.04);
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,6 +51,12 @@
         --tt-section-bg: linear-gradient(90deg, #ffffff 0%, rgba(235, 237, 242, 0.6) 100%);
         --tt-section-text: #1a202c;
         --tt-btn-hover-bg: #1a1a1a;
+        --gallery-bg: #ffffff;
+        --gallery-card: rgba(0, 0, 0, 0.02);
+        --gallery-border: rgba(0, 0, 0, 0.08);
+        --gallery-text-main: #111827;
+        --gallery-text-muted: #4b5563;
+        --gallery-tag-bg: rgba(0, 0, 0, 0.05);
     }
 
     .hero.is-black {
@@ -51,8 +65,7 @@
 
     .has-text-white,
     .title.has-text-white,
-    .subtitle.has-text-white,
-    .has-text-white {
+    .subtitle.has-text-white {
         color: var(--text-highlight-grey) !important;
     }
 
@@ -86,7 +99,7 @@
     }
 
     #location-icon {
-        color: var(--brown-glow)
+        color: var(--brown-glow);
     }
 }
 
@@ -500,6 +513,12 @@ h6,
     z-index: 3;
 }
 
+#js-close-gallery-top {
+    display: none;
+    background-color: var(--bg-brown-light);
+    color: black;
+}
+
 @keyframes tt-hexa-sweep {
     to {
         transform: rotate(360deg);
@@ -511,7 +530,6 @@ h6,
 }
 
 @keyframes tt-chromatic-pulse {
-
     0%,
     100% {
         text-shadow: 1px 0px 0px var(--tt-red), -1px 0px 0px var(--tt-cyan);
@@ -549,4 +567,192 @@ h6,
         background-color: black !important;
         color: white !important;
     }
+}
+
+.art-gallery-container {
+    background: radial-gradient(circle at top right, #111625, #07090e) !important;
+    border: 1px solid var(--gallery-border) !important;
+    border-radius: 20px !important;
+    padding: 3rem 2rem !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.art-gallery-container::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: rgba(37, 244, 238, 0.08);
+    filter: blur(80px);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.art-studio-title {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 300 !important;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #ffffff 30%, #a3b3cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem !important;
+}
+
+.art-studio-tag {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--gallery-accent-cyan);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.art-studio-desc {
+    font-family: 'Inter', sans-serif !important;
+    color: var(--gallery-text-muted) !important;
+    font-size: 0.95rem;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+.art-grid-card {
+    background: var(--gallery-card) !important;
+    border: 1px solid var(--gallery-border) !important;
+    border-radius: 14px !important;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.art-grid-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.art-visual-stage {
+    height: 220px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+
+.stage-android {
+    background: linear-gradient(45deg, #0f172a, #1e1b4b);
+}
+
+.stage-kinematics {
+    background: linear-gradient(45deg, #180f1a, #4c0519);
+}
+
+.abstract-canvas-mesh {
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    opacity: 0.15;
+    background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 15px 15px;
+    transform: rotate(-12deg);
+}
+
+.art-badge-overlay {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    background: rgba(7, 9, 14, 0.8);
+    backdrop-filter: blur(4px);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.art-info-block {
+    padding: 1.5rem;
+}
+
+.art-card-heading {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.15rem;
+    color: var(--gallery-text-main) !important;
+}
+
+.art-card-meta {
+    font-size: 0.8rem;
+    color: #4b586e;
+}
+
+.art-card-paragraph {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.85rem !important;
+    color: #94a3b8 !important;
+    line-height: 1.5;
+}
+
+.art-pill {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    background: var(--gallery-tag-bg);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #cbd5e1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.art-studio-btn {
+    font-family: 'Share Tech Mono', monospace;
+    background: #ffffff !important;
+    color: #07090e !important;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.5rem 1.2rem !important;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.art-studio-btn:hover {
+    background: var(--gallery-accent-cyan) !important;
+    box-shadow: 0 0 20px rgba(37, 244, 238, 0.4);
+    transform: scale(1.02);
+}
+
+.pulsing-dot {
+    width: 6px;
+    height: 6px;
+    background-color: var(--gallery-accent-cyan);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--gallery-accent-cyan);
+    animation: galleryPulse 2s infinite;
+}
+
+.gallery-meta-tag {
+    background: var(--gallery-tag-bg);
+    border: 1px solid var(--gallery-border);
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: var(--gallery-text-main);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@keyframes galleryPulse {
+    0% { transform: scale(0.95); opacity: 0.5; }
+    50% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0.95); opacity: 0.5; }
 }
