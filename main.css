@@ -374,8 +374,16 @@ h6,
 
 #js-close-gallery-top {
     display: none;
-    background-color: var(--bg-brown-light);
-    color: black;
+    color: var(--brown-primary);
+    border: 1px solid var(--brown-primary);
+    margin-left: auto !important; 
+    margin-right: 0 !important;
+}
+
+#js-close-gallery-top:hover {
+    background-color: var(--brown-primary);
+    border-color: var(--brown-primary);
+    color: #ffffff;
 }
 
 @keyframes tt-hexa-sweep {
@@ -414,7 +422,6 @@ h6,
     color: black !important;
 }
 
-/* Base Gallery Layout Styles */
 .art-gallery-container {
     background: var(--gallery-bg) !important;
     border: 1px solid var(--gallery-border) !important;
@@ -748,5 +755,21 @@ h6,
         background: var(--bg-brown-light) !important;
         color: #ffffff !important;
         box-shadow: 0 0 15px rgba(138, 104, 73, 0.3);
+    }
+
+    #js-close-gallery-top {
+        opacity: 1 !important;
+        filter: none !important;
+        background-color: #ffffff !important;
+        border: 1px solid var(--bg-brown-light) !important;
+        color: var(--bg-brown-light) !important;
+    }
+
+    #js-close-gallery-top:hover {
+        opacity: 1 !important;
+        filter: none !important;
+        background-color: var(--bg-brown-light) !important;
+        border-color: var(--bg-brown-light) !important;
+        color: #ffffff !important;
     }
 }

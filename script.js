@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && modal.classList.contains('is-active')) {
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && modal.classList.contains('is-active')) {
             modal.classList.remove('is-active')
             document.documentElement.classList.remove('is-clipped')
             modalImg.src = ""
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isExpanded) {
             toggleBtn.innerHTML = `
                 <span class="icon"><i class="fa-solid fa-chevron-up"></i></span>
-                <span>Collapse Designs Matrix</span>
+                <span>Collapse Designs</span>
             `
 
             if (topCloseBtn) {
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             toggleBtn.innerHTML = `
                 <span class="icon"><i class="fa-solid fa-chevron-down"></i></span>
-                <span>View Designs Matrix</span>
+                <span>View Designs</span>
             `
 
             if (topCloseBtn) {
@@ -92,7 +92,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleBtn.addEventListener('click', (event) => {
         event.preventDefault()
+
         const nextState = !isExpanded
+
         updateGalleryState(nextState)
         
         if (!nextState) {
