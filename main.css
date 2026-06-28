@@ -603,9 +603,6 @@ h6,
     100% { transform: scale(0.95); opacity: 0.5; }
 }
 
-/* =======================================================
-   LIGHT MODE MEDIA QUERY AT THE BOTTOM TO OVERRIDE ALL BASE STYLES 
-   ======================================================= */
 @media (prefers-color-scheme: light) {
     :root {
         --bg-light: #f4f6f9;
@@ -728,7 +725,6 @@ h6,
         color: white !important;
     }
 
-    /* Light Mode Gallery Tweaks */
     .art-gallery-container::before {
         background: rgba(77, 166, 255, 0.04); 
     }
