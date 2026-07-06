@@ -211,6 +211,21 @@ h6,
     animation: pulse-brown 2s infinite;
 }
 
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow {
+    border-radius: 6px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover {
+    background-color: #ffffff;
+}
+
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover a,
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover p,
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover .icon i {
+    color: #121620 !important;
+}
+
 @keyframes pulse-brown {
     0% {
         box-shadow: 0 0 0 0 rgba(222, 192, 165, 0.5);
