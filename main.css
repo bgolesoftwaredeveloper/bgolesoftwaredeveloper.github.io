@@ -158,22 +158,52 @@ h6,
 .hero-parent {
     position: relative;
     overflow: hidden;
-    background-color: var(--bg-light);
+}
+
+.fan-background {
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 800px;
+    height: 800px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.fan-blade {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom right;
+    border-radius: 100% 0 0 0;
+    opacity: 0.15;
+}
+
+.blade-1 {
+    background-color: #5d4b3c;
+    transform: rotate(0deg);
+}
+
+.blade-2 {
+    background-color: #967962;
+    transform: rotate(25deg);
+}
+
+.blade-3 {
+    background-color: #dec0a5;
+    transform: rotate(50deg);
 }
 
 .hero-cover-photo {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-    right: 0;
-    height: 100%;
-    background-image:
-        linear-gradient(var(--hero-grid) 1px, transparent 1px),
-        linear-gradient(90deg, var(--hero-grid) 1px, transparent 1px);
-    background-size: 32px 32px;
-    mask-image: linear-gradient(to bottom, black 40%, rgba(0, 0, 0, 0.5) 75%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 40%, rgba(0, 0, 0, 0.5) 75%, transparent 100%);
+    width: 100%;
+    height: 250px;
     z-index: 0;
+    pointer-events: none;
 }
 
 .relative-z {
