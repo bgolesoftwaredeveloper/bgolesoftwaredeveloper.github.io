@@ -17,6 +17,18 @@
     --tag-text: #cbd3dc;
     --shape-standard: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
     --shape-cyber: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
+
+    /* Xbox Brand Tokens */
+    --xbox-green: #107c41;
+    --xbox-green-light: #139950;
+    --xbox-green-glow: rgba(16, 124, 65, 0.45);
+    --xbox-green-subtle: rgba(16, 124, 65, 0.15);
+    --xbox-bg-dark: #0b0d12;
+    --xbox-card-dark: rgba(18, 22, 32, 0.9);
+    --xbox-panel-dark: rgba(0, 0, 0, 0.45);
+    --xbox-text-main: #ffffff;
+    --xbox-text-muted: #8e9da8;
+    --xbox-border-light: rgba(255, 255, 255, 0.08);
 }
 
 ul,
@@ -61,7 +73,7 @@ h6,
 }
 
 .has-text-success {
-    color: var(--bg-brown-light) !important;
+    color: var(--xbox-green) !important;
 }
 
 .bg-black {
@@ -88,6 +100,10 @@ h6,
     border-bottom: 1px solid var(--border-color);
 }
 
+.opacity-75 {
+    opacity: 0.75;
+}
+
 .button.is-primary.is-outlined {
     font-family: 'Share Tech Mono', monospace;
     color: var(--brown-primary);
@@ -100,20 +116,6 @@ h6,
     background: var(--brown-primary);
     color: var(--bg-light);
     box-shadow: 0 0 12px var(--brown-glow);
-}
-
-.status-box {
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    color: var(--text-body);
-    background-color: var(--card-bg);
-}
-
-.manifest-log {
-    background: var(--manifest-bg);
-    border-radius: 4px;
-    border: 1px solid var(--border-color);
-    line-height: 1.6;
 }
 
 .hero-parent {
@@ -202,33 +204,18 @@ h6,
     animation: pulse-brown 2s infinite;
 }
 
-.columns.is-centered.is-vcentered.is-tablet .column.is-narrow {
+.status-box {
+    border: 1px solid var(--border-color);
     border-radius: 6px;
-    transition: background-color 0.25s ease, transform 0.25s ease;
+    color: var(--text-body);
+    background-color: var(--card-bg);
 }
 
-.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover {
-    background-color: #ffffff;
-}
-
-.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover a,
-.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover p,
-.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover .icon i {
-    color: #121620 !important;
-}
-
-@keyframes pulse-brown {
-    0% {
-        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0.5);
-    }
-
-    70% {
-        box-shadow: 0 0 0 8px rgba(222, 192, 165, 0);
-    }
-
-    100% {
-        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0);
-    }
+.manifest-log {
+    background: var(--manifest-bg);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    line-height: 1.6;
 }
 
 .portfolio-grid {
@@ -288,7 +275,6 @@ h6,
     width: 100%;
     height: 3px;
     background: transparent;
-    transition: background 0.3s ease;
 }
 
 .modern-tile.accent-primary::before {
@@ -296,7 +282,7 @@ h6,
 }
 
 .modern-tile.accent-primary:hover {
-    border-color: rgba(222, 192, 165, 0.4);
+    border-color: var(--xbox-green-glow);
 }
 
 .modern-tile.accent-blue::before {
@@ -310,99 +296,11 @@ h6,
 .modern-tile.accent-cyber-art {
     clip-path: var(--shape-cyber);
     background: linear-gradient(135deg, #121620 0%, #0d1017 100%) !important;
-    border: 1px solid rgba(222, 192, 165, 0.25);
+    border: 1px solid var(--xbox-green-glow);
 }
 
 .modern-tile.accent-cyber-art::before {
-    background: linear-gradient(90deg, var(--brown-primary), var(--system-blue));
-}
-
-.lang-target-row {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    color: var(--text-heading);
-}
-
-.lang-target-meta {
-    color: var(--text-body);
-    opacity: 0.65;
-}
-
-.art-glitch-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(222, 192, 165, 0.15);
-    padding-bottom: 0.75rem;
-    margin-bottom: 1.25rem;
-}
-
-.art-status-tag {
-    font-size: 0.65rem;
-    color: var(--system-blue);
-    background: rgba(77, 166, 255, 0.08);
-    padding: 0.2rem 0.5rem;
-    border: 1px solid rgba(77, 166, 255, 0.2);
-    border-radius: 4px;
-    letter-spacing: 0.5px;
-}
-
-.art-showcase-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin: 1.5rem 0;
-}
-
-.art-vector-box {
-    position: relative;
-    height: 120px;
-    background-color: #090c12;
-    border: 1px solid var(--border-color);
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    padding: 0.5rem;
-    transition: border-color 0.3s ease;
-}
-
-.art-vector-box:hover {
-    border-color: var(--brown-primary);
-}
-
-.art-vector-box.pattern-matrix {
-    background-image:
-        linear-gradient(rgba(222, 192, 165, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(222, 192, 165, 0.04) 1px, transparent 1px);
-    background-size: 10px 10px;
-}
-
-.art-vector-box.pattern-waves {
-    background-image:
-        repeating-linear-gradient(45deg, rgba(77, 166, 255, 0.02) 0px, rgba(77, 166, 255, 0.02) 2px, transparent 2px, transparent 8px);
-}
-
-.canvas-glowing-beam {
-    position: absolute;
-    top: 30%;
-    left: -50%;
-    width: 200%;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--brown-primary), transparent);
-    transform: rotate(-12deg);
-    opacity: 0.35;
-}
-
-.pattern-waves .canvas-glowing-beam {
-    background: linear-gradient(90deg, transparent, var(--system-blue), transparent);
-    top: 60%;
-    transform: rotate(8deg);
-}
-
-.canvas-tag {
-    font-size: 0.6rem;
-    color: rgba(255, 255, 255, 0.35);
-    z-index: 2;
+    background: linear-gradient(90deg, var(--xbox-green), var(--system-blue));
 }
 
 .sidebar-column {
@@ -420,6 +318,17 @@ h6,
     text-transform: uppercase;
 }
 
+.lang-target-row {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-heading);
+}
+
+.lang-target-meta {
+    color: var(--text-body);
+    opacity: 0.65;
+}
+
 .tag.is-dark {
     font-family: 'Share Tech Mono', monospace;
     background-color: var(--tag-bg) !important;
@@ -429,8 +338,251 @@ h6,
     padding: 0.5rem 0.75rem;
 }
 
-.opacity-75 {
-    opacity: 0.75;
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow {
+    border-radius: 6px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover {
+    background-color: #ffffff;
+}
+
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover a,
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover p,
+.columns.is-centered.is-vcentered.is-tablet .column.is-narrow:hover .icon i {
+    color: #121620 !important;
+}
+
+.xbox-dashboard-container {
+    padding: 2rem;
+    background: radial-gradient(circle at top right, rgba(16, 124, 65, 0.18), transparent 60%), var(--xbox-bg-dark);
+    border: 1px solid var(--xbox-green-glow);
+    border-radius: 12px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65);
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.xbox-header-bar {
+    border-bottom: 1px solid var(--xbox-green-glow);
+}
+
+.xbox-logo-icon {
+    color: var(--xbox-green);
+    filter: drop-shadow(0 0 8px var(--xbox-green-glow));
+}
+
+.xbox-section-title {
+    color: var(--xbox-text-main) !important;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.xbox-stat-pill {
+    background: var(--xbox-green-subtle);
+    border: 1px solid var(--xbox-green);
+    border-radius: 20px;
+}
+
+.xbox-profile-bar {
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 4px solid var(--xbox-green);
+    border-radius: 4px;
+    backdrop-filter: blur(6px);
+}
+
+.xbox-avatar-wrapper {
+    flex-shrink: 0;
+}
+
+.xbox-avatar {
+    object-fit: cover !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 50% !important;
+    border: 1px solid var(--xbox-green);
+    box-shadow: 0 0 10px var(--xbox-green-glow);
+}
+
+.xbox-gamertag {
+    color: var(--xbox-text-main) !important;
+    font-weight: 700;
+}
+
+.xbox-tag-accent {
+    background: transparent !important;
+    border: 1px solid var(--xbox-green) !important;
+    color: var(--xbox-green) !important;
+}
+
+.xbox-tag-default {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: var(--xbox-text-muted) !important;
+}
+
+.xbox-sublabel {
+    color: var(--xbox-green);
+    font-weight: 700;
+}
+
+.xbox-game-card {
+    padding: 1.25rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--xbox-card-dark);
+    border: 1px solid var(--xbox-border-light);
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.xbox-game-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--xbox-green);
+    box-shadow: 0 0 16px var(--xbox-green-glow);
+}
+
+.xbox-game-card.card-cod {
+    border-top: 2px solid var(--xbox-green);
+}
+
+.xbox-game-card.card-bf {
+    border-top: 2px solid var(--system-blue);
+}
+
+.xbox-game-card.card-skate {
+    border-top: 2px solid var(--brown-primary);
+}
+
+.xbox-game-title {
+    color: var(--xbox-text-main) !important;
+}
+
+.xbox-game-desc {
+    color: var(--xbox-text-muted);
+    line-height: 1.5;
+}
+
+.xbox-metrics-panel {
+    background: var(--xbox-panel-dark);
+    border: 1px solid var(--xbox-border-light);
+    border-radius: 8px;
+    padding: 0.85rem;
+}
+
+.xbox-metric-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem 0.5rem;
+}
+
+.xbox-metric-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.xbox-metric-label {
+    font-family: monospace;
+    font-size: 0.65rem;
+    color: var(--xbox-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.xbox-metric-val {
+    font-family: monospace;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--xbox-text-main);
+    line-height: 1.2;
+    word-break: break-word;
+}
+
+.xbox-progress-block {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.xbox-progress-bg {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.xbox-progress-fill {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.xbox-fill-green {
+    background: var(--xbox-green-light);
+    box-shadow: 0 0 8px var(--xbox-green-glow);
+}
+
+.xbox-fill-blue {
+    background: var(--system-blue);
+    box-shadow: 0 0 8px rgba(77, 166, 255, 0.4);
+}
+
+.xbox-fill-brown {
+    background: var(--brown-primary);
+    box-shadow: 0 0 8px rgba(222, 192, 165, 0.4);
+}
+
+.xbox-chip {
+    font-size: 0.65rem !important;
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid var(--xbox-border-light) !important;
+    color: var(--xbox-text-muted) !important;
+    border-radius: 4px !important;
+}
+
+.xbox-card-footer {
+    border-top: 1px solid var(--xbox-border-light);
+}
+
+.xbox-accent-icon {
+    color: var(--xbox-green);
+}
+
+.xbox-accent-text {
+    color: var(--xbox-green);
+}
+
+.xbox-brown-text {
+    color: var(--brown-primary);
+}
+
+.xbox-text-muted {
+    color: var(--xbox-text-muted);
+}
+
+.xbox-text-highlight {
+    color: var(--xbox-text-main);
+}
+
+.xbox-hud-ribbon {
+    padding: 0.75rem;
+    background: #06080d;
+    border: 1px dashed rgba(16, 124, 65, 0.4);
+    border-radius: 6px;
+}
+
+@keyframes pulse-brown {
+    0% {
+        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0.5);
+    }
+
+    70% {
+        box-shadow: 0 0 0 8px rgba(222, 192, 165, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0);
+    }
 }
 
 @media (max-width: 1024px) {
@@ -450,13 +602,38 @@ h6,
         grid-column: span 1;
     }
 
-    .art-showcase-container {
-        grid-template-columns: 1fr;
-    }
-
     .modern-tile {
         padding: 1.5rem;
         clip-path: none !important;
+    }
+
+    .xbox-dashboard-container {
+        padding: 1rem !important;
+        border-radius: 8px;
+    }
+
+    .xbox-game-card {
+        padding: 0.9rem;
+    }
+
+    .xbox-metrics-panel {
+        padding: 0.65rem;
+    }
+
+    .xbox-metric-grid {
+        gap: 0.6rem 0.4rem;
+    }
+
+    .xbox-metric-label {
+        font-size: 0.6rem;
+    }
+
+    .xbox-metric-val {
+        font-size: 0.725rem;
+    }
+
+    .xbox-chip {
+        font-size: 0.6rem !important;
     }
 }
 
@@ -475,6 +652,13 @@ h6,
         --manifest-bg: rgba(255, 255, 255, 0.85);
         --tag-bg: rgba(206, 213, 227, 0.4);
         --tag-text: #1a202c;
+
+        --xbox-bg-dark: #f0f4f2;
+        --xbox-card-dark: #ffffff;
+        --xbox-panel-dark: #f8faf9;
+        --xbox-text-main: #0e1a14;
+        --xbox-text-muted: #4a5d53;
+        --xbox-border-light: rgba(16, 124, 65, 0.15);
     }
 
     .hero.is-black {
@@ -507,28 +691,28 @@ h6,
     }
 
     .modern-tile:hover {
-        border-color: var(--bg-brown-light);
+        border-color: var(--xbox-green);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
 
     .modern-tile.accent-primary::before {
-        background: var(--bg-brown-light);
+        background: var(--xbox-green);
     }
 
     .sidebar-box p.has-text-primary {
-        border-left: 2px solid var(--bg-brown-light);
+        border-left: 2px solid var(--xbox-green);
     }
 
     .profile-fix {
-        border-color: var(--bg-brown-light);
+        border-color: var(--xbox-green);
     }
 
     .profile-img-zoom:hover {
-        box-shadow: 0 0 25px var(--bg-brown-light);
+        box-shadow: 0 0 25px var(--xbox-green);
     }
 
     .status-indicator {
-        background-color: var(--bg-brown-light);
+        background-color: var(--xbox-green);
     }
 
     .modern-tile.accent-cyber-art {
@@ -554,5 +738,30 @@ h6,
     .lang-target-meta {
         color: #4a5568 !important;
         opacity: 0.85;
+    }
+
+    .xbox-dashboard-container {
+        background: radial-gradient(circle at top right, rgba(16, 124, 65, 0.08), transparent 60%), #f0f4f2;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .xbox-profile-bar {
+        background: rgba(16, 124, 65, 0.04);
+    }
+
+    .xbox-hud-ribbon {
+        background: #e5ece8;
+    }
+
+    .xbox-chip {
+        background-color: #ebf2ee !important;
+    }
+
+    .xbox-progress-block {
+        border-top-color: rgba(0, 0, 0, 0.08);
+    }
+
+    .xbox-progress-bg {
+        background: rgba(0, 0, 0, 0.08);
     }
 }
