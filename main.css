@@ -29,6 +29,9 @@
     --xbox-text-main: #ffffff;
     --xbox-text-muted: #8e9da8;
     --xbox-border-light: rgba(255, 255, 255, 0.08);
+
+    /* Animation Tokens */
+    --reveal-glow: var(--xbox-green-glow);
 }
 
 ul,
@@ -659,6 +662,7 @@ h6,
         --xbox-text-main: #0e1a14;
         --xbox-text-muted: #4a5d53;
         --xbox-border-light: rgba(16, 124, 65, 0.15);
+        --reveal-glow: rgba(16, 124, 65, 0.25);
     }
 
     .hero.is-black {
@@ -763,5 +767,78 @@ h6,
 
     .xbox-progress-bg {
         background: rgba(0, 0, 0, 0.08);
+    }
+}
+
+.scroll-reveal,
+.scroll-reveal-left,
+.scroll-reveal-right,
+.scroll-reveal-scale {
+    opacity: 0;
+    will-change: opacity, transform, filter, box-shadow;
+    transition: opacity 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
+        transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
+        filter 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
+        box-shadow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.scroll-reveal {
+    transform: perspective(1000px) rotateX(-18deg) translateY(60px) scale(0.92);
+    filter: blur(6px);
+}
+
+.scroll-reveal-left {
+    transform: perspective(1000px) rotateY(15deg) translateX(-60px) scale(0.92);
+    filter: blur(6px);
+}
+
+.scroll-reveal-right {
+    transform: perspective(1000px) rotateY(-15deg) translateX(60px) scale(0.92);
+    filter: blur(6px);
+}
+
+.scroll-reveal-scale {
+    transform: perspective(1000px) scale(0.8) translateY(40px);
+    filter: blur(8px);
+}
+
+.scroll-reveal.is-visible,
+.scroll-reveal-left.is-visible,
+.scroll-reveal-right.is-visible,
+.scroll-reveal-scale.is-visible {
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translate(0) scale(1);
+    filter: blur(0px);
+    box-shadow: 0 0 25px -5px var(--reveal-glow);
+}
+
+.delay-100 {
+    transition-delay: 100ms;
+}
+
+.delay-200 {
+    transition-delay: 200ms;
+}
+
+.delay-300 {
+    transition-delay: 300ms;
+}
+
+.delay-400 {
+    transition-delay: 400ms;
+}
+
+.delay-500 {
+    transition-delay: 500ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal,
+    .scroll-reveal-left,
+    .scroll-reveal-right,
+    .scroll-reveal-scale {
+        transition: opacity 0.3s ease;
+        transform: none !important;
+        filter: none !important;
     }
 }
