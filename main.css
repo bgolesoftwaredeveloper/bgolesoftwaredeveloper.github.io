@@ -18,20 +18,8 @@
     --shape-standard: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
     --shape-cyber: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
 
-    /* Xbox Brand Tokens */
-    --xbox-green: #107c41;
-    --xbox-green-light: #139950;
-    --xbox-green-glow: rgba(16, 124, 65, 0.45);
-    --xbox-green-subtle: rgba(16, 124, 65, 0.15);
-    --xbox-bg-dark: #0b0d12;
-    --xbox-card-dark: rgba(18, 22, 32, 0.9);
-    --xbox-panel-dark: rgba(0, 0, 0, 0.45);
-    --xbox-text-main: #ffffff;
-    --xbox-text-muted: #8e9da8;
-    --xbox-border-light: rgba(255, 255, 255, 0.08);
-
     /* Animation Tokens */
-    --reveal-glow: var(--xbox-green-glow);
+    --reveal-glow: rgba(222, 192, 165, 0.45);
 }
 
 ul,
@@ -76,7 +64,7 @@ h6,
 }
 
 .has-text-success {
-    color: var(--xbox-green) !important;
+    color: #107c41 !important;
 }
 
 .bg-black {
@@ -285,7 +273,7 @@ h6,
 }
 
 .modern-tile.accent-primary:hover {
-    border-color: var(--xbox-green-glow);
+    border-color: rgba(222, 192, 165, 0.45);
 }
 
 .modern-tile.accent-blue::before {
@@ -299,11 +287,11 @@ h6,
 .modern-tile.accent-cyber-art {
     clip-path: var(--shape-cyber);
     background: linear-gradient(135deg, #121620 0%, #0d1017 100%) !important;
-    border: 1px solid var(--xbox-green-glow);
+    border: 1px solid rgba(222, 192, 165, 0.45);
 }
 
 .modern-tile.accent-cyber-art::before {
-    background: linear-gradient(90deg, var(--xbox-green), var(--system-blue));
+    background: linear-gradient(90deg, var(--brown-primary), var(--system-blue));
 }
 
 .sidebar-column {
@@ -356,224 +344,6 @@ h6,
     color: #121620 !important;
 }
 
-.xbox-dashboard-container {
-    padding: 2rem;
-    background: radial-gradient(circle at top right, rgba(16, 124, 65, 0.18), transparent 60%), var(--xbox-bg-dark);
-    border: 1px solid var(--xbox-green-glow);
-    border-radius: 12px;
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65);
-    transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-.xbox-header-bar {
-    border-bottom: 1px solid var(--xbox-green-glow);
-}
-
-.xbox-logo-icon {
-    color: var(--xbox-green);
-    filter: drop-shadow(0 0 8px var(--xbox-green-glow));
-}
-
-.xbox-section-title {
-    color: var(--xbox-text-main) !important;
-    letter-spacing: 1.5px;
-    font-weight: 700;
-}
-
-.xbox-stat-pill {
-    background: var(--xbox-green-subtle);
-    border: 1px solid var(--xbox-green);
-    border-radius: 20px;
-}
-
-.xbox-profile-bar {
-    background: rgba(255, 255, 255, 0.03);
-    border-left: 4px solid var(--xbox-green);
-    border-radius: 4px;
-    backdrop-filter: blur(6px);
-}
-
-.xbox-avatar-wrapper {
-    flex-shrink: 0;
-}
-
-.xbox-avatar {
-    object-fit: cover !important;
-    aspect-ratio: 1 / 1 !important;
-    border-radius: 50% !important;
-    border: 1px solid var(--xbox-green);
-    box-shadow: 0 0 10px var(--xbox-green-glow);
-}
-
-.xbox-gamertag {
-    color: var(--xbox-text-main) !important;
-    font-weight: 700;
-}
-
-.xbox-tag-accent {
-    background: transparent !important;
-    border: 1px solid var(--xbox-green) !important;
-    color: var(--xbox-green) !important;
-}
-
-.xbox-tag-default {
-    background: transparent !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    color: var(--xbox-text-muted) !important;
-}
-
-.xbox-sublabel {
-    color: var(--xbox-green);
-    font-weight: 700;
-}
-
-.xbox-game-card {
-    padding: 1.25rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: var(--xbox-card-dark);
-    border: 1px solid var(--xbox-border-light);
-    border-radius: 8px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.xbox-game-card:hover {
-    transform: translateY(-3px);
-    border-color: var(--xbox-green);
-    box-shadow: 0 0 16px var(--xbox-green-glow);
-}
-
-.xbox-game-card.card-cod {
-    border-top: 2px solid var(--xbox-green);
-}
-
-.xbox-game-card.card-bf {
-    border-top: 2px solid var(--system-blue);
-}
-
-.xbox-game-card.card-skate {
-    border-top: 2px solid var(--brown-primary);
-}
-
-.xbox-game-title {
-    color: var(--xbox-text-main) !important;
-}
-
-.xbox-game-desc {
-    color: var(--xbox-text-muted);
-    line-height: 1.5;
-}
-
-.xbox-metrics-panel {
-    background: var(--xbox-panel-dark);
-    border: 1px solid var(--xbox-border-light);
-    border-radius: 8px;
-    padding: 0.85rem;
-}
-
-.xbox-metric-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem 0.5rem;
-}
-
-.xbox-metric-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.xbox-metric-label {
-    font-family: monospace;
-    font-size: 0.65rem;
-    color: var(--xbox-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 2px;
-}
-
-.xbox-metric-val {
-    font-family: monospace;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--xbox-text-main);
-    line-height: 1.2;
-    word-break: break-word;
-}
-
-.xbox-progress-block {
-    border-top: 1px dashed rgba(255, 255, 255, 0.1);
-}
-
-.xbox-progress-bg {
-    width: 100%;
-    height: 6px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 3px;
-    overflow: hidden;
-}
-
-.xbox-progress-fill {
-    height: 100%;
-    border-radius: 3px;
-}
-
-.xbox-fill-green {
-    background: var(--xbox-green-light);
-    box-shadow: 0 0 8px var(--xbox-green-glow);
-}
-
-.xbox-fill-blue {
-    background: var(--system-blue);
-    box-shadow: 0 0 8px rgba(77, 166, 255, 0.4);
-}
-
-.xbox-fill-brown {
-    background: var(--brown-primary);
-    box-shadow: 0 0 8px rgba(222, 192, 165, 0.4);
-}
-
-.xbox-chip {
-    font-size: 0.65rem !important;
-    background-color: rgba(255, 255, 255, 0.04) !important;
-    border: 1px solid var(--xbox-border-light) !important;
-    color: var(--xbox-text-muted) !important;
-    border-radius: 4px !important;
-}
-
-.xbox-card-footer {
-    border-top: 1px solid var(--xbox-border-light);
-}
-
-.xbox-accent-icon {
-    color: var(--xbox-green);
-}
-
-.xbox-accent-text {
-    color: var(--xbox-green);
-}
-
-.xbox-brown-text {
-    color: var(--brown-primary);
-}
-
-.xbox-text-muted {
-    color: var(--xbox-text-muted);
-}
-
-.xbox-text-highlight {
-    color: var(--xbox-text-main);
-}
-
-.xbox-hud-ribbon {
-    padding: 0.75rem;
-    background: #06080d;
-    border: 1px dashed rgba(16, 124, 65, 0.4);
-    border-radius: 6px;
-}
-
 @keyframes pulse-brown {
     0% {
         box-shadow: 0 0 0 0 rgba(222, 192, 165, 0.5);
@@ -609,35 +379,6 @@ h6,
         padding: 1.5rem;
         clip-path: none !important;
     }
-
-    .xbox-dashboard-container {
-        padding: 1rem !important;
-        border-radius: 8px;
-    }
-
-    .xbox-game-card {
-        padding: 0.9rem;
-    }
-
-    .xbox-metrics-panel {
-        padding: 0.65rem;
-    }
-
-    .xbox-metric-grid {
-        gap: 0.6rem 0.4rem;
-    }
-
-    .xbox-metric-label {
-        font-size: 0.6rem;
-    }
-
-    .xbox-metric-val {
-        font-size: 0.725rem;
-    }
-
-    .xbox-chip {
-        font-size: 0.6rem !important;
-    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -655,14 +396,7 @@ h6,
         --manifest-bg: rgba(255, 255, 255, 0.85);
         --tag-bg: rgba(206, 213, 227, 0.4);
         --tag-text: #1a202c;
-
-        --xbox-bg-dark: #f0f4f2;
-        --xbox-card-dark: #ffffff;
-        --xbox-panel-dark: #f8faf9;
-        --xbox-text-main: #0e1a14;
-        --xbox-text-muted: #4a5d53;
-        --xbox-border-light: rgba(16, 124, 65, 0.15);
-        --reveal-glow: rgba(16, 124, 65, 0.25);
+        --reveal-glow: rgba(138, 104, 73, 0.25);
     }
 
     .hero.is-black {
@@ -695,28 +429,28 @@ h6,
     }
 
     .modern-tile:hover {
-        border-color: var(--xbox-green);
+        border-color: var(--brown-glow);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
 
     .modern-tile.accent-primary::before {
-        background: var(--xbox-green);
+        background: var(--bg-brown-light);
     }
 
     .sidebar-box p.has-text-primary {
-        border-left: 2px solid var(--xbox-green);
+        border-left: 2px solid var(--bg-brown-light);
     }
 
     .profile-fix {
-        border-color: var(--xbox-green);
+        border-color: var(--bg-brown-light);
     }
 
     .profile-img-zoom:hover {
-        box-shadow: 0 0 25px var(--xbox-green);
+        box-shadow: 0 0 25px var(--bg-brown-light);
     }
 
     .status-indicator {
-        background-color: var(--xbox-green);
+        background-color: var(--bg-brown-light);
     }
 
     .modern-tile.accent-cyber-art {
@@ -742,103 +476,5 @@ h6,
     .lang-target-meta {
         color: #4a5568 !important;
         opacity: 0.85;
-    }
-
-    .xbox-dashboard-container {
-        background: radial-gradient(circle at top right, rgba(16, 124, 65, 0.08), transparent 60%), #f0f4f2;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    }
-
-    .xbox-profile-bar {
-        background: rgba(16, 124, 65, 0.04);
-    }
-
-    .xbox-hud-ribbon {
-        background: #e5ece8;
-    }
-
-    .xbox-chip {
-        background-color: #ebf2ee !important;
-    }
-
-    .xbox-progress-block {
-        border-top-color: rgba(0, 0, 0, 0.08);
-    }
-
-    .xbox-progress-bg {
-        background: rgba(0, 0, 0, 0.08);
-    }
-}
-
-.scroll-reveal,
-.scroll-reveal-left,
-.scroll-reveal-right,
-.scroll-reveal-scale {
-    opacity: 0;
-    will-change: opacity, transform, filter, box-shadow;
-    transition: opacity 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
-        transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
-        filter 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
-        box-shadow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.scroll-reveal {
-    transform: perspective(1000px) rotateX(-18deg) translateY(60px) scale(0.92);
-    filter: blur(6px);
-}
-
-.scroll-reveal-left {
-    transform: perspective(1000px) rotateY(15deg) translateX(-60px) scale(0.92);
-    filter: blur(6px);
-}
-
-.scroll-reveal-right {
-    transform: perspective(1000px) rotateY(-15deg) translateX(60px) scale(0.92);
-    filter: blur(6px);
-}
-
-.scroll-reveal-scale {
-    transform: perspective(1000px) scale(0.8) translateY(40px);
-    filter: blur(8px);
-}
-
-.scroll-reveal.is-visible,
-.scroll-reveal-left.is-visible,
-.scroll-reveal-right.is-visible,
-.scroll-reveal-scale.is-visible {
-    opacity: 1;
-    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translate(0) scale(1);
-    filter: blur(0px);
-    box-shadow: 0 0 25px -5px var(--reveal-glow);
-}
-
-.delay-100 {
-    transition-delay: 100ms;
-}
-
-.delay-200 {
-    transition-delay: 200ms;
-}
-
-.delay-300 {
-    transition-delay: 300ms;
-}
-
-.delay-400 {
-    transition-delay: 400ms;
-}
-
-.delay-500 {
-    transition-delay: 500ms;
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .scroll-reveal,
-    .scroll-reveal-left,
-    .scroll-reveal-right,
-    .scroll-reveal-scale {
-        transition: opacity 0.3s ease;
-        transform: none !important;
-        filter: none !important;
     }
 }
