@@ -18,7 +18,6 @@
     --shape-standard: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
     --shape-cyber: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
 
-    /* Animation Tokens */
     --reveal-glow: rgba(222, 192, 165, 0.45);
 }
 
@@ -150,16 +149,6 @@ h6,
     transform: rotate(50deg);
 }
 
-.hero-cover-photo {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;
-    z-index: 0;
-    pointer-events: none;
-}
-
 .relative-z {
     position: relative;
     z-index: 1;
@@ -218,6 +207,19 @@ h6,
 
 .grid-full-width {
     grid-column: 1 / -1;
+}
+
+.is-fullwidth-bleed {
+    grid-column: 1 / -1;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .main-content-stack {
@@ -379,6 +381,11 @@ h6,
         padding: 1.5rem;
         clip-path: none !important;
     }
+
+    .is-fullwidth-bleed {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -435,10 +442,6 @@ h6,
 
     .modern-tile.accent-primary::before {
         background: var(--bg-brown-light);
-    }
-
-    .sidebar-box p.has-text-primary {
-        border-left: 2px solid var(--bg-brown-light);
     }
 
     .profile-fix {
