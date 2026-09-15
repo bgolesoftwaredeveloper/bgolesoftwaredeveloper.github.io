@@ -1,0 +1,1532 @@
+[
+    {
+        "filePath": "code/darwin-systems/include/darwin/cryptography/aes_128.h",
+        "fileName": "aes_128.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/cryptography/blowfish.h",
+        "fileName": "blowfish.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/cryptography/sha_256.h",
+        "fileName": "sha_256.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/dictionary/dictionary.h",
+        "fileName": "dictionary.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/dictionary"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/ball_tree.h",
+        "fileName": "ball_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/closest_pair_of_points.h",
+        "fileName": "closest_pair_of_points.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/ear_clipping.h",
+        "fileName": "ear_clipping.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/farthest_pair_of_points.h",
+        "fileName": "farthest_pair_of_points.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/graham_scan.h",
+        "fileName": "graham_scan.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/geometry/point_in_polygon.h",
+        "fileName": "point_in_polygon.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/bellman_ford.h",
+        "fileName": "bellman_ford.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/bi_directional.h",
+        "fileName": "bi_directional.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/dijkstra.h",
+        "fileName": "dijkstra.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/floyd_warshall.h",
+        "fileName": "floyd_warshall.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/kahns.h",
+        "fileName": "kahns.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/kosaraju.h",
+        "fileName": "kosaraju.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/kruskal.h",
+        "fileName": "kruskal.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/graph/prim.h",
+        "fileName": "prim.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/hash-table/concurrent_hash_table.h",
+        "fileName": "concurrent_hash_table.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/hash-table"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/hash-table/robin_hood.h",
+        "fileName": "robin_hood.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/hash-table"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/list/circular_doubly_linked_list.h",
+        "fileName": "circular_doubly_linked_list.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/list/circular_singly_linked_list.h",
+        "fileName": "circular_singly_linked_list.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/list/doubly_linked_list.h",
+        "fileName": "doubly_linked_list.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/list/linked_list.h",
+        "fileName": "linked_list.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/list/skip_list.h",
+        "fileName": "skip_list.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/boyer_moore.h",
+        "fileName": "boyer_moore.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/brute_force.h",
+        "fileName": "brute_force.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/kmp.h",
+        "fileName": "kmp.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/rabin_karp.h",
+        "fileName": "rabin_karp.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/rope.h",
+        "fileName": "rope.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/pattern-matching/z_algorithm.h",
+        "fileName": "z_algorithm.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/queue/deque.h",
+        "fileName": "deque.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/queue/fifo_queue.h",
+        "fileName": "fifo_queue.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/queue/priority_queue.h",
+        "fileName": "priority_queue.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/binary_search.h",
+        "fileName": "binary_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/breadth_first_search.h",
+        "fileName": "breadth_first_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/depth_first_search.h",
+        "fileName": "depth_first_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/exponential_search.h",
+        "fileName": "exponential_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/fibonacci_search.h",
+        "fileName": "fibonacci_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/interpolation_search.h",
+        "fileName": "interpolation_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/jump_search.h",
+        "fileName": "jump_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/searching/ternary_search.h",
+        "fileName": "ternary_search.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/bubble_sort.h",
+        "fileName": "bubble_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/counting_sort.h",
+        "fileName": "counting_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/heap_sort.h",
+        "fileName": "heap_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/insertion_sort.h",
+        "fileName": "insertion_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/merge_sort.h",
+        "fileName": "merge_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/quick_sort.h",
+        "fileName": "quick_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/radix_sort.h",
+        "fileName": "radix_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/selection_sort.h",
+        "fileName": "selection_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/shell_sort.h",
+        "fileName": "shell_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/sorting/tim_sort.h",
+        "fileName": "tim_sort.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/stack/generic_stack.h",
+        "fileName": "generic_stack.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/stack"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/avl.h",
+        "fileName": "avl.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/b_tree.h",
+        "fileName": "b_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/binary_lifting.h",
+        "fileName": "binary_lifting.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/binary_tree.h",
+        "fileName": "binary_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/binomial_heap.h",
+        "fileName": "binomial_heap.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/huffman.h",
+        "fileName": "huffman.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/interval_tree.h",
+        "fileName": "interval_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/link_cut_tree.h",
+        "fileName": "link_cut_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tree/quad_tree.h",
+        "fileName": "quad_tree.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/include/darwin/tuple/tuple.h",
+        "fileName": "tuple.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include/darwin/tuple"
+    },
+    {
+        "filePath": "code/darwin-systems/include/unity.h",
+        "fileName": "unity.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include"
+    },
+    {
+        "filePath": "code/darwin-systems/include/unity_internals.h",
+        "fileName": "unity_internals.h",
+        "fileCategory": "Header Specification",
+        "folderPath": "code/darwin-systems/include"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/aes-128/aes_128.c",
+        "fileName": "aes_128.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/aes-128"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/aes-128/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/aes-128"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/blowfish/blowfish.c",
+        "fileName": "blowfish.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/blowfish"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/blowfish/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/blowfish"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/sha-256/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/sha-256"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/cryptography/sha-256/sha_256.c",
+        "fileName": "sha_256.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/cryptography/sha-256"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/dictionary/dictionary.c",
+        "fileName": "dictionary.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/dictionary"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/dictionary/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/dictionary"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/ball-tree/ball_tree.c",
+        "fileName": "ball_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/ball-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/ball-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/ball-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/closest-pair-of-points/closest_pair_of_points.c",
+        "fileName": "closest_pair_of_points.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/closest-pair-of-points"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/closest-pair-of-points/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/closest-pair-of-points"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/ear-clipping/ear_clipping.c",
+        "fileName": "ear_clipping.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/ear-clipping"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/ear-clipping/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/ear-clipping"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/farthest-pair-of-points/farthest_pair_of_points.c",
+        "fileName": "farthest_pair_of_points.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/farthest-pair-of-points"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/farthest-pair-of-points/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/farthest-pair-of-points"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/graham-scan/graham_scan.c",
+        "fileName": "graham_scan.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/graham-scan"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/graham-scan/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/graham-scan"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/point-in-polygon/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/point-in-polygon"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/geometry/point-in-polygon/point_in_polygon.c",
+        "fileName": "point_in_polygon.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/geometry/point-in-polygon"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/bellman-ford/bellman_ford.c",
+        "fileName": "bellman_ford.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/bellman-ford"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/bellman-ford/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/bellman-ford"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/bi-directional/bi_directional.c",
+        "fileName": "bi_directional.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/bi-directional"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/bi-directional/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/bi-directional"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/dijkstra/dijkstra.c",
+        "fileName": "dijkstra.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/dijkstra"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/dijkstra/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/dijkstra"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/floyd-warshall/floyd_warshall.c",
+        "fileName": "floyd_warshall.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/floyd-warshall"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/floyd-warshall/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/floyd-warshall"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kahns/kahns.c",
+        "fileName": "kahns.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kahns"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kahns/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kahns"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kosaraju/kosaraju.c",
+        "fileName": "kosaraju.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kosaraju"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kosaraju/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kosaraju"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kruskal/kruskal.c",
+        "fileName": "kruskal.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kruskal"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/kruskal/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/kruskal"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/prim/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/graph/prim"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/graph/prim/prim.c",
+        "fileName": "prim.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/graph/prim"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/hash-table/concurrent/concurrent_hash_table.c",
+        "fileName": "concurrent_hash_table.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/hash-table/concurrent"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/hash-table/concurrent/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/hash-table/concurrent"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/hash-table/robin-hood/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/hash-table/robin-hood"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/hash-table/robin-hood/robin_hood.c",
+        "fileName": "robin_hood.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/hash-table/robin-hood"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/circular-doubly-list/circular_doubly_linked_list.c",
+        "fileName": "circular_doubly_linked_list.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/list/circular-doubly-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/circular-doubly-list/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/list/circular-doubly-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/circular-singly-list/circular_singly_linked_list.c",
+        "fileName": "circular_singly_linked_list.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/list/circular-singly-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/circular-singly-list/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/list/circular-singly-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/doubly-linked-list/doubly_linked_list.c",
+        "fileName": "doubly_linked_list.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/list/doubly-linked-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/doubly-linked-list/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/list/doubly-linked-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/singly-linked-list/linked_list.c",
+        "fileName": "linked_list.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/list/singly-linked-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/singly-linked-list/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/list/singly-linked-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/skip-list/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/list/skip-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/list/skip-list/skip_list.c",
+        "fileName": "skip_list.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/list/skip-list"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/boyer-moore/boyer_moore.c",
+        "fileName": "boyer_moore.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/boyer-moore"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/boyer-moore/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/boyer-moore"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/brute-force/brute_force.c",
+        "fileName": "brute_force.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/brute-force"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/brute-force/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/brute-force"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/kmp/kmp.c",
+        "fileName": "kmp.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/kmp"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/kmp/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/kmp"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/rabin-karp/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/rabin-karp"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/rabin-karp/rabin_karp.c",
+        "fileName": "rabin_karp.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/rabin-karp"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/rope/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/rope"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/rope/rope.c",
+        "fileName": "rope.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/rope"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/z-algorithm/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/z-algorithm"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/pattern-matching/z-algorithm/z_algorithm.c",
+        "fileName": "z_algorithm.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/pattern-matching/z-algorithm"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/deque/deque.c",
+        "fileName": "deque.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/queue/deque"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/deque/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/queue/deque"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/fifo-queue/fifo_queue.c",
+        "fileName": "fifo_queue.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/queue/fifo-queue"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/fifo-queue/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/queue/fifo-queue"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/priority-queue/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/queue/priority-queue"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/queue/priority-queue/priority_queue.c",
+        "fileName": "priority_queue.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/queue/priority-queue"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/binary-search/binary_search.c",
+        "fileName": "binary_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/binary-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/binary-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/binary-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/breadth-first-search/breadth_first_search.c",
+        "fileName": "breadth_first_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/breadth-first-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/breadth-first-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/breadth-first-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/depth-first-search/depth_first_search.c",
+        "fileName": "depth_first_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/depth-first-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/depth-first-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/depth-first-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/exponential-search/exponential_search.c",
+        "fileName": "exponential_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/exponential-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/exponential-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/exponential-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/fibonacci-search/fibonacci_search.c",
+        "fileName": "fibonacci_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/fibonacci-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/fibonacci-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/fibonacci-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/interpolation-search/interpolation_search.c",
+        "fileName": "interpolation_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/interpolation-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/interpolation-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/interpolation-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/jump-search/jump_search.c",
+        "fileName": "jump_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/jump-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/jump-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/jump-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/ternary-search/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/searching/ternary-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/searching/ternary-search/ternary_search.c",
+        "fileName": "ternary_search.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/searching/ternary-search"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/bubble-sort/bubble_sort.c",
+        "fileName": "bubble_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/bubble-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/bubble-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/bubble-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/counting-sort/counting_sort.c",
+        "fileName": "counting_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/counting-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/counting-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/counting-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/heap-sort/heap_sort.c",
+        "fileName": "heap_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/heap-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/heap-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/heap-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/insertion-sort/insertion_sort.c",
+        "fileName": "insertion_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/insertion-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/insertion-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/insertion-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/merge-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/merge-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/merge-sort/merge_sort.c",
+        "fileName": "merge_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/merge-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/quick-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/quick-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/quick-sort/quick_sort.c",
+        "fileName": "quick_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/quick-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/radix-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/radix-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/radix-sort/radix_sort.c",
+        "fileName": "radix_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/radix-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/selection-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/selection-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/selection-sort/selection_sort.c",
+        "fileName": "selection_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/selection-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/shell-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/shell-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/shell-sort/shell_sort.c",
+        "fileName": "shell_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/shell-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/tim-sort/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/tim-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/sorting/tim-sort/tim_sort.c",
+        "fileName": "tim_sort.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/sorting/tim-sort"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/stack/generic-stack/generic_stack.c",
+        "fileName": "generic_stack.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/stack/generic-stack"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/stack/generic-stack/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/stack/generic-stack"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/avl/avl.c",
+        "fileName": "avl.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/avl"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/avl/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/avl"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/b-tree/b_tree.c",
+        "fileName": "b_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/b-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/b-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/b-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binary-lifting/binary_lifting.c",
+        "fileName": "binary_lifting.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binary-lifting"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binary-lifting/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binary-lifting"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binary-tree/binary_tree.c",
+        "fileName": "binary_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binary-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binary-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binary-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binomial-heap/binomial_heap.c",
+        "fileName": "binomial_heap.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binomial-heap"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/binomial-heap/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/binomial-heap"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/huffman/huffman.c",
+        "fileName": "huffman.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/huffman"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/huffman/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/huffman"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/interval-tree/interval_tree.c",
+        "fileName": "interval_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/interval-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/interval-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/interval-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/link-cut-tree/link_cut_tree.c",
+        "fileName": "link_cut_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/link-cut-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/link-cut-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/link-cut-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/quad-tree/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tree/quad-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tree/quad-tree/quad_tree.c",
+        "fileName": "quad_tree.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tree/quad-tree"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tuple/main.c",
+        "fileName": "main.c",
+        "fileCategory": "Runtime Entry Point",
+        "folderPath": "code/darwin-systems/src/darwin/tuple"
+    },
+    {
+        "filePath": "code/darwin-systems/src/darwin/tuple/tuple.c",
+        "fileName": "tuple.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src/darwin/tuple"
+    },
+    {
+        "filePath": "code/darwin-systems/src/unity.c",
+        "fileName": "unity.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/src"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/cryptography/aes_128_unit_tests.c",
+        "fileName": "aes_128_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/cryptography/blowfish_unit_tests.c",
+        "fileName": "blowfish_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/cryptography/sha_256_unit_tests.c",
+        "fileName": "sha_256_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/cryptography"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/dictionary/dictionary_unit_tests.c",
+        "fileName": "dictionary_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/dictionary"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/ball_tree_unit_tests.c",
+        "fileName": "ball_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/closest_pair_of_points_unit_tests.c",
+        "fileName": "closest_pair_of_points_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/ear_clipping_unit_tests.c",
+        "fileName": "ear_clipping_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/farthest_pair_of_points_unit_tests.c",
+        "fileName": "farthest_pair_of_points_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/graham_scan_unit_tests.c",
+        "fileName": "graham_scan_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/geometry/point_in_polygon_unit_tests.c",
+        "fileName": "point_in_polygon_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/geometry"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/bellman_ford_unit_tests.c",
+        "fileName": "bellman_ford_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/bi_directional_unit_tests.c",
+        "fileName": "bi_directional_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/dijkstra_unit_tests.c",
+        "fileName": "dijkstra_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/floyd_warshall_unit_tests.c",
+        "fileName": "floyd_warshall_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/kahns_unit_tests.c",
+        "fileName": "kahns_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/kosaraju_unit_tests.c",
+        "fileName": "kosaraju_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/kruskal_unit_tests.c",
+        "fileName": "kruskal_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/graph/prim_unit_tests.c",
+        "fileName": "prim_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/graph"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/hash-table/concurrent_hash_table_unit_tests.c",
+        "fileName": "concurrent_hash_table_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/hash-table"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/hash-table/robin_hood_unit_tests.c",
+        "fileName": "robin_hood_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/hash-table"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/list/circular_doubly_list_unit_tests.c",
+        "fileName": "circular_doubly_list_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/list/circular_singly_list_unit_tests.c",
+        "fileName": "circular_singly_list_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/list/doubly_list_unit_tests.c",
+        "fileName": "doubly_list_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/list/linked_list_unit_tests.c",
+        "fileName": "linked_list_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/list/skip_list_unit_tests.c",
+        "fileName": "skip_list_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/list"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/boyer_moore_unit_tests.c",
+        "fileName": "boyer_moore_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/brute_force_unit_tests.c",
+        "fileName": "brute_force_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/kmp_unit_tests.c",
+        "fileName": "kmp_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/rabin_karp_unit_tests.c",
+        "fileName": "rabin_karp_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/rope_unit_tests.c",
+        "fileName": "rope_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/pattern-matching/z_algorithm_unit_tests.c",
+        "fileName": "z_algorithm_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/pattern-matching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/queue/deque_unit_tests.c",
+        "fileName": "deque_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/queue/fifo_queue_unit_tests.c",
+        "fileName": "fifo_queue_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/queue/priority_queue_unit_tests.c",
+        "fileName": "priority_queue_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/queue"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/binary_search_unit_tests.c",
+        "fileName": "binary_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/breadth_first_search_unit_tests.c",
+        "fileName": "breadth_first_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/depth_first_search_unit_tests.c",
+        "fileName": "depth_first_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/exponential_search_unit_tests.c",
+        "fileName": "exponential_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/fibonacci_search_unit_tests.c",
+        "fileName": "fibonacci_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/interpolation_search_unit_tests.c",
+        "fileName": "interpolation_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/jump_search_unit_tests.c",
+        "fileName": "jump_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/searching/ternary_search_unit_tests.c",
+        "fileName": "ternary_search_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/searching"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/bubble_sort_unit_tests.c",
+        "fileName": "bubble_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/counting_sort_unit_tests.c",
+        "fileName": "counting_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/heap_sort_unit_tests.c",
+        "fileName": "heap_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/insertion_sort_unit_tests.c",
+        "fileName": "insertion_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/merge_sort_unit_tests.c",
+        "fileName": "merge_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/quick_sort_unit_tests.c",
+        "fileName": "quick_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/radix_sort_unit_tests.c",
+        "fileName": "radix_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/selection_sort_unit_tests.c",
+        "fileName": "selection_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/shell_sort_unit_tests.c",
+        "fileName": "shell_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/sorting/tim_sort_unit_tests.c",
+        "fileName": "tim_sort_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/sorting"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/stack/generic_stack_unit_tests.c",
+        "fileName": "generic_stack_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/stack"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/avl_unit_tests.c",
+        "fileName": "avl_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/b_tree_unit_tests.c",
+        "fileName": "b_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/binary_lifting_unit_tests.c",
+        "fileName": "binary_lifting_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/binary_tree_unit_tests.c",
+        "fileName": "binary_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/binomial_unit_tests.c",
+        "fileName": "binomial_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/huffman_unit_tests.c",
+        "fileName": "huffman_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/interval_tree_unit_tests.c",
+        "fileName": "interval_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/link_cut_tree_unit_tests.c",
+        "fileName": "link_cut_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tree/quad_tree_unit_tests.c",
+        "fileName": "quad_tree_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tree"
+    },
+    {
+        "filePath": "code/darwin-systems/tests/darwin/tuple/tuple_unit_tests.c",
+        "fileName": "tuple_unit_tests.c",
+        "fileCategory": "Implementation Module",
+        "folderPath": "code/darwin-systems/tests/darwin/tuple"
+    }
+]

@@ -1,0 +1,20 @@
+# --- Executables & Binaries ---
+# Ignore the bin folder where your compiled tests live
+bin/
+*.exe
+*.out
+*.app
+
+# --- Build Artifacts ---
+# Ignore the build folder if you use CMake or other build tools
+build/
+*.o
+*.obj
+
+# --- macOS System Files ---
+.DS_Store
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+*.swp
