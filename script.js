@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     }
 
-    // 2. Fetch & Initialize Python Manifest
     try {
         const pythonManifestResponse = await fetch("code/python_manifest.json")
         
@@ -63,7 +62,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     }
 
-    // Hide active code boxes without collapsing outer trees.
     resetCViewerState()
     resetPythonViewerState()
     resetGolangViewerState()
