@@ -296,6 +296,48 @@ h6,
     background: linear-gradient(90deg, var(--brown-primary), var(--system-blue));
 }
 
+/* Code Viewer Container Fixes */
+.code-viewer-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.code-viewer-body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.code-box-mobile {
+    background: rgba(3, 5, 8, 0.95);
+    min-height: 400px;
+    max-height: 750px;
+    height: 500px;
+    overflow: auto;
+    border: none;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.code-box-mobile pre {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.code-box-mobile code {
+    display: block;
+    padding: 1rem;
+    background: transparent;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: pre;
+}
+
 .sidebar-column {
     align-self: start;
 }
