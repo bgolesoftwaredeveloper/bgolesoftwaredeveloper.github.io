@@ -1,0 +1,17 @@
+# Ignore PyCharm settings folders anywhere in the repository
+**/.idea/
+
+# Ignore Python cache folders anywhere in the repository
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore Virtual Environments anywhere in the repository
+**/venv/
+**/.venv/
+**/env/
+
+# Operating System junk files
+.DS_Store
+Thumbs.db
