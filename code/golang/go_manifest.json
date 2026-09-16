@@ -1,0 +1,884 @@
+[
+  {
+    "filePath": "edward-fredkin/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "edward-fredkin/cmd/demo"
+  },
+  {
+    "filePath": "edward-fredkin/trie/trie.go",
+    "fileName": "trie.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "edward-fredkin/trie"
+  },
+  {
+    "filePath": "edward-fredkin/trie/trie_test.go",
+    "fileName": "trie_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "edward-fredkin/trie"
+  },
+  {
+    "filePath": "a-star/astar/a_star.go",
+    "fileName": "a_star.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "a-star/astar"
+  },
+  {
+    "filePath": "a-star/astar/a_star_test.go",
+    "fileName": "a_star_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "a-star/astar"
+  },
+  {
+    "filePath": "a-star/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "a-star/cmd/demo"
+  },
+  {
+    "filePath": "linked-list/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "linked-list/cmd/demo"
+  },
+  {
+    "filePath": "linked-list/linkedlist/list.go",
+    "fileName": "list.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "linked-list/linkedlist"
+  },
+  {
+    "filePath": "linked-list/linkedlist/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "linked-list/linkedlist"
+  },
+  {
+    "filePath": "linked-list/linkedlist/list_test.go",
+    "fileName": "list_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "linked-list/linkedlist"
+  },
+  {
+    "filePath": "kahns-topological-sort/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "kahns-topological-sort/cmd/demo"
+  },
+  {
+    "filePath": "kahns-topological-sort/kahnstopologicalsort/kahns_topological_sort_test.go",
+    "fileName": "kahns_topological_sort_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "kahns-topological-sort/kahnstopologicalsort"
+  },
+  {
+    "filePath": "kahns-topological-sort/kahnstopologicalsort/kahns_topological_sort.go",
+    "fileName": "kahns_topological_sort.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "kahns-topological-sort/kahnstopologicalsort"
+  },
+  {
+    "filePath": "bellman-ford/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "bellman-ford/cmd/demo"
+  },
+  {
+    "filePath": "bellman-ford/bellmanford/bellman_ford.go",
+    "fileName": "bellman_ford.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "bellman-ford/bellmanford"
+  },
+  {
+    "filePath": "bellman-ford/bellmanford/bellman_ford_test.go",
+    "fileName": "bellman_ford_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "bellman-ford/bellmanford"
+  },
+  {
+    "filePath": "avl-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "avl-tree/cmd/demo"
+  },
+  {
+    "filePath": "avl-tree/avltree/avl_tree.go",
+    "fileName": "avl_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "avl-tree/avltree"
+  },
+  {
+    "filePath": "avl-tree/avltree/rotations.go",
+    "fileName": "rotations.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "avl-tree/avltree"
+  },
+  {
+    "filePath": "avl-tree/avltree/insert_delete.go",
+    "fileName": "insert_delete.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "avl-tree/avltree"
+  },
+  {
+    "filePath": "avl-tree/avltree/avl_tree_test.go",
+    "fileName": "avl_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "avl-tree/avltree"
+  },
+  {
+    "filePath": "avl-tree/avltree/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "avl-tree/avltree"
+  },
+  {
+    "filePath": "lru-cache/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "lru-cache/cmd/demo"
+  },
+  {
+    "filePath": "lru-cache/lrucache/list.go",
+    "fileName": "list.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "lru-cache/lrucache"
+  },
+  {
+    "filePath": "lru-cache/lrucache/eviction.go",
+    "fileName": "eviction.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "lru-cache/lrucache"
+  },
+  {
+    "filePath": "lru-cache/lrucache/cache_test.go",
+    "fileName": "cache_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "lru-cache/lrucache"
+  },
+  {
+    "filePath": "lru-cache/lrucache/cache.go",
+    "fileName": "cache.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "lru-cache/lrucache"
+  },
+  {
+    "filePath": "lru-cache/lrucache/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "lru-cache/lrucache"
+  },
+  {
+    "filePath": "farthest-pair-of-points/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "farthest-pair-of-points/cmd/demo"
+  },
+  {
+    "filePath": "farthest-pair-of-points/farthestpairofpoints/farthest_pair_of_points.go",
+    "fileName": "farthest_pair_of_points.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "farthest-pair-of-points/farthestpairofpoints"
+  },
+  {
+    "filePath": "farthest-pair-of-points/farthestpairofpoints/farthest_pair_of_points_test.go",
+    "fileName": "farthest_pair_of_points_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "farthest-pair-of-points/farthestpairofpoints"
+  },
+  {
+    "filePath": "bloom-filter/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "bloom-filter/cmd/demo"
+  },
+  {
+    "filePath": "bloom-filter/bloomfilter/bloom_filter.go",
+    "fileName": "bloom_filter.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "bloom-filter/bloomfilter"
+  },
+  {
+    "filePath": "bloom-filter/bloomfilter/bloom_filter_test.go",
+    "fileName": "bloom_filter_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "bloom-filter/bloomfilter"
+  },
+  {
+    "filePath": "circular-singly-linked-list/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "circular-singly-linked-list/cmd/demo"
+  },
+  {
+    "filePath": "circular-singly-linked-list/circularsinglylinkedlist/list.go",
+    "fileName": "list.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-singly-linked-list/circularsinglylinkedlist"
+  },
+  {
+    "filePath": "circular-singly-linked-list/circularsinglylinkedlist/operations.go",
+    "fileName": "operations.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-singly-linked-list/circularsinglylinkedlist"
+  },
+  {
+    "filePath": "circular-singly-linked-list/circularsinglylinkedlist/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-singly-linked-list/circularsinglylinkedlist"
+  },
+  {
+    "filePath": "circular-singly-linked-list/circularsinglylinkedlist/list_test.go",
+    "fileName": "list_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "circular-singly-linked-list/circularsinglylinkedlist"
+  },
+  {
+    "filePath": "floyd-warshall/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "floyd-warshall/cmd/demo"
+  },
+  {
+    "filePath": "floyd-warshall/floydwarshall/floyd_warshall_test.go",
+    "fileName": "floyd_warshall_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "floyd-warshall/floydwarshall"
+  },
+  {
+    "filePath": "floyd-warshall/floydwarshall/floyd_warshall.go",
+    "fileName": "floyd_warshall.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "floyd-warshall/floydwarshall"
+  },
+  {
+    "filePath": "quad-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "quad-tree/cmd/demo"
+  },
+  {
+    "filePath": "quad-tree/quadtree/quad_tree.go",
+    "fileName": "quad_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "quad-tree/quadtree"
+  },
+  {
+    "filePath": "quad-tree/quadtree/quad_tree_test.go",
+    "fileName": "quad_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "quad-tree/quadtree"
+  },
+  {
+    "filePath": "pairing-heap/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "pairing-heap/cmd/demo"
+  },
+  {
+    "filePath": "pairing-heap/pairingheap/pairing_heap_test.go",
+    "fileName": "pairing_heap_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "pairing-heap/pairingheap"
+  },
+  {
+    "filePath": "pairing-heap/pairingheap/pairing_heap.go",
+    "fileName": "pairing_heap.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "pairing-heap/pairingheap"
+  },
+  {
+    "filePath": "all-pairs-shortest-path/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "all-pairs-shortest-path/cmd/demo"
+  },
+  {
+    "filePath": "all-pairs-shortest-path/floydwarshall/floyd_warshall_test.go",
+    "fileName": "floyd_warshall_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "all-pairs-shortest-path/floydwarshall"
+  },
+  {
+    "filePath": "all-pairs-shortest-path/floydwarshall/floyd_warshall.go",
+    "fileName": "floyd_warshall.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "all-pairs-shortest-path/floydwarshall"
+  },
+  {
+    "filePath": "bi-directional/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "bi-directional/cmd/demo"
+  },
+  {
+    "filePath": "bi-directional/bidirectional/bi_directional.go",
+    "fileName": "bi_directional.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "bi-directional/bidirectional"
+  },
+  {
+    "filePath": "bi-directional/bidirectional/bi_directional_test.go",
+    "fileName": "bi_directional_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "bi-directional/bidirectional"
+  },
+  {
+    "filePath": "monotonic-chain-convex-hull/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "monotonic-chain-convex-hull/cmd/demo"
+  },
+  {
+    "filePath": "monotonic-chain-convex-hull/monotonicchainconvexhull/monotonic_chain_convex_hull.go",
+    "fileName": "monotonic_chain_convex_hull.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "monotonic-chain-convex-hull/monotonicchainconvexhull"
+  },
+  {
+    "filePath": "monotonic-chain-convex-hull/monotonicchainconvexhull/monotonic_chain_convex_hull_test.go",
+    "fileName": "monotonic_chain_convex_hull_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "monotonic-chain-convex-hull/monotonicchainconvexhull"
+  },
+  {
+    "filePath": "eytzinger-level-order/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "eytzinger-level-order/cmd/demo"
+  },
+  {
+    "filePath": "eytzinger-level-order/eytzingerlevelorder/eytzinger_level_order.go",
+    "fileName": "eytzinger_level_order.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "eytzinger-level-order/eytzingerlevelorder"
+  },
+  {
+    "filePath": "eytzinger-level-order/eytzingerlevelorder/eytzinger_level_order_test.go",
+    "fileName": "eytzinger_level_order_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "eytzinger-level-order/eytzingerlevelorder"
+  },
+  {
+    "filePath": "b-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "b-tree/cmd/demo"
+  },
+  {
+    "filePath": "b-tree/btree/b_tree.go",
+    "fileName": "b_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "b-tree/btree"
+  },
+  {
+    "filePath": "b-tree/btree/b_tree_test.go",
+    "fileName": "b_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "b-tree/btree"
+  },
+  {
+    "filePath": "aks-primality/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "aks-primality/cmd/demo"
+  },
+  {
+    "filePath": "aks-primality/aksprimality/aks_primality.go",
+    "fileName": "aks_primality.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "aks-primality/aksprimality"
+  },
+  {
+    "filePath": "aks-primality/aksprimality/aks_primality_test.go",
+    "fileName": "aks_primality_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "aks-primality/aksprimality"
+  },
+  {
+    "filePath": "kruskal-minimum-spanning-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "kruskal-minimum-spanning-tree/cmd/demo"
+  },
+  {
+    "filePath": "kruskal-minimum-spanning-tree/kruskalminimumspanningtree/kruskal_minimum_spanning_tree_test.go",
+    "fileName": "kruskal_minimum_spanning_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "kruskal-minimum-spanning-tree/kruskalminimumspanningtree"
+  },
+  {
+    "filePath": "kruskal-minimum-spanning-tree/kruskalminimumspanningtree/kruskal_minimum_spanning_tree.go",
+    "fileName": "kruskal_minimum_spanning_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "kruskal-minimum-spanning-tree/kruskalminimumspanningtree"
+  },
+  {
+    "filePath": "boyer-moore/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "boyer-moore/cmd/demo"
+  },
+  {
+    "filePath": "boyer-moore/boyermoore/boyer_moore.go",
+    "fileName": "boyer_moore.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "boyer-moore/boyermoore"
+  },
+  {
+    "filePath": "boyer-moore/boyermoore/boyer_moore_test.go",
+    "fileName": "boyer_moore_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "boyer-moore/boyermoore"
+  },
+  {
+    "filePath": "priority-queue/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "priority-queue/cmd/demo"
+  },
+  {
+    "filePath": "priority-queue/priorityqueue/comparator.go",
+    "fileName": "comparator.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "priority-queue/priorityqueue"
+  },
+  {
+    "filePath": "priority-queue/priorityqueue/queue.go",
+    "fileName": "queue.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "priority-queue/priorityqueue"
+  },
+  {
+    "filePath": "priority-queue/priorityqueue/queue_test.go",
+    "fileName": "queue_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "priority-queue/priorityqueue"
+  },
+  {
+    "filePath": "priority-queue/priorityqueue/internal_heap.go",
+    "fileName": "internal_heap.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "priority-queue/priorityqueue"
+  },
+  {
+    "filePath": "priority-queue/priorityqueue/item.go",
+    "fileName": "item.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "priority-queue/priorityqueue"
+  },
+  {
+    "filePath": "b-plus-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "b-plus-tree/cmd/demo"
+  },
+  {
+    "filePath": "b-plus-tree/bplustree/b_plus_tree.go",
+    "fileName": "b_plus_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "b-plus-tree/bplustree"
+  },
+  {
+    "filePath": "b-plus-tree/bplustree/b_plus_tree_test.go",
+    "fileName": "b_plus_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "b-plus-tree/bplustree"
+  },
+  {
+    "filePath": "contraction-hierachies/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "contraction-hierachies/cmd/demo"
+  },
+  {
+    "filePath": "contraction-hierachies/contractionhierachies/contraction_hierachies.go",
+    "fileName": "contraction_hierachies.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "contraction-hierachies/contractionhierachies"
+  },
+  {
+    "filePath": "contraction-hierachies/contractionhierachies/contraction_hierachies_test.go",
+    "fileName": "contraction_hierachies_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "contraction-hierachies/contractionhierachies"
+  },
+  {
+    "filePath": "open-addressed-hash-table/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "open-addressed-hash-table/cmd/demo"
+  },
+  {
+    "filePath": "open-addressed-hash-table/openaddressedhashtable/table_test.go",
+    "fileName": "table_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "open-addressed-hash-table/openaddressedhashtable"
+  },
+  {
+    "filePath": "open-addressed-hash-table/openaddressedhashtable/entry.go",
+    "fileName": "entry.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "open-addressed-hash-table/openaddressedhashtable"
+  },
+  {
+    "filePath": "open-addressed-hash-table/openaddressedhashtable/resize.go",
+    "fileName": "resize.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "open-addressed-hash-table/openaddressedhashtable"
+  },
+  {
+    "filePath": "open-addressed-hash-table/openaddressedhashtable/hasher.go",
+    "fileName": "hasher.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "open-addressed-hash-table/openaddressedhashtable"
+  },
+  {
+    "filePath": "open-addressed-hash-table/openaddressedhashtable/table.go",
+    "fileName": "table.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "open-addressed-hash-table/openaddressedhashtable"
+  },
+  {
+    "filePath": "doubly-linked-list/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "doubly-linked-list/cmd/demo"
+  },
+  {
+    "filePath": "doubly-linked-list/doublylinkedlist/doubly_linked_list.go",
+    "fileName": "doubly_linked_list.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "doubly-linked-list/doublylinkedlist"
+  },
+  {
+    "filePath": "doubly-linked-list/doublylinkedlist/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "doubly-linked-list/doublylinkedlist"
+  },
+  {
+    "filePath": "doubly-linked-list/doublylinkedlist/doubly_linked_list_test.go",
+    "fileName": "doubly_linked_list_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "doubly-linked-list/doublylinkedlist"
+  },
+  {
+    "filePath": "graham-scan/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "graham-scan/cmd/demo"
+  },
+  {
+    "filePath": "graham-scan/grahamscan/graham_scan.go",
+    "fileName": "graham_scan.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "graham-scan/grahamscan"
+  },
+  {
+    "filePath": "graham-scan/grahamscan/graham_scan_test.go",
+    "fileName": "graham_scan_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "graham-scan/grahamscan"
+  },
+  {
+    "filePath": "circular-doubly-linked-list/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "circular-doubly-linked-list/cmd/demo"
+  },
+  {
+    "filePath": "circular-doubly-linked-list/circulardoublylinkedlist/list.go",
+    "fileName": "list.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-doubly-linked-list/circulardoublylinkedlist"
+  },
+  {
+    "filePath": "circular-doubly-linked-list/circulardoublylinkedlist/iterator.go",
+    "fileName": "iterator.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-doubly-linked-list/circulardoublylinkedlist"
+  },
+  {
+    "filePath": "circular-doubly-linked-list/circulardoublylinkedlist/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "circular-doubly-linked-list/circulardoublylinkedlist"
+  },
+  {
+    "filePath": "circular-doubly-linked-list/circulardoublylinkedlist/list_test.go",
+    "fileName": "list_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "circular-doubly-linked-list/circulardoublylinkedlist"
+  },
+  {
+    "filePath": "space-savings/spacesavings/space_savings_test.go",
+    "fileName": "space_savings_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "space-savings/spacesavings"
+  },
+  {
+    "filePath": "space-savings/spacesavings/space_savings.go",
+    "fileName": "space_savings.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "space-savings/spacesavings"
+  },
+  {
+    "filePath": "space-savings/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "space-savings/cmd/demo"
+  },
+  {
+    "filePath": "closest-pair-divide-and-conquer/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "closest-pair-divide-and-conquer/cmd/demo"
+  },
+  {
+    "filePath": "closest-pair-divide-and-conquer/closestpairdivideandconquer/closest_pair_divide_and_conquer.go",
+    "fileName": "closest_pair_divide_and_conquer.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "closest-pair-divide-and-conquer/closestpairdivideandconquer"
+  },
+  {
+    "filePath": "closest-pair-divide-and-conquer/closestpairdivideandconquer/closest_pair_divide_and_conquer_test.go",
+    "fileName": "closest_pair_divide_and_conquer_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "closest-pair-divide-and-conquer/closestpairdivideandconquer"
+  },
+  {
+    "filePath": "radix-sort/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "radix-sort/cmd/demo"
+  },
+  {
+    "filePath": "radix-sort/radixsort/radix_sort_test.go",
+    "fileName": "radix_sort_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "radix-sort/radixsort"
+  },
+  {
+    "filePath": "radix-sort/radixsort/radix_sort.go",
+    "fileName": "radix_sort.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "radix-sort/radixsort"
+  },
+  {
+    "filePath": "ball-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "ball-tree/cmd/demo"
+  },
+  {
+    "filePath": "ball-tree/balltree/heap.go",
+    "fileName": "heap.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "ball-tree/balltree"
+  },
+  {
+    "filePath": "ball-tree/balltree/distance.go",
+    "fileName": "distance.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "ball-tree/balltree"
+  },
+  {
+    "filePath": "ball-tree/balltree/ball_tree.go",
+    "fileName": "ball_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "ball-tree/balltree"
+  },
+  {
+    "filePath": "ball-tree/balltree/ball_tree_test.go",
+    "fileName": "ball_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "ball-tree/balltree"
+  },
+  {
+    "filePath": "ball-tree/balltree/node.go",
+    "fileName": "node.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "ball-tree/balltree"
+  },
+  {
+    "filePath": "treap/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "treap/cmd/demo"
+  },
+  {
+    "filePath": "treap/treap/treap_test.go",
+    "fileName": "treap_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "treap/treap"
+  },
+  {
+    "filePath": "treap/treap/treap.go",
+    "fileName": "treap.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "treap/treap"
+  },
+  {
+    "filePath": "concurrent-hash-table/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "concurrent-hash-table/cmd/demo"
+  },
+  {
+    "filePath": "concurrent-hash-table/concurrenthashtable/concurrent_hash_table.go",
+    "fileName": "concurrent_hash_table.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "concurrent-hash-table/concurrenthashtable"
+  },
+  {
+    "filePath": "concurrent-hash-table/concurrenthashtable/concurrent_hash_table_test.go",
+    "fileName": "concurrent_hash_table_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "concurrent-hash-table/concurrenthashtable"
+  },
+  {
+    "filePath": "go-lomb-coded-set/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "go-lomb-coded-set/cmd/demo"
+  },
+  {
+    "filePath": "go-lomb-coded-set/golombcodedset/arithmetic.go",
+    "fileName": "arithmetic.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "go-lomb-coded-set/golombcodedset"
+  },
+  {
+    "filePath": "go-lomb-coded-set/golombcodedset/go_lomb_coded_set.go",
+    "fileName": "go_lomb_coded_set.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "go-lomb-coded-set/golombcodedset"
+  },
+  {
+    "filePath": "go-lomb-coded-set/golombcodedset/bit_stream_writer.go",
+    "fileName": "bit_stream_writer.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "go-lomb-coded-set/golombcodedset"
+  },
+  {
+    "filePath": "go-lomb-coded-set/golombcodedset/bit_stream_reader.go",
+    "fileName": "bit_stream_reader.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "go-lomb-coded-set/golombcodedset"
+  },
+  {
+    "filePath": "go-lomb-coded-set/golombcodedset/go_lomb_coded_set_test.go",
+    "fileName": "go_lomb_coded_set_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "go-lomb-coded-set/golombcodedset"
+  },
+  {
+    "filePath": "go-octant/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "go-octant/cmd/demo"
+  },
+  {
+    "filePath": "go-octant/octant/octant.go",
+    "fileName": "octant.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "go-octant/octant"
+  },
+  {
+    "filePath": "go-octant/octant/octant_test.go",
+    "fileName": "octant_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "go-octant/octant"
+  },
+  {
+    "filePath": "link-cut-tree/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "link-cut-tree/cmd/demo"
+  },
+  {
+    "filePath": "link-cut-tree/linkcuttree/link_cut_tree_test.go",
+    "fileName": "link_cut_tree_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "link-cut-tree/linkcuttree"
+  },
+  {
+    "filePath": "link-cut-tree/linkcuttree/link_cut_tree.go",
+    "fileName": "link_cut_tree.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "link-cut-tree/linkcuttree"
+  },
+  {
+    "filePath": "fifo-queue/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "fifo-queue/cmd/demo"
+  },
+  {
+    "filePath": "fifo-queue/fifoqueue/fifo_queue_test.go",
+    "fileName": "fifo_queue_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "fifo-queue/fifoqueue"
+  },
+  {
+    "filePath": "fifo-queue/fifoqueue/fifo_queue.go",
+    "fileName": "fifo_queue.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "fifo-queue/fifoqueue"
+  },
+  {
+    "filePath": "distributed-hash-table/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "distributed-hash-table/cmd/demo"
+  },
+  {
+    "filePath": "distributed-hash-table/distributedhashtable/distributed_hash_table_test.go",
+    "fileName": "distributed_hash_table_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "distributed-hash-table/distributedhashtable"
+  },
+  {
+    "filePath": "distributed-hash-table/distributedhashtable/distributed_hash_table.go",
+    "fileName": "distributed_hash_table.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "distributed-hash-table/distributedhashtable"
+  },
+  {
+    "filePath": "rabin-karp/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "rabin-karp/cmd/demo"
+  },
+  {
+    "filePath": "rabin-karp/rabinkarp/rabin_karp_test.go",
+    "fileName": "rabin_karp_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "rabin-karp/rabinkarp"
+  },
+  {
+    "filePath": "rabin-karp/rabinkarp/rabin_karp.go",
+    "fileName": "rabin_karp.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "rabin-karp/rabinkarp"
+  },
+  {
+    "filePath": "greedy-single-source-shortest-path/cmd/demo/main.go",
+    "fileName": "main.go",
+    "fileCategory": "Package Entry Point",
+    "folderPath": "greedy-single-source-shortest-path/cmd/demo"
+  },
+  {
+    "filePath": "greedy-single-source-shortest-path/dijkstra/dijkstra.go",
+    "fileName": "dijkstra.go",
+    "fileCategory": "Implementation Module",
+    "folderPath": "greedy-single-source-shortest-path/dijkstra"
+  },
+  {
+    "filePath": "greedy-single-source-shortest-path/dijkstra/dijkstra_test.go",
+    "fileName": "dijkstra_test.go",
+    "fileCategory": "Test Module",
+    "folderPath": "greedy-single-source-shortest-path/dijkstra"
+  }
+]
