@@ -372,7 +372,7 @@
                         </div>
                     </article>
 
-                    <!-- Interactive Repository Tree & Full-Width Code Viewer Section -->
+                    <!-- Interactive C Repository Tree & Full-Width Code Viewer Section -->
                     <article class="modern-tile accent-primary grid-full-width">
                         <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile" style="border-bottom: 1px solid var(--border-color);">
                             <div class="is-flex is-align-items-center">
@@ -418,6 +418,57 @@
                         <button class="tag is-white has-text-black mono is-size-6 mt-2 mt-0-tablet button is-fullwidth" style="cursor: pointer;" onclick="collapseAndClear()">
                             <span class="icon is-small">
                                 <i class="fas fa-microchip"></i>
+                            </span>
+                            <span>collapse/clear</span>
+                        </button>
+                    </article>
+
+                    <!-- Interactive Python Repository Tree & Full-Width Code Viewer Section -->
+                    <article class="modern-tile accent-primary grid-full-width">
+                        <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile" style="border-bottom: 1px solid var(--border-color);">
+                            <div class="is-flex is-align-items-center">
+                                <span class="icon has-text-warning mr-3 is-size-4"><i class="fab fa-python"></i></span>
+                                <div>
+                                    <h4 class="title is-5 mb-1 has-text-white">Python Repository</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="is-size-6 mb-4 has-text-grey-light px-4 px-3-mobile">
+                            <strong>Browse the repository directory layout below. Clicking any file will dynamically open its contents in the viewer below.</strong>
+                        </p>
+
+                        <!-- Repository Directory Tree Box -->
+                        <div class="mb-4 px-4 px-2-mobile">
+                            <div class="py-2 px-3 mb-2" style="background: rgba(5, 7, 11, 0.9); border: 1px solid var(--border-color);">
+                                <span class="mono is-size-7 has-text-warning is-flex is-align-items-center">
+                                    <i class="fas fa-folder-tree mr-2"></i> Repository Structure
+                                </span>
+                            </div>
+                            <div id="python-repository-tree-container" class="mono is-size-7" style="background: rgba(3, 5, 8, 0.95); border: 1px solid var(--border-color); max-height: 400px; overflow-y: auto;">
+                                <!-- Tree items rendered via JavaScript -->
+                            </div>
+                        </div>
+
+                        <!-- Full-Width Active File Viewer Container -->
+                        <div class="mb-0 code-viewer-wrapper">
+                            <div class="is-flex is-justify-content-space-between is-align-items-center py-2 px-4 code-header-mobile" style="background: rgba(5, 7, 11, 0.9); border-left: none; border-right: none; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+                                <span id="python-active-file-label" class="mono is-size-7 has-text-warning is-flex is-align-items-center">
+                                    <i class="fas fa-file-code mr-2"></i> No file selected
+                                </span>
+                            </div>
+                            <div class="mb-0 code-viewer-body">
+                                <div class="code-box-mobile">
+                                    <pre><code class="language-python" id="python-active-code-container"># Click a file from the repository structure above to view its full source code implementation here.</code></pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <button class="tag is-white has-text-black mono is-size-6 mt-2 mt-0-tablet button is-fullwidth" style="cursor: pointer;" onclick="collapseAndClearPython()">
+                            <span class="icon is-small">
+                                <i class="fab fa-python"></i>
                             </span>
                             <span>collapse/clear</span>
                         </button>

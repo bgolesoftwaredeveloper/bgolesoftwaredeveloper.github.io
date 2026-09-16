@@ -1,0 +1,590 @@
+[
+    {
+        "filePath": "code/python-mac-os/0-1-knapsack/knapsack_01.py",
+        "fileName": "knapsack_01.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "0-1-knapsack"
+    },
+    {
+        "filePath": "code/python-mac-os/0-1-knapsack/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "0-1-knapsack"
+    },
+    {
+        "filePath": "code/python-mac-os/0-1-knapsack/test_knapsack.py",
+        "fileName": "test_knapsack.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "0-1-knapsack"
+    },
+    {
+        "filePath": "code/python-mac-os/2-3-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "2-3-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/2-3-tree/test_two_three_tree.py",
+        "fileName": "test_two_three_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "2-3-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/2-3-tree/two_three_tree.py",
+        "fileName": "two_three_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "2-3-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/aes-gcm/aes_gcm.py",
+        "fileName": "aes_gcm.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "aes-gcm"
+    },
+    {
+        "filePath": "code/python-mac-os/aes-gcm/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "aes-gcm"
+    },
+    {
+        "filePath": "code/python-mac-os/aes-gcm/test_aes_gcm.py",
+        "fileName": "test_aes_gcm.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "aes-gcm"
+    },
+    {
+        "filePath": "code/python-mac-os/articulation-cut-vertex/articulation_cut_vertex.py",
+        "fileName": "articulation_cut_vertex.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "articulation-cut-vertex"
+    },
+    {
+        "filePath": "code/python-mac-os/articulation-cut-vertex/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "articulation-cut-vertex"
+    },
+    {
+        "filePath": "code/python-mac-os/articulation-cut-vertex/test_articulation_cut_vertex.py",
+        "fileName": "test_articulation_cut_vertex.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "articulation-cut-vertex"
+    },
+    {
+        "filePath": "code/python-mac-os/conways/conways.py",
+        "fileName": "conways.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "conways"
+    },
+    {
+        "filePath": "code/python-mac-os/conways/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "conways"
+    },
+    {
+        "filePath": "code/python-mac-os/conways/test_conways.py",
+        "fileName": "test_conways.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "conways"
+    },
+    {
+        "filePath": "code/python-mac-os/diffie-hellman/diffie_hellman.py",
+        "fileName": "diffie_hellman.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "diffie-hellman"
+    },
+    {
+        "filePath": "code/python-mac-os/diffie-hellman/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "diffie-hellman"
+    },
+    {
+        "filePath": "code/python-mac-os/diffie-hellman/test_diffie_hellman.py",
+        "fileName": "test_diffie_hellman.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "diffie-hellman"
+    },
+    {
+        "filePath": "code/python-mac-os/dinics/dinics.py",
+        "fileName": "dinics.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "dinics"
+    },
+    {
+        "filePath": "code/python-mac-os/dinics/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "dinics"
+    },
+    {
+        "filePath": "code/python-mac-os/dinics/test_dinics_network.py",
+        "fileName": "test_dinics_network.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "dinics"
+    },
+    {
+        "filePath": "code/python-mac-os/donald-b-johnson/johnsons.py",
+        "fileName": "johnsons.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "donald-b-johnson"
+    },
+    {
+        "filePath": "code/python-mac-os/donald-b-johnson/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "donald-b-johnson"
+    },
+    {
+        "filePath": "code/python-mac-os/donald-b-johnson/test_johnsons.py",
+        "fileName": "test_johnsons.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "donald-b-johnson"
+    },
+    {
+        "filePath": "code/python-mac-os/double-pendulum/double_pendulum.py",
+        "fileName": "double_pendulum.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "double-pendulum"
+    },
+    {
+        "filePath": "code/python-mac-os/double-pendulum/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "double-pendulum"
+    },
+    {
+        "filePath": "code/python-mac-os/ecdsa/ecdsa.py",
+        "fileName": "ecdsa.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "ecdsa"
+    },
+    {
+        "filePath": "code/python-mac-os/ecdsa/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "ecdsa"
+    },
+    {
+        "filePath": "code/python-mac-os/ecdsa/test_ecdsa.py",
+        "fileName": "test_ecdsa.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "ecdsa"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-blossom/edmonds_blossom.py",
+        "fileName": "edmonds_blossom.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "edmonds-blossom"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-blossom/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "edmonds-blossom"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-blossom/test_edmonds_blossom.py",
+        "fileName": "test_edmonds_blossom.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "edmonds-blossom"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-karp/edmonds_karp.py",
+        "fileName": "edmonds_karp.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "edmonds-karp"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-karp/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "edmonds-karp"
+    },
+    {
+        "filePath": "code/python-mac-os/edmonds-karp/test_edmonds_karp.py",
+        "fileName": "test_edmonds_karp.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "edmonds-karp"
+    },
+    {
+        "filePath": "code/python-mac-os/eulerian-path-or-circuit/eulerian_path.py",
+        "fileName": "eulerian_path.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "eulerian-path-or-circuit"
+    },
+    {
+        "filePath": "code/python-mac-os/eulerian-path-or-circuit/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "eulerian-path-or-circuit"
+    },
+    {
+        "filePath": "code/python-mac-os/eulerian-path-or-circuit/test_eulerian_path.py",
+        "fileName": "test_eulerian_path.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "eulerian-path-or-circuit"
+    },
+    {
+        "filePath": "code/python-mac-os/ford-fulkerson/ford_fulkerson.py",
+        "fileName": "ford_fulkerson.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "ford-fulkerson"
+    },
+    {
+        "filePath": "code/python-mac-os/ford-fulkerson/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "ford-fulkerson"
+    },
+    {
+        "filePath": "code/python-mac-os/ford-fulkerson/test_ford_fulkerson.py",
+        "fileName": "test_ford_fulkerson.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "ford-fulkerson"
+    },
+    {
+        "filePath": "code/python-mac-os/gomory-hu-tree/gomory_hu_tree.py",
+        "fileName": "gomory_hu_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "gomory-hu-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/gomory-hu-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "gomory-hu-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/gomory-hu-tree/test_gomory_hu_tree.py",
+        "fileName": "test_gomory_hu_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "gomory-hu-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/heavy-light-decomposition/heavy_light_decomposition.py",
+        "fileName": "heavy_light_decomposition.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "heavy-light-decomposition"
+    },
+    {
+        "filePath": "code/python-mac-os/heavy-light-decomposition/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "heavy-light-decomposition"
+    },
+    {
+        "filePath": "code/python-mac-os/heavy-light-decomposition/test_heavy_light_decomposition.py",
+        "fileName": "test_heavy_light_decomposition.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "heavy-light-decomposition"
+    },
+    {
+        "filePath": "code/python-mac-os/hopscotch-hashing/hopscotch.py",
+        "fileName": "hopscotch.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "hopscotch-hashing"
+    },
+    {
+        "filePath": "code/python-mac-os/hopscotch-hashing/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "hopscotch-hashing"
+    },
+    {
+        "filePath": "code/python-mac-os/hopscotch-hashing/test_hopscotch_table.py",
+        "fileName": "test_hopscotch_table.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "hopscotch-hashing"
+    },
+    {
+        "filePath": "code/python-mac-os/hyperloglog/hyperloglog.py",
+        "fileName": "hyperloglog.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "hyperloglog"
+    },
+    {
+        "filePath": "code/python-mac-os/hyperloglog/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "hyperloglog"
+    },
+    {
+        "filePath": "code/python-mac-os/hyperloglog/test_hyperloglog.py",
+        "fileName": "test_hyperloglog.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "hyperloglog"
+    },
+    {
+        "filePath": "code/python-mac-os/id3/decisiontree.py",
+        "fileName": "decisiontree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "id3"
+    },
+    {
+        "filePath": "code/python-mac-os/id3/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "id3"
+    },
+    {
+        "filePath": "code/python-mac-os/id3/test_decisiontree.py",
+        "fileName": "test_decisiontree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "id3"
+    },
+    {
+        "filePath": "code/python-mac-os/json-parser/json_parser.py",
+        "fileName": "json_parser.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "json-parser"
+    },
+    {
+        "filePath": "code/python-mac-os/json-parser/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "json-parser"
+    },
+    {
+        "filePath": "code/python-mac-os/json-parser/test_json_parser.py",
+        "fileName": "test_json_parser.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "json-parser"
+    },
+    {
+        "filePath": "code/python-mac-os/k-dimensional/k_dimensional.py",
+        "fileName": "k_dimensional.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "k-dimensional"
+    },
+    {
+        "filePath": "code/python-mac-os/k-dimensional/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "k-dimensional"
+    },
+    {
+        "filePath": "code/python-mac-os/k-dimensional/test_k_dimensional.py",
+        "fileName": "test_k_dimensional.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "k-dimensional"
+    },
+    {
+        "filePath": "code/python-mac-os/kargers-minimum-cut/kargers.py",
+        "fileName": "kargers.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kargers-minimum-cut"
+    },
+    {
+        "filePath": "code/python-mac-os/kargers-minimum-cut/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "kargers-minimum-cut"
+    },
+    {
+        "filePath": "code/python-mac-os/kargers-minimum-cut/test_kargers.py",
+        "fileName": "test_kargers.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kargers-minimum-cut"
+    },
+    {
+        "filePath": "code/python-mac-os/kosaraju/kosaraju.py",
+        "fileName": "kosaraju.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kosaraju"
+    },
+    {
+        "filePath": "code/python-mac-os/kosaraju/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "kosaraju"
+    },
+    {
+        "filePath": "code/python-mac-os/kosaraju/test_kosaraju.py",
+        "fileName": "test_kosaraju.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kosaraju"
+    },
+    {
+        "filePath": "code/python-mac-os/kuhn-munkers/hungarian.py",
+        "fileName": "hungarian.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kuhn-munkers"
+    },
+    {
+        "filePath": "code/python-mac-os/kuhn-munkers/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "kuhn-munkers"
+    },
+    {
+        "filePath": "code/python-mac-os/kuhn-munkers/test_hungarian.py",
+        "fileName": "test_hungarian.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "kuhn-munkers"
+    },
+    {
+        "filePath": "code/python-mac-os/merkle-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "merkle-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/merkle-tree/merkle_tree.py",
+        "fileName": "merkle_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "merkle-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/merkle-tree/test_merkle_tree.py",
+        "fileName": "test_merkle_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "merkle-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/n-body/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "n-body"
+    },
+    {
+        "filePath": "code/python-mac-os/n-body/n_body.py",
+        "fileName": "n_body.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "n-body"
+    },
+    {
+        "filePath": "code/python-mac-os/n-body/test_n_body.py",
+        "fileName": "test_n_body.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "n-body"
+    },
+    {
+        "filePath": "code/python-mac-os/pbkdf2-hmac-sha256/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "pbkdf2-hmac-sha256"
+    },
+    {
+        "filePath": "code/python-mac-os/pbkdf2-hmac-sha256/pbkdf2_hmac_sha256.py",
+        "fileName": "pbkdf2_hmac_sha256.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "pbkdf2-hmac-sha256"
+    },
+    {
+        "filePath": "code/python-mac-os/pbkdf2-hmac-sha256/test_pbkdf2_hmac_sha256.py",
+        "fileName": "test_pbkdf2_hmac_sha256.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "pbkdf2-hmac-sha256"
+    },
+    {
+        "filePath": "code/python-mac-os/red-black-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "red-black-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/red-black-tree/red_black_tree.py",
+        "fileName": "red_black_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "red-black-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/red-black-tree/test_red_black_tree.py",
+        "fileName": "test_red_black_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "red-black-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/rsa/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "rsa"
+    },
+    {
+        "filePath": "code/python-mac-os/rsa/rivest_shamir_adleman.py",
+        "fileName": "rivest_shamir_adleman.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "rsa"
+    },
+    {
+        "filePath": "code/python-mac-os/rsa/test_rivest_shamir_adleman.py",
+        "fileName": "test_rivest_shamir_adleman.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "rsa"
+    },
+    {
+        "filePath": "code/python-mac-os/segment-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "segment-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/segment-tree/segment_tree.py",
+        "fileName": "segment_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "segment-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/segment-tree/test_segment_tree.py",
+        "fileName": "test_segment_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "segment-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/skip-list/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "skip-list"
+    },
+    {
+        "filePath": "code/python-mac-os/skip-list/skip_list.py",
+        "fileName": "skip_list.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "skip-list"
+    },
+    {
+        "filePath": "code/python-mac-os/skip-list/test_skip_list.py",
+        "fileName": "test_skip_list.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "skip-list"
+    },
+    {
+        "filePath": "code/python-mac-os/van-emde-boas/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "van-emde-boas"
+    },
+    {
+        "filePath": "code/python-mac-os/van-emde-boas/test_van_emde_boas.py",
+        "fileName": "test_van_emde_boas.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "van-emde-boas"
+    },
+    {
+        "filePath": "code/python-mac-os/van-emde-boas/van_emde_boas.py",
+        "fileName": "van_emde_boas.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "van-emde-boas"
+    },
+    {
+        "filePath": "code/python-mac-os/wavelet-tree/main.py",
+        "fileName": "main.py",
+        "fileCategory": "Package Entry Point",
+        "folderPath": "wavelet-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/wavelet-tree/test_wavelet_tree.py",
+        "fileName": "test_wavelet_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "wavelet-tree"
+    },
+    {
+        "filePath": "code/python-mac-os/wavelet-tree/wavelet_tree.py",
+        "fileName": "wavelet_tree.py",
+        "fileCategory": "Implementation Module",
+        "folderPath": "wavelet-tree"
+    }
+]
