@@ -17,7 +17,6 @@
     --tag-text: #cbd3dc;
     --shape-standard: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
     --shape-cyber: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
-
     --reveal-glow: rgba(222, 192, 165, 0.45);
 }
 
@@ -296,7 +295,14 @@ h6,
     background: linear-gradient(90deg, var(--brown-primary), var(--system-blue));
 }
 
-/* Code Viewer Container Fixes */
+.terminal-header {
+    background: rgba(5, 7, 11, 0.9);
+}
+
+.terminal-body {
+    background: rgba(3, 5, 8, 0.95);
+}
+
 .code-viewer-wrapper {
     width: 100%;
     box-sizing: border-box;
@@ -308,7 +314,6 @@ h6,
 }
 
 .code-box-mobile {
-    background: rgba(3, 5, 8, 0.95);
     min-height: 400px;
     max-height: 750px;
     height: 500px;
@@ -338,6 +343,19 @@ h6,
     white-space: pre;
 }
 
+.tag.button-reset {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    transition: all 0.2s ease;
+}
+
+.tag.button-reset:hover {
+    background-color: #1a1a1a !important;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
 .sidebar-column {
     align-self: start;
 }
@@ -364,6 +382,7 @@ h6,
     opacity: 0.65;
 }
 
+.tag,
 .tag.is-dark {
     font-family: 'Share Tech Mono', monospace;
     background-color: var(--tag-bg) !important;
@@ -505,6 +524,35 @@ h6,
     .unique-terminal-box {
         background-color: var(--bg-deep-light) !important;
         border-color: #2e384e !important;
+    }
+
+    .terminal-header {
+        background: #e1e4ed !important;
+    }
+
+    .terminal-body {
+        background: #ffffff !important;
+    }
+
+    .footer {
+        background-color: var(--bg-light) !important;
+    }
+
+    .tag {
+        background-color: var(--tag-bg) !important;
+        color: var(--tag-text) !important;
+        border: 1px solid var(--border-color);
+    }
+
+    .tag.button-reset {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #000000 !important;
+    }
+
+    .tag.button-reset:hover {
+        background-color: #f0f0f0 !important;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     }
 
     .lang-target-row {
