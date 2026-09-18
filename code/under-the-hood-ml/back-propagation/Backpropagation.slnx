@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/back-propagation-unit-tests/">
+    <Project Path="back-propagation-unit-tests/BackpropagationUnitTest.csproj" />
+  </Folder>
+  <Project Path="back-propagation.csproj" />
+</Solution>

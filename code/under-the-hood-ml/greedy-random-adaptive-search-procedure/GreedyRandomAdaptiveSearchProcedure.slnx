@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/greedy-random-adaptive-search-procedure-unit-tests/">
+    <Project Path="grasp-unit-tests/GreedyRandomAdaptiveSearchProcedureUnitTest.csproj" />
+  </Folder>
+  <Project Path="greedy-random-adaptive-search-procedure.csproj" />
+</Solution>

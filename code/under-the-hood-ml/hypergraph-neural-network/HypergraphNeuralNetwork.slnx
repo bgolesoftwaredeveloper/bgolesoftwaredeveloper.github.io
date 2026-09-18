@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/hypergraph-unit-tests/">
+    <Project Path="hypergraph-unit-tests/HypergraphUnitTest.csproj" />
+  </Folder>
+  <Project Path="hypergraph-neural-network.csproj" />
+</Solution>

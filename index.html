@@ -407,6 +407,10 @@
 
                         <p class="is-size-6 mb-4 has-text-grey-light px-4 px-3-mobile">
                             <strong>Browse the repository directory layout below. Clicking any file will dynamically open its contents in the viewer below.</strong>
+                            <br>
+                            <br/>
+                            <strong>The C Repository serves as a showcase of algorithmic design, emphasizing precision, runtime performance, and foundational computer science principles.</strong>
+                            <hr>
                         </p>
 
                         <!-- Repository Directory Tree Box -->
@@ -458,6 +462,10 @@
 
                         <p class="is-size-6 mb-4 has-text-grey-light px-4 px-3-mobile">
                             <strong>Browse the repository directory layout below. Clicking any file will dynamically open its contents in the viewer below.</strong>
+                            <br>
+                            <br/>
+                            <strong>This collection leverages Python's expressiveness to dissect complex algorithms, spanning dynamic programming, graph models, and optimized data structures. It provides a clean, Pythonic blueprint for mastering high-level problem-solving strategies.</strong>
+                            <hr>
                         </p>
 
                         <!-- Repository Directory Tree Box -->
@@ -509,6 +517,10 @@
 
                         <p class="is-size-6 mb-4 has-text-grey-light px-4 px-3-mobile">
                             <strong>Browse the repository directory layout below. Clicking any file will dynamically open its contents in the viewer below.</strong>
+                            <br>
+                            <br/>
+                            <strong>Engineered for concurrency and scale, this Go repository showcases high-throughput algorithms, parallel pipeline patterns, and robust state synchronization. It highlights how modern, concurrent architectures solve data-heavy problems with minimal latency.</strong>
+                            <hr>
                         </p>
 
                         <!-- Repository Directory Tree Box -->
@@ -542,6 +554,61 @@
                         <button class="tag button-reset mono is-size-6 mt-2 mt-0-tablet button is-fullwidth" style="cursor: pointer;" onclick="collapseAndClearGolang()">
                             <span class="icon is-small">
                                 <i class="fa-brands fa-golang"></i>
+                            </span>
+                            <span>collapse/clear</span>
+                        </button>
+                    </article>
+
+                                        <!-- Interactive Under The Hood ML Repository Tree & Full-Width Code Viewer Section -->
+                    <article class="modern-tile accent-success grid-full-width">
+                        <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile" style="border-bottom: 1px solid var(--border-color);">
+                            <div class="is-flex is-align-items-center">
+                                <span class="icon has-text-success mr-3 is-size-4"><i class="fas fa-gear"></i></span>
+                                <div>
+                                    <h4 class="title is-5 mb-1">Under The Hood ML Repository</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="is-size-6 mb-4 has-text-grey-light px-4 px-3-mobile">
+                            <strong>Browse the repository directory layout below. Clicking any file will dynamically open its contents in the viewer below.</strong>
+                            <br>
+                            <br/>
+                            <strong>Spanning seven programming languages, this repository dismantles machine learning down to its bare-metal mechanics. By re-implementing core ML algorithms from scratch, it exposes how mathematical foundations translate across paradigms delivering a deep, multi-language masterclass in model architecture and low-level mechanics.</strong>
+                            <hr>
+                        </p>
+
+                        <!-- Repository Directory Tree Box -->
+                        <div class="mb-4 px-4 px-2-mobile">
+                            <div class="py-2 px-3 mb-2 terminal-header" style="border: 1px solid var(--border-color);">
+                                <span class="mono is-size-7 has-text-success is-flex is-align-items-center">
+                                    <i class="fas fa-folder-tree mr-2"></i> Repository Structure
+                                </span>
+                            </div>
+                            <div id="under-the-hood-repository-tree-container" class="mono is-size-7 terminal-body" style="border: 1px solid var(--border-color); max-height: 400px; overflow-y: auto;">
+                                <!-- Tree items rendered via JavaScript -->
+                            </div>
+                        </div>
+
+                        <!-- Full-Width Active File Viewer Container -->
+                        <div class="mb-0 code-viewer-wrapper">
+                            <div class="is-flex is-justify-content-space-between is-align-items-center py-2 px-4 code-header-mobile terminal-header" style="border-left: none; border-right: none; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+                                <span id="under-the-hood-active-file-label" class="mono is-size-7 has-text-success is-flex is-align-items-center">
+                                    <i class="fas fa-file-code mr-2"></i> No file selected
+                                </span>
+                            </div>
+                            <div class="mb-0 code-viewer-body">
+                                <div class="code-box-mobile terminal-body">
+                                    <pre><code class="language-plaintext" id="under-the-hood-active-code-container">// Click a file from the repository structure above to view its full source code implementation here.</code></pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <button class="tag button-reset mono is-size-6 mt-2 mt-0-tablet button is-fullwidth" style="cursor: pointer;" onclick="collapseAndClearUnderTheHood()">
+                            <span class="icon is-small">
+                                <i class="fas fa-gear"></i>
                             </span>
                             <span>collapse/clear</span>
                         </button>
