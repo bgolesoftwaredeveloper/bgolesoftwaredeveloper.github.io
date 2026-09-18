@@ -47,6 +47,10 @@ h6,
     color: var(--text-heading);
 }
 
+a {
+    color: var(--system-blue);
+}
+
 .mono {
     font-family: 'Ubuntu Mono', monospace;
     letter-spacing: 0.2px;
@@ -91,6 +95,43 @@ h6,
 
 .opacity-75 {
     opacity: 0.75;
+}
+
+.contact-responsive-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.is-truncated {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.contact-hover-item {
+    position: relative;
+    border-left: 3px solid transparent;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.contact-hover-item:hover {
+    background-color: var(--border-color) !important;
+    border-left-color: var(--system-blue) !important;
+    color: var(--text-heading) !important;
+    transform: translateX(6px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-hover-item:hover .icon {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.contact-hover-item:hover span {
+    color: var(--text-heading) !important;
 }
 
 .button.is-primary.is-outlined {
