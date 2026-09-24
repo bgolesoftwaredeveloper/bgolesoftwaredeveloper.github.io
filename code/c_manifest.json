@@ -126,12 +126,6 @@
         "folderPath": "geometry / closest-pair-of-points"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/geometry/farthest_pair_of_points.h",
-        "fileName": "farthest_pair_of_points.h",
-        "fileCategory": "Header",
-        "folderPath": "geometry / closest-pair-of-points"
-    },
-    {
         "filePath": "code/darwin-systems/src/darwin/geometry/closest-pair-of-points/closest_pair_of_points.c",
         "fileName": "closest_pair_of_points.c",
         "fileCategory": "Source",
@@ -146,12 +140,6 @@
     {
         "filePath": "code/darwin-systems/tests/darwin/geometry/closest_pair_of_points_unit_tests.c",
         "fileName": "closest_pair_of_points_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "geometry / closest-pair-of-points"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/geometry/farthest_pair_of_points_unit_tests.c",
-        "fileName": "farthest_pair_of_points_unit_tests.c",
         "fileCategory": "Test",
         "folderPath": "geometry / closest-pair-of-points"
     },
@@ -180,12 +168,6 @@
         "folderPath": "geometry / ear-clipping"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/geometry/closest_pair_of_points.h",
-        "fileName": "closest_pair_of_points.h",
-        "fileCategory": "Header",
-        "folderPath": "geometry / farthest-pair-of-points"
-    },
-    {
         "filePath": "code/darwin-systems/include/darwin/geometry/farthest_pair_of_points.h",
         "fileName": "farthest_pair_of_points.h",
         "fileCategory": "Header",
@@ -201,12 +183,6 @@
         "filePath": "code/darwin-systems/src/darwin/geometry/farthest-pair-of-points/main.c",
         "fileName": "main.c",
         "fileCategory": "Source",
-        "folderPath": "geometry / farthest-pair-of-points"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/geometry/closest_pair_of_points_unit_tests.c",
-        "fileName": "closest_pair_of_points_unit_tests.c",
-        "fileCategory": "Test",
         "folderPath": "geometry / farthest-pair-of-points"
     },
     {
@@ -510,18 +486,6 @@
         "folderPath": "list / circular-doubly-list"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_singly_linked_list.h",
-        "fileName": "circular_singly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / circular-doubly-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/doubly_linked_list.h",
-        "fileName": "doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / circular-doubly-list"
-    },
-    {
         "filePath": "code/darwin-systems/src/darwin/list/circular-doubly-list/circular_doubly_linked_list.c",
         "fileName": "circular_doubly_linked_list.c",
         "fileCategory": "Source",
@@ -538,24 +502,6 @@
         "fileName": "circular_doubly_list_unit_tests.c",
         "fileCategory": "Test",
         "folderPath": "list / circular-doubly-list"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/list/circular_singly_list_unit_tests.c",
-        "fileName": "circular_singly_list_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "list / circular-doubly-list"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/list/doubly_list_unit_tests.c",
-        "fileName": "doubly_list_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "list / circular-doubly-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_doubly_linked_list.h",
-        "fileName": "circular_doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / circular-singly-list"
     },
     {
         "filePath": "code/darwin-systems/include/darwin/list/circular_singly_linked_list.h",
@@ -576,38 +522,14 @@
         "folderPath": "list / circular-singly-list"
     },
     {
-        "filePath": "code/darwin-systems/tests/darwin/list/circular_doubly_list_unit_tests.c",
-        "fileName": "circular_doubly_list_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "list / circular-singly-list"
-    },
-    {
         "filePath": "code/darwin-systems/tests/darwin/list/circular_singly_list_unit_tests.c",
         "fileName": "circular_singly_list_unit_tests.c",
         "fileCategory": "Test",
         "folderPath": "list / circular-singly-list"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_doubly_linked_list.h",
-        "fileName": "circular_doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / doubly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_singly_linked_list.h",
-        "fileName": "circular_singly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / doubly-linked-list"
-    },
-    {
         "filePath": "code/darwin-systems/include/darwin/list/doubly_linked_list.h",
         "fileName": "doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / doubly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/linked_list.h",
-        "fileName": "linked_list.h",
         "fileCategory": "Header",
         "folderPath": "list / doubly-linked-list"
     },
@@ -624,40 +546,10 @@
         "folderPath": "list / doubly-linked-list"
     },
     {
-        "filePath": "code/darwin-systems/tests/darwin/list/circular_doubly_list_unit_tests.c",
-        "fileName": "circular_doubly_list_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "list / doubly-linked-list"
-    },
-    {
         "filePath": "code/darwin-systems/tests/darwin/list/doubly_list_unit_tests.c",
         "fileName": "doubly_list_unit_tests.c",
         "fileCategory": "Test",
         "folderPath": "list / doubly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/list/linked_list_unit_tests.c",
-        "fileName": "linked_list_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "list / doubly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_doubly_linked_list.h",
-        "fileName": "circular_doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / singly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/circular_singly_linked_list.h",
-        "fileName": "circular_singly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / singly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/list/doubly_linked_list.h",
-        "fileName": "doubly_linked_list.h",
-        "fileCategory": "Header",
-        "folderPath": "list / singly-linked-list"
     },
     {
         "filePath": "code/darwin-systems/include/darwin/list/linked_list.h",
@@ -675,12 +567,6 @@
         "filePath": "code/darwin-systems/src/darwin/list/singly-linked-list/main.c",
         "fileName": "main.c",
         "fileCategory": "Source",
-        "folderPath": "list / singly-linked-list"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/list/circular_singly_list_unit_tests.c",
-        "fileName": "circular_singly_list_unit_tests.c",
-        "fileCategory": "Test",
         "folderPath": "list / singly-linked-list"
     },
     {
@@ -960,12 +846,6 @@
         "folderPath": "searching / breadth-first-search"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/searching/depth_first_search.h",
-        "fileName": "depth_first_search.h",
-        "fileCategory": "Header",
-        "folderPath": "searching / breadth-first-search"
-    },
-    {
         "filePath": "code/darwin-systems/src/darwin/searching/breadth-first-search/breadth_first_search.c",
         "fileName": "breadth_first_search.c",
         "fileCategory": "Source",
@@ -984,18 +864,6 @@
         "folderPath": "searching / breadth-first-search"
     },
     {
-        "filePath": "code/darwin-systems/tests/darwin/searching/depth_first_search_unit_tests.c",
-        "fileName": "depth_first_search_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "searching / breadth-first-search"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/searching/breadth_first_search.h",
-        "fileName": "breadth_first_search.h",
-        "fileCategory": "Header",
-        "folderPath": "searching / depth-first-search"
-    },
-    {
         "filePath": "code/darwin-systems/include/darwin/searching/depth_first_search.h",
         "fileName": "depth_first_search.h",
         "fileCategory": "Header",
@@ -1011,12 +879,6 @@
         "filePath": "code/darwin-systems/src/darwin/searching/depth-first-search/main.c",
         "fileName": "main.c",
         "fileCategory": "Source",
-        "folderPath": "searching / depth-first-search"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/searching/breadth_first_search_unit_tests.c",
-        "fileName": "breadth_first_search_unit_tests.c",
-        "fileCategory": "Test",
         "folderPath": "searching / depth-first-search"
     },
     {
@@ -1464,12 +1326,6 @@
         "folderPath": "tree / binary-lifting"
     },
     {
-        "filePath": "code/darwin-systems/include/darwin/tree/binary_tree.h",
-        "fileName": "binary_tree.h",
-        "fileCategory": "Header",
-        "folderPath": "tree / binary-lifting"
-    },
-    {
         "filePath": "code/darwin-systems/src/darwin/tree/binary-lifting/binary_lifting.c",
         "fileName": "binary_lifting.c",
         "fileCategory": "Source",
@@ -1488,18 +1344,6 @@
         "folderPath": "tree / binary-lifting"
     },
     {
-        "filePath": "code/darwin-systems/tests/darwin/tree/binary_tree_unit_tests.c",
-        "fileName": "binary_tree_unit_tests.c",
-        "fileCategory": "Test",
-        "folderPath": "tree / binary-lifting"
-    },
-    {
-        "filePath": "code/darwin-systems/include/darwin/tree/binary_lifting.h",
-        "fileName": "binary_lifting.h",
-        "fileCategory": "Header",
-        "folderPath": "tree / binary-tree"
-    },
-    {
         "filePath": "code/darwin-systems/include/darwin/tree/binary_tree.h",
         "fileName": "binary_tree.h",
         "fileCategory": "Header",
@@ -1515,12 +1359,6 @@
         "filePath": "code/darwin-systems/src/darwin/tree/binary-tree/main.c",
         "fileName": "main.c",
         "fileCategory": "Source",
-        "folderPath": "tree / binary-tree"
-    },
-    {
-        "filePath": "code/darwin-systems/tests/darwin/tree/binary_lifting_unit_tests.c",
-        "fileName": "binary_lifting_unit_tests.c",
-        "fileCategory": "Test",
         "folderPath": "tree / binary-tree"
     },
     {
