@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             codeContainerId: "active-code-container",
             fileLabelId: "active-file-label",
             itemClass: "c-tree-file-item",
-            folderThemeClass: "has-text-primary",
-            iconClass: "fas fa-file-code has-text-info"
+            folderThemeClass: "has-text-success",
+            iconClass: "fas fa-file-code has-text-success"
         },
         {
             manifestPath: "code/python_manifest.json",
@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             codeContainerId: "under-the-hood-active-code-container",
             fileLabelId: "under-the-hood-active-file-label",
             itemClass: "under-the-hood-tree-file-item",
-            folderThemeClass: "has-text-success",
-            iconClass: "fas fa-gear has-text-success"
+            folderThemeClass: "has-text-primary",
+            iconClass: "fas fa-gear has-text-primary"
         }
     ]
 
@@ -148,20 +148,21 @@ async function initializeRepository(repositoryConfiguration) {
             groupedDirectoryMap[folderPath].forEach(fileEntry => {
                 const fileItemButton = document.createElement("a")
 
-                fileItemButton.className = `is-block py-1 px-2 has-text-grey-light tree-file-item ${repositoryConfiguration.itemClass}`
+                fileItemButton.className = `is-block py-1 px-2 tree-file-item ${repositoryConfiguration.itemClass}`
                 fileItemButton.style.borderRadius = "0"
                 fileItemButton.style.transition = "background 0.2s ease, color 0.2s ease"
+                fileItemButton.style.color = "var(--text-body)"
                 fileItemButton.innerHTML = `<i class="${repositoryConfiguration.iconClass} mr-2"></i>${fileEntry.fileName} <span class="is-size-8 has-text-grey">(${fileEntry.fileCategory || "Source"})</span>`
 
                 fileItemButton.addEventListener("mouseenter", () => {
-                    fileItemButton.style.background = "rgba(255, 255, 255, 0.05)"
-                    fileItemButton.style.color = "var(--text-color)"
+                    fileItemButton.style.background = "rgba(128, 128, 128, 0.15)"
+                    fileItemButton.style.color = "var(--text-heading)"
                 })
 
                 fileItemButton.addEventListener("mouseleave", () => {
                     if (!fileItemButton.classList.contains("is-active-file")) {
                         fileItemButton.style.background = "transparent"
-                        fileItemButton.style.color = "var(--text-grey-light)"
+                        fileItemButton.style.color = "var(--text-body)"
                     }
                 })
 
@@ -169,12 +170,12 @@ async function initializeRepository(repositoryConfiguration) {
                     document.querySelectorAll(`.${repositoryConfiguration.itemClass}`).forEach(element => {
                         element.classList.remove("is-active-file")
                         element.style.background = "transparent"
-                        element.style.color = "var(--text-grey-light)"
+                        element.style.color = "var(--text-body)"
                     })
 
                     fileItemButton.classList.add("is-active-file")
-                    fileItemButton.style.background = "rgba(222, 192, 165, 0.15)"
-                    fileItemButton.style.color = "var(--text-color)"
+                    fileItemButton.style.background = "rgba(16, 124, 16, 0.2)"
+                    fileItemButton.style.color = "var(--text-heading)"
 
                     if (activeFileLabelElement) {
                         activeFileLabelElement.innerHTML = `<i class="${repositoryConfiguration.iconClass} mr-2"></i> ${fileEntry.fileName}`
@@ -241,7 +242,7 @@ async function fetchAndDisplaySourceFile(fileEntry, codeContainerElement, baseDi
         }
 
         if (resolvedFilePath.startsWith("code/darwin-systems/") || resolvedFilePath.startsWith("code/python-mac-os/")) {
-            // Serve directly as define in manifest.
+            // Serve directly as defined in manifest.
         } else {
             const cleanBaseDirectory = baseDirectory ? (baseDirectory.endsWith("/") ? baseDirectory.slice(0, -1) : baseDirectory) : ""
 
@@ -322,6 +323,6 @@ function resetRepositoryViewerState(codeContainerId, fileLabelId, itemClass) {
     document.querySelectorAll(`.${itemClass}`).forEach(element => {
         element.classList.remove("is-active-file")
         element.style.background = "transparent"
-        element.style.color = "var(--text-grey-light)"
+        element.style.color = "var(--text-body)"
     })
 }

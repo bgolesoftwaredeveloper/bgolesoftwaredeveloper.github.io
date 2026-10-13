@@ -10,7 +10,7 @@
     --text-heading: #ffffff;
     --text-highlight-grey: #ffffff;
     --xbox-green-glow: var(--xbox-green);
-    --bg-xbox-green-light: var(--xbox-green);
+    --bg-xbox-green-light: #107c10;
     --hero-grid: var(--xbox-green);
     --manifest-bg: rgba(5, 7, 11, 0.6);
     --tag-bg: rgba(20, 26, 38, 0.6);
@@ -34,21 +34,46 @@ body {
 }
 
 h1,
+.title.is-1 {
+    font-family: 'Share Tech Mono', monospace !important;
+    letter-spacing: 0.2px;
+    color: #ffffff !important;
+}
+
 h2,
+.title.is-2 {
+    font-family: 'Share Tech Mono', monospace !important;
+    letter-spacing: 0.2px;
+    color: #4da6ff !important;
+}
+
 h3,
+.title.is-3 {
+    font-family: 'Share Tech Mono', monospace !important;
+    letter-spacing: 0.2px;
+    color: #7ee787 !important;
+}
+
 h4,
-h5,
-h6,
+.title.is-4,
+.title.is-5,
 .navbar-brand,
-.title,
 .subtitle {
     font-family: 'Share Tech Mono', monospace !important;
     letter-spacing: 0.2px;
     color: var(--text-heading);
 }
 
+/* Distinct Link Colors */
 a {
-    color: var(--system-blue);
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #79c0ff;
+    text-decoration: underline;
 }
 
 .mono {
@@ -332,16 +357,70 @@ a {
     border: 1px solid rgba(16, 124, 16, 0.45);
 }
 
+.modern-tile.accent-warning::before {
+    background: #ffc107 !important;
+}
+
 .modern-tile.accent-cyber-art::before {
     background: linear-gradient(90deg, var(--xbox-green), var(--system-blue));
 }
 
 .terminal-header {
-    background: rgba(5, 7, 11, 0.9);
+    background: rgba(5, 7, 11, 1);
 }
 
 .terminal-body {
-    background: rgba(3, 5, 8, 0.95);
+    background: #0d1117 !important;
+    color: #c9d1d9 !important;
+}
+
+pre code.hljs {
+    color: #c9d1d9;
+    background: transparent;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #8b949e;
+    font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+    color: #ff7b72;
+    font-weight: 600;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+    color: #79c0ff;
+}
+
+.hljs-string,
+.hljs-doctag {
+    color: #a5d6ff;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+    color: #d2a8ff;
+    font-weight: 600;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+    color: #ffa657;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+    color: #7ee787;
 }
 
 .code-viewer-wrapper {
@@ -363,6 +442,7 @@ a {
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    background: #0d1117 !important;
 }
 
 .code-box-mobile pre {
@@ -382,6 +462,7 @@ a {
     width: 100%;
     box-sizing: border-box;
     white-space: pre;
+    color: #c9d1d9 !important;
 }
 
 .tag.button-reset {
@@ -498,15 +579,45 @@ a {
         --card-bg: #ffffff;
         --bg-sidebar: #e1e4ed;
         --border-color: #ced5e3;
-        --text-heading: #080a0f;
-        --text-body: #2d3748;
-        --text-highlight-grey: #4a5568;
+        --text-heading: #0f172a;
+        --text-body: #334155;
+        --text-highlight-grey: #475569;
         --xbox-green-glow: #0b5c0b;
         --bg-xbox-green-light: #0b5c0b;
         --manifest-bg: rgba(255, 255, 255, 0.85);
         --tag-bg: rgba(206, 213, 227, 0.4);
         --tag-text: #1a202c;
         --reveal-glow: rgba(11, 92, 11, 0.25);
+    }
+
+    h1,
+    .title.is-1 {
+        color: #0f172a !important;
+    }
+
+    h2,
+    .title.is-2 {
+        color: #0369a1 !important;
+    }
+
+    h3,
+    .title.is-3 {
+        color: #15803d !important;
+    }
+
+    h4,
+    .title.is-4,
+    .title.is-5 {
+        color: #1e293b !important;
+    }
+
+    /* Light Mode Distinct Link Colors */
+    a {
+        color: #0284c7;
+    }
+
+    a:hover {
+        color: #0369a1;
     }
 
     .hero.is-black {
@@ -569,11 +680,50 @@ a {
     }
 
     .terminal-header {
-        background: #e1e4ed !important;
+        background: #161b22 !important;
+        color: #e6edf3 !important;
     }
 
-    .terminal-body {
-        background: #ffffff !important;
+    #repository-tree-container,
+    #python-repository-tree-container,
+    #golang-repository-tree-container,
+    #under-the-hood-repository-tree-container {
+        background: #0d1117 !important;
+        color: #c9d1d9 !important;
+    }
+
+    #repository-tree-container a,
+    #python-repository-tree-container a,
+    #golang-repository-tree-container a,
+    #under-the-hood-repository-tree-container a,
+    .tree-file-item,
+    .c-tree-file-item,
+    .python-tree-file-item,
+    .golang-tree-file-item,
+    .under-the-hood-tree-file-item {
+        color: #c9d1d9 !important;
+    }
+
+    #repository-tree-container span,
+    #python-repository-tree-container span,
+    #golang-repository-tree-container span,
+    #under-the-hood-repository-tree-container span {
+        color: #8b949e !important;
+    }
+
+    .tree-file-item:hover,
+    a.tree-file-item:hover,
+    .c-tree-file-item:hover,
+    .python-tree-file-item:hover,
+    .golang-tree-file-item:hover,
+    .under-the-hood-tree-file-item:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        color: #ffffff !important;
+    }
+
+    .tree-file-item:hover *,
+    a.tree-file-item:hover * {
+        color: #ffffff !important;
     }
 
     .footer {

@@ -85,8 +85,7 @@
                         </div>
 
                         <div class="column is-4 is-offset-1">
-                            <div class="box status-box p-3"
-                                style="border: 1px solid var(--border-color); background: rgba(10, 15, 25, 0.9); border-radius: 6px;">
+                            <div class="box status-box p-3">
 
                                 <div class="is-flex is-justify-content-space-between is-align-items-center mb-3 pb-2"
                                     style="border-bottom: 1px solid var(--border-color);">
@@ -524,55 +523,53 @@
                         </article>
                     </div>
 
-                    <article class="modern-tile accent-primary grid-full-width"
-                        style="border-left: 4px solid #107c10; box-shadow: 0 0 20px rgba(255, 221, 87, 0.15); background: rgba(15, 15, 10, 0.95);">
-                        <h4 class="title is-4 mb-4" style="color: white; text-shadow: 0 0 10px rgba(255, 221, 87, 0.4);">
+                    <article class="modern-tile accent-primary grid-full-width engineering-tile">
+                        <h4 class="title is-4 mb-4">
                             <span class="icon mr-2"><i class="fas fa-code"></i></span>
                             <span>Engineering</span>
                         </h4>
 
                         <div class="content mono is-size-6" style="line-height: 1.6;">
-                            <div class="mb-4 p-3"
+                            <div class="mb-4 p-3 def-box"
                                 style="background: rgba(0, 209, 178, 0.04); border-left: 3px solid var(--xbox-green); border-radius: 4px;">
                                 <span class="has-text-primary fw-bold"
                                     style="text-shadow: 0 0 6px rgba(0, 209, 178, 0.4);">DEF: </span>
-                                <span class="has-text-heading fw-bold has-text-white is-size-5">MECHANICAL SYMPATHY</span>
-                                <p class="has-text-body ml-4 mt-2 has-text-light" style="font-size: 0.95rem;">
+                                <span class="def-title fw-bold is-size-5">MECHANICAL SYMPATHY</span>
+                                <p class="def-desc ml-4 mt-2" style="font-size: 0.95rem;">
                                     Optimizing for CPU cache-locality and branch prediction. Prioritizing
                                     memory-deterministic patterns over high-level abstractions to eliminate runtime
                                     overhead.
                                 </p>
                             </div>
 
-                            <div class="mb-4 p-3"
+                            <div class="mb-4 p-3 def-box"
                                 style="background: rgba(0, 210, 255, 0.04); border-left: 3px solid #00d2ff; border-radius: 4px;">
                                 <span class="has-text-info fw-bold"
                                     style="text-shadow: 0 0 6px rgba(0, 210, 255, 0.4);">DEF: </span>
-                                <span class="has-text-heading fw-bold has-text-white is-size-5">ALGORITHMIC PARSIMONY</span>
-                                <p class="has-text-body ml-4 mt-2 has-text-light" style="font-size: 0.95rem;">
+                                <span class="def-title fw-bold is-size-5">ALGORITHMIC PARSIMONY</span>
+                                <p class="def-desc ml-4 mt-2" style="font-size: 0.95rem;">
                                     Solving complex problems with the most efficient data structures. Implementing custom
                                     spatial indexing (KD-Trees) and vectorized math to replace generic library bloat.
                                 </p>
                             </div>
 
-                            <div class="mb-4 p-3"
+                            <div class="mb-4 p-3 def-box"
                                 style="background: rgba(255, 221, 87, 0.04); border-left: 3px solid #ffdd57; border-radius: 4px;">
                                 <span class="has-text-warning fw-bold"
                                     style="text-shadow: 0 0 6px rgba(255, 221, 87, 0.4);">DEF: </span>
-                                <span class="has-text-heading fw-bold has-text-white is-size-5">ROBUST CONCURRENCY</span>
-                                <p class="has-text-body ml-4 mt-2 has-text-light" style="font-size: 0.95rem;">
+                                <span class="def-title fw-bold is-size-5">ROBUST CONCURRENCY</span>
+                                <p class="def-desc ml-4 mt-2" style="font-size: 0.95rem;">
                                     Designing thread-safe, non-blocking systems. Leveraging Go's CSP model
                                     (channels/goroutines) and atomic primitives to build highly scalable backends.
                                 </p>
                             </div>
 
-                            <div class="p-3"
+                            <div class="p-3 def-box"
                                 style="background: rgba(255, 56, 96, 0.04); border-left: 3px solid #ff3860; border-radius: 4px;">
                                 <span class="has-text-danger fw-bold"
                                     style="text-shadow: 0 0 6px rgba(255, 56, 96, 0.4);">DEF: </span>
-                                <span
-                                    class="has-text-heading fw-bold has-text-white is-size-5">PREDICTIVE RELIABILITY</span>
-                                <p class="has-text-body ml-4 mt-2 has-text-light" style="font-size: 0.95rem;">
+                                <span class="def-title fw-bold is-size-5">PREDICTIVE RELIABILITY</span>
+                                <p class="def-desc ml-4 mt-2" style="font-size: 0.95rem;">
                                     Rigorous system validation through performance benchmarking and automated stress
                                     testing. Building systems that fail gracefully and recover deterministically.
                                 </p>
@@ -580,11 +577,11 @@
                         </div>
                     </article>
 
-                    <article class="modern-tile accent-primary grid-full-width">
+                    <article class="modern-tile accent-primary grid-full-width" style="border-top: 4px solid var(--xbox-green);">
                         <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile"
                             style="border-bottom: 1px solid var(--xbox-green);">
                             <div class="is-flex is-align-items-center">
-                                <span class="icon has-text-primary mr-3 is-size-4"><i class="fas fa-terminal"></i></span>
+                                <span class="icon has-text-success mr-3 is-size-4"><i class="fas fa-terminal"></i></span>
                                 <div>
                                     <h4 class="title is-5 mb-1">C Repository</h4>
                                 </div>
@@ -601,9 +598,9 @@
                             <hr>
                         </p>
 
-                        <div class="mb-4 px-4 px-2-mobile">
-                            <div class="py-2 px-3 mb-2 terminal-header" style="border: 1px solid var(--border-color);">
-                                <span class="mono is-size-7 has-text-primary is-flex is-align-items-center">
+                        <div class="mb-4 px-2">
+                            <div class="py-2 px-3 mb-2 repo-structure-header is-flex is-align-items-center">
+                                <span class="mono is-size-7 is-flex is-align-items-center">
                                     <i class="fas fa-folder-tree mr-2"></i> Repository Structure
                                 </span>
                             </div>
@@ -638,9 +635,9 @@
                         </button>
                     </article>
 
-                    <article class="modern-tile accent-primary grid-full-width">
+                    <article class="modern-tile accent-warning grid-full-width" style="border-top: 4px solid #ffc107;">
                         <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile"
-                            style="border-bottom: 1px solid var(--xbox-green);">
+                            style="border-bottom: 1px solid #ffc107;">
                             <div class="is-flex is-align-items-center">
                                 <span class="icon has-text-warning mr-3 is-size-4"><i class="fab fa-python"></i></span>
                                 <div>
@@ -661,8 +658,8 @@
                         </p>
 
                         <div class="mb-4 px-4 px-2-mobile">
-                            <div class="py-2 px-3 mb-2 terminal-header" style="border: 1px solid var(--border-color);">
-                                <span class="mono is-size-7 has-text-warning is-flex is-align-items-center">
+                            <div class="py-2 px-3 mb-2 repo-structure-header is-flex is-align-items-center">
+                                <span class="mono is-size-7 is-flex is-align-items-center">
                                     <i class="fas fa-folder-tree mr-2"></i> Repository Structure
                                 </span>
                             </div>
@@ -697,9 +694,9 @@
                         </button>
                     </article>
 
-                    <article class="modern-tile accent-blue grid-full-width">
+                    <article class="modern-tile accent-blue grid-full-width" style="border-top: 4px solid var(--system-blue);">
                         <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile"
-                            style="border-bottom: 1px solid var(--xbox-green);">
+                            style="border-bottom: 1px solid var(--system-blue);">
                             <div class="is-flex is-align-items-center">
                                 <span class="icon has-text-info mr-3 is-size-4"><i class="fa-brands fa-golang"></i></span>
                                 <div>
@@ -720,8 +717,8 @@
                         </p>
 
                         <div class="mb-4 px-4 px-2-mobile">
-                            <div class="py-2 px-3 mb-2 terminal-header" style="border: 1px solid var(--border-color);">
-                                <span class="mono is-size-7 has-text-info is-flex is-align-items-center">
+                            <div class="py-2 px-3 mb-2 repo-structure-header is-flex is-align-items-center">
+                                <span class="mono is-size-7 is-flex is-align-items-center">
                                     <i class="fas fa-folder-tree mr-2"></i> Repository Structure
                                 </span>
                             </div>
@@ -756,7 +753,7 @@
                         </button>
                     </article>
 
-                    <article class="modern-tile accent-success grid-full-width">
+                    <article class="modern-tile accent-primary grid-full-width" style="border-top: 4px solid var(--xbox-green);">
                         <div class="is-flex is-justify-content-space-between is-align-items-center flex-wrap mb-4 pb-3 px-4 px-3-mobile"
                             style="border-bottom: 1px solid var(--xbox-green);">
                             <div class="is-flex is-align-items-center">
@@ -780,8 +777,8 @@
                         </p>
 
                         <div class="mb-4 px-4 px-2-mobile">
-                            <div class="py-2 px-3 mb-2 terminal-header" style="border: 1px solid var(--border-color);">
-                                <span class="mono is-size-7 has-text-success is-flex is-align-items-center">
+                            <div class="py-2 px-3 mb-2 repo-structure-header is-flex is-align-items-center">
+                                <span class="mono is-size-7 is-flex is-align-items-center">
                                     <i class="fas fa-folder-tree mr-2"></i> Repository Structure
                                 </span>
                             </div>
@@ -1429,8 +1426,8 @@
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-8 has-text-centered mb-5">
-                        <h2 class="title is-2 mb-3 has-text-primary">
-                            Let’s build something <span class="has-text-primary">resilient</span>.
+                        <h2 class="title is-2 mb-3" style="color: var(--xbox-green) !important;">
+                            Let’s build something resilient.
                         </h2>
                         <p class="subtitle is-6 mono">
                             I'm currently looking for new opportunities to solve complex back-end problems
