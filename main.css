@@ -1,5 +1,5 @@
 :root {
-    --brown-primary: #dec0a5;
+    --xbox-green: #107c10;
     --system-blue: #4da6ff;
     --bg-light: #080a0f;
     --bg-deep-light: #0c0e14;
@@ -9,15 +9,15 @@
     --text-body: #b4bdc7;
     --text-heading: #ffffff;
     --text-highlight-grey: #ffffff;
-    --brown-glow: var(--brown-primary);
-    --bg-brown-light: var(--brown-primary);
-    --hero-grid: var(--brown-primary);
+    --xbox-green-glow: var(--xbox-green);
+    --bg-xbox-green-light: var(--xbox-green);
+    --hero-grid: var(--xbox-green);
     --manifest-bg: rgba(5, 7, 11, 0.6);
     --tag-bg: rgba(20, 26, 38, 0.6);
     --tag-text: #cbd3dc;
     --shape-standard: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
     --shape-cyber: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
-    --reveal-glow: rgba(222, 192, 165, 0.45);
+    --reveal-glow: rgba(16, 124, 16, 0.45);
 }
 
 ul,
@@ -58,7 +58,7 @@ a {
 }
 
 .has-text-primary {
-    color: var(--brown-primary) !important;
+    color: var(--xbox-green) !important;
 }
 
 .has-text-info {
@@ -136,16 +136,16 @@ a {
 
 .button.is-primary.is-outlined {
     font-family: 'Share Tech Mono', monospace;
-    color: var(--brown-primary);
-    border-color: var(--brown-primary);
+    color: var(--xbox-green);
+    border-color: var(--xbox-green);
     background: transparent;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .button.is-primary.is-outlined:hover {
-    background: var(--brown-primary);
+    background: var(--xbox-green);
     color: var(--bg-light);
-    box-shadow: 0 0 12px var(--brown-glow);
+    box-shadow: 0 0 12px var(--xbox-green-glow);
 }
 
 .hero-parent {
@@ -175,17 +175,17 @@ a {
 }
 
 .blade-1 {
-    background-color: #5d4b3c;
+    background-color: #0d380d;
     transform: rotate(0deg);
 }
 
 .blade-2 {
-    background-color: #967962;
+    background-color: #0b5c0b;
     transform: rotate(25deg);
 }
 
 .blade-3 {
-    background-color: #dec0a5;
+    background-color: #107c10;
     transform: rotate(50deg);
 }
 
@@ -198,17 +198,17 @@ a {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border: 2px solid var(--brown-primary);
+    border: 2px solid var(--xbox-green);
 }
 
 .profile-img-zoom {
-    box-shadow: 0 0 15px var(--brown-glow);
+    box-shadow: 0 0 15px var(--xbox-green-glow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-img-zoom:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 25px var(--brown-primary);
+    box-shadow: 0 0 25px var(--xbox-green);
 }
 
 .status-indicator {
@@ -217,11 +217,11 @@ a {
     right: 6px;
     width: 14px;
     height: 14px;
-    background-color: var(--brown-primary);
+    background-color: var(--xbox-green);
     border: 2px solid var(--bg-light);
     border-radius: 50%;
     z-index: 3;
-    animation: pulse-brown 2s infinite;
+    animation: pulse-xbox-green 2s infinite;
 }
 
 .status-box {
@@ -311,11 +311,11 @@ a {
 }
 
 .modern-tile.accent-primary::before {
-    background: var(--brown-primary);
+    background: var(--xbox-green);
 }
 
 .modern-tile.accent-primary:hover {
-    border-color: rgba(222, 192, 165, 0.45);
+    border-color: rgba(16, 124, 16, 0.45);
 }
 
 .modern-tile.accent-blue::before {
@@ -329,11 +329,11 @@ a {
 .modern-tile.accent-cyber-art {
     clip-path: var(--shape-cyber);
     background: linear-gradient(135deg, #121620 0%, #0d1017 100%) !important;
-    border: 1px solid rgba(222, 192, 165, 0.45);
+    border: 1px solid rgba(16, 124, 16, 0.45);
 }
 
 .modern-tile.accent-cyber-art::before {
-    background: linear-gradient(90deg, var(--brown-primary), var(--system-blue));
+    background: linear-gradient(90deg, var(--xbox-green), var(--system-blue));
 }
 
 .terminal-header {
@@ -405,6 +405,7 @@ a {
     background-color: var(--bg-sidebar) !important;
     height: auto !important;
     box-sizing: border-box;
+    border-left: 3px solid var(--xbox-green) !important;
 }
 
 .sidebar-card h4.title {
@@ -448,17 +449,17 @@ a {
     color: #121620 !important;
 }
 
-@keyframes pulse-brown {
+@keyframes pulse-xbox-green {
     0% {
-        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0.5);
+        box-shadow: 0 0 0 0 rgba(16, 124, 16, 0.5);
     }
 
     70% {
-        box-shadow: 0 0 0 8px rgba(222, 192, 165, 0);
+        box-shadow: 0 0 0 8px rgba(16, 124, 16, 0);
     }
 
     100% {
-        box-shadow: 0 0 0 0 rgba(222, 192, 165, 0);
+        box-shadow: 0 0 0 0 rgba(16, 124, 16, 0);
     }
 }
 
@@ -500,12 +501,12 @@ a {
         --text-heading: #080a0f;
         --text-body: #2d3748;
         --text-highlight-grey: #4a5568;
-        --brown-glow: #8a6849;
-        --bg-brown-light: #8a6849;
+        --xbox-green-glow: #0b5c0b;
+        --bg-xbox-green-light: #0b5c0b;
         --manifest-bg: rgba(255, 255, 255, 0.85);
         --tag-bg: rgba(206, 213, 227, 0.4);
         --tag-text: #1a202c;
-        --reveal-glow: rgba(138, 104, 73, 0.25);
+        --reveal-glow: rgba(11, 92, 11, 0.25);
     }
 
     .hero.is-black {
@@ -529,7 +530,7 @@ a {
     }
 
     .has-text-primary {
-        color: var(--bg-brown-light) !important;
+        color: var(--bg-xbox-green-light) !important;
     }
 
     .modern-tile {
@@ -538,24 +539,24 @@ a {
     }
 
     .modern-tile:hover {
-        border-color: var(--brown-glow);
+        border-color: var(--xbox-green-glow);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
 
     .modern-tile.accent-primary::before {
-        background: var(--bg-brown-light);
+        background: var(--bg-xbox-green-light);
     }
 
     .profile-fix {
-        border-color: var(--bg-brown-light);
+        border-color: var(--bg-xbox-green-light);
     }
 
     .profile-img-zoom:hover {
-        box-shadow: 0 0 25px var(--bg-brown-light);
+        box-shadow: 0 0 25px var(--bg-xbox-green-light);
     }
 
     .status-indicator {
-        background-color: var(--bg-brown-light);
+        background-color: var(--bg-xbox-green-light);
     }
 
     .modern-tile.accent-cyber-art {
