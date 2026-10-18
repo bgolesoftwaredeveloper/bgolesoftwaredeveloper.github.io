@@ -263,13 +263,6 @@ a:hover {
     line-height: 1.6;
 }
 
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1.5rem;
-    align-items: stretch;
-}
-
 .grid-full-width {
     grid-column: 1 / -1;
 }
@@ -330,8 +323,8 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 3px;
+    width: 3px;
+    height: 100%;
     background: transparent;
 }
 
@@ -362,7 +355,7 @@ a:hover {
 }
 
 .modern-tile.accent-cyber-art::before {
-    background: linear-gradient(90deg, var(--xbox-green), var(--system-blue));
+    background: linear-gradient(180deg, var(--xbox-green), var(--system-blue));
 }
 
 .terminal-header {
@@ -541,12 +534,6 @@ pre code.hljs {
 
     100% {
         box-shadow: 0 0 0 0 rgba(16, 124, 16, 0);
-    }
-}
-
-@media (max-width: 1024px) {
-    .portfolio-grid {
-        grid-template-columns: 1fr;
     }
 }
 
