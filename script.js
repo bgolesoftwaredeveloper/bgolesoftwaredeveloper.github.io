@@ -47,6 +47,32 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 })
 
+function getFileIconForExtension(fileName, defaultIcon) {
+    if (!fileName) {
+        return defaultIcon
+    }
+
+    const lower = fileName.toLowerCase()
+
+    if (lower.endsWith(".py") || lower.endsWith(".pyx") || lower.endsWith(".pyi")) {
+        return "fab fa-python has-text-warning"
+    }
+    if (lower.endsWith(".go")) {
+        return "fa-brands fa-golang has-text-info"
+    }
+    if (lower.endsWith(".cs")) {
+        return "fas fa-code has-text-primary"
+    }
+    if (lower.endsWith(".java")) {
+        return "fab fa-java has-text-danger"
+    }
+    if (lower.endsWith(".cpp") || lower.endsWith(".hpp") || lower.endsWith(".cc") || lower.endsWith(".c") || lower.endsWith(".h")) {
+        return "fas fa-file-code has-text-success"
+    }
+    
+    return defaultIcon
+}
+
 async function initializeRepository(repositoryConfiguration) {
     const treeContainerElement = document.getElementById(repositoryConfiguration.treeContainerId)
     const activeCodeContainer = document.getElementById(repositoryConfiguration.codeContainerId)
@@ -57,7 +83,6 @@ async function initializeRepository(repositoryConfiguration) {
         activeCodeContainer.removeAttribute("data-highlighted")
         
         const parentWrapperElement = activeCodeContainer.closest(".code-viewer-wrapper")
-
         if (parentWrapperElement) {
             parentWrapperElement.style.display = "none"
         }
@@ -106,12 +131,13 @@ async function initializeRepository(repositoryConfiguration) {
                 filePath.includes(pattern) || folderPath.includes(pattern)
             )
 
-            return !hasIgnoredExtension && !isInIgnoredFolder
+            const isUnityFile = fileName.includes("unity") || filePath.includes("unity")
+
+            return !hasIgnoredExtension && !isInIgnoredFolder && !isUnityFile
         })
 
         if (filteredRepositoryFileEntries.length === 0) {
             treeContainerElement.innerHTML = `<span class="has-text-grey">// No source files found after filtering build artifacts.</span>`
-
             return
         }
 
@@ -147,12 +173,13 @@ async function initializeRepository(repositoryConfiguration) {
 
             groupedDirectoryMap[folderPath].forEach(fileEntry => {
                 const fileItemButton = document.createElement("a")
+                const fileIconClass = getFileIconForExtension(fileEntry.fileName, repositoryConfiguration.iconClass)
 
                 fileItemButton.className = `is-block py-1 px-2 tree-file-item ${repositoryConfiguration.itemClass}`
                 fileItemButton.style.borderRadius = "0"
                 fileItemButton.style.transition = "background 0.2s ease, color 0.2s ease"
                 fileItemButton.style.color = "var(--text-body)"
-                fileItemButton.innerHTML = `<i class="${repositoryConfiguration.iconClass} mr-2"></i>${fileEntry.fileName} <span class="is-size-8 has-text-grey">(${fileEntry.fileCategory || "Source"})</span>`
+                fileItemButton.innerHTML = `<i class="${fileIconClass} mr-2"></i>${fileEntry.fileName} <span class="is-size-8 has-text-grey">(${fileEntry.fileCategory || "Source"})</span>`
 
                 fileItemButton.addEventListener("mouseenter", () => {
                     fileItemButton.style.background = "rgba(128, 128, 128, 0.15)"
@@ -178,7 +205,7 @@ async function initializeRepository(repositoryConfiguration) {
                     fileItemButton.style.color = "var(--text-heading)"
 
                     if (activeFileLabelElement) {
-                        activeFileLabelElement.innerHTML = `<i class="${repositoryConfiguration.iconClass} mr-2"></i> ${fileEntry.fileName}`
+                        activeFileLabelElement.innerHTML = `<i class="${fileIconClass} mr-2"></i> ${fileEntry.fileName}`
                     }
 
                     if (activeCodeContainer) {
@@ -193,8 +220,6 @@ async function initializeRepository(repositoryConfiguration) {
             treeContainerElement.appendChild(folderWrapperElement)
         })
     } catch (error) {
-        console.error(`Error initializing repository (${repositoryConfiguration.manifestPath}):`, error)
-
         treeContainerElement.innerHTML = `<span class="has-text-danger">// Error loading manifest: ${error.message}</span>`
     }
 }
