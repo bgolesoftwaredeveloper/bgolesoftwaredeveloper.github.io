@@ -523,6 +523,41 @@ pre code.hljs {
     color: #121620 !important;
 }
 
+/* --- Conestoga College Tile: Default (Dark Mode) --- */
+.conestoga-tile {
+    border-left: 4px solid #4a2e18 !important;
+    border-top: 4px solid #4a2e18 !important;
+    box-shadow: 0 0 35px rgba(255, 215, 0, 0.35);
+    background: linear-gradient(135deg, rgba(20, 16, 2, 0.98) 0%, rgba(35, 28, 4, 0.95) 100%) !important;
+}
+
+.conestoga-tile .title,
+.conestoga-tile .conestoga-core-title {
+    color: #ffffff !important;
+}
+
+.conestoga-tile .conestoga-desc,
+.conestoga-tile .conestoga-core-desc {
+    color: #b4bdc7 !important;
+    text-shadow: 0 0 2px rgba(255, 215, 0, 0.1);
+}
+
+.conestoga-diploma-box {
+    border: 2px solid #4a2e18 !important;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+}
+
+.conestoga-diploma-text {
+    color: #ffffff !important;
+}
+
+.conestoga-tag {
+    background: rgba(255, 215, 0, 0.2) !important;
+    color: #4a2e18 !important;
+    border: 1px solid #4a2e18 !important;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+}
+
 @keyframes pulse-xbox-green {
     0% {
         box-shadow: 0 0 0 0 rgba(16, 124, 16, 0.5);
@@ -659,6 +694,43 @@ pre code.hljs {
 
     .modern-tile.accent-cyber-art {
         background: #ffffff !important;
+    }
+
+    /* --- Conestoga College Tile: Light Mode Overrides --- */
+    .conestoga-tile {
+        border-left: 4px solid #8b5a2b !important;
+        border-top: 4px solid #8b5a2b !important;
+        box-shadow: 0 4px 20px rgba(139, 90, 43, 0.15);
+        background: linear-gradient(135deg, rgba(255, 253, 250, 1) 0%, rgba(247, 241, 235, 1) 100%) !important;
+    }
+
+    .conestoga-tile .title,
+    .conestoga-tile .conestoga-core-title {
+        color: #2c1810 !important;
+    }
+
+    .conestoga-tile .conestoga-desc,
+    .conestoga-tile .conestoga-core-desc {
+        color: #4a3525 !important;
+        text-shadow: none !important;
+    }
+
+    .conestoga-diploma-box {
+        border: 2px solid #8b5a2b !important;
+        box-shadow: 0 4px 12px rgba(139, 90, 43, 0.1) !important;
+        background-color: #ffffff !important;
+    }
+
+    .conestoga-diploma-text {
+        color: #5c3a21 !important;
+        font-weight: 700;
+    }
+
+    .conestoga-tag {
+        background: rgba(139, 90, 43, 0.1) !important;
+        color: #5c3a21 !important;
+        border: 1px solid #c8a27d !important;
+        box-shadow: none !important;
     }
 
     .unique-terminal-box {
