@@ -548,7 +548,7 @@ pre code.hljs {
 }
 
 .conestoga-diploma-text {
-    color: #ffffff !important;
+    color: #d4af37 !important;
 }
 
 .conestoga-tag {
@@ -739,16 +739,20 @@ pre code.hljs {
     }
 
     .terminal-header {
-        background: #161b22 !important;
-        color: #e6edf3 !important;
+        background: #f6f8fa !important;
+        color: #24292e !important;
+        border-color: #d1d5db !important;
     }
 
+    /* --- Repository Tree & Code Viewer Light Mode Styling --- */
     #repository-tree-container,
     #python-repository-tree-container,
     #golang-repository-tree-container,
-    #under-the-hood-repository-tree-container {
-        background: #0d1117 !important;
-        color: #c9d1d9 !important;
+    #under-the-hood-repository-tree-container,
+    .code-box-mobile {
+        background: #ffffff !important;
+        color: #24292e !important;
+        border-color: #d1d5db !important;
     }
 
     #repository-tree-container a,
@@ -760,14 +764,14 @@ pre code.hljs {
     .python-tree-file-item,
     .golang-tree-file-item,
     .under-the-hood-tree-file-item {
-        color: #c9d1d9 !important;
+        color: #24292e !important;
     }
 
     #repository-tree-container span,
     #python-repository-tree-container span,
     #golang-repository-tree-container span,
     #under-the-hood-repository-tree-container span {
-        color: #8b949e !important;
+        color: #586069 !important;
     }
 
     .tree-file-item:hover,
@@ -776,13 +780,20 @@ pre code.hljs {
     .python-tree-file-item:hover,
     .golang-tree-file-item:hover,
     .under-the-hood-tree-file-item:hover {
-        background-color: rgba(255, 255, 255, 0.1) !important;
-        color: #ffffff !important;
+        background-color: rgba(0, 0, 0, 0.05) !important;
+        color: #0366d6 !important;
     }
 
     .tree-file-item:hover *,
     a.tree-file-item:hover * {
-        color: #ffffff !important;
+        color: #0366d6 !important;
+    }
+
+    /* Code View Text Color inside Viewer */
+    .code-box-mobile code,
+    pre code.hljs {
+        color: #24292e !important;
+        background: #ffffff !important;
     }
 
     .footer {
