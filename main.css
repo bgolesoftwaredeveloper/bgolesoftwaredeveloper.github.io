@@ -64,7 +64,6 @@ h4,
     color: var(--text-heading);
 }
 
-/* Distinct Link Colors */
 a {
     color: #58a6ff;
     text-decoration: none;
@@ -367,6 +366,13 @@ a:hover {
     color: #c9d1d9 !important;
 }
 
+#repository-tree-container,
+#python-repository-tree-container,
+#golang-repository-tree-container,
+#under-the-hood-repository-tree-container {
+    overscroll-behavior: contain;
+}
+
 pre code.hljs {
     color: #c9d1d9;
     background: transparent;
@@ -431,6 +437,7 @@ pre code.hljs {
     max-height: 750px;
     height: 500px;
     overflow: auto;
+    overscroll-behavior: contain;
     border: none;
     padding: 0;
     width: 100%;
@@ -455,7 +462,6 @@ pre code.hljs {
     width: 100%;
     box-sizing: border-box;
     white-space: pre;
-    color: #c9d1d9 !important;
 }
 
 .tag.button-reset {
@@ -523,7 +529,6 @@ pre code.hljs {
     color: #121620 !important;
 }
 
-/* --- Conestoga College Tile: Default (Dark Mode) --- */
 .conestoga-tile {
     border-left: 4px solid #4a2e18 !important;
     border-top: 4px solid #4a2e18 !important;
@@ -633,7 +638,6 @@ pre code.hljs {
         color: #1e293b !important;
     }
 
-    /* Light Mode Distinct Link Colors */
     a {
         color: #0284c7;
     }
@@ -696,7 +700,6 @@ pre code.hljs {
         background: #ffffff !important;
     }
 
-    /* --- Conestoga College Tile: Light Mode Overrides --- */
     .conestoga-tile {
         border-left: 4px solid #8b5a2b !important;
         border-top: 4px solid #8b5a2b !important;
@@ -744,7 +747,6 @@ pre code.hljs {
         border-color: #d1d5db !important;
     }
 
-    /* --- Repository Tree & Code Viewer Light Mode Styling --- */
     #repository-tree-container,
     #python-repository-tree-container,
     #golang-repository-tree-container,
@@ -789,10 +791,8 @@ pre code.hljs {
         color: #0366d6 !important;
     }
 
-    /* Code View Text Color inside Viewer */
     .code-box-mobile code,
     pre code.hljs {
-        color: #24292e !important;
         background: #ffffff !important;
     }
 
