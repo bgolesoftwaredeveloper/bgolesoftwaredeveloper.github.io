@@ -75,6 +75,10 @@ a:hover {
     text-decoration: underline;
 }
 
+hr {
+    background-color: white !important;
+}
+
 .mono {
     font-family: 'Ubuntu Mono', monospace;
     letter-spacing: 0.2px;
@@ -644,6 +648,10 @@ pre code.hljs {
 
     a:hover {
         color: #0369a1;
+    }
+
+    hr {
+        background-color: black !important;
     }
 
     .hero.is-black {

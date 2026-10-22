@@ -8,6 +8,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Force scroll position to the top of the window on load or refresh.
     window.scrollTo(0, 0)
 
+    document.querySelectorAll(".notification .delete" || []).forEach((erase) => {
+        const notification = erase.parentNode
+
+        erase.addEventListener("click", () => {
+            notification.parentNode.removeChild(notification)
+        })
+    })
+
     // Define configuration objects for each managed repository source.
     const repositoryConfigurations = [
         {
